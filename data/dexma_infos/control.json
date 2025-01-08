@@ -1,0 +1,5112 @@
+{
+    "CTE - OPSUS": {
+        "id": 219616,
+        "meters": {}
+    },
+    "CTE - SEDE": {
+        "id": 219620,
+        "meters": {
+            "1126845": {
+                "description": "",
+                "id": 1126845,
+                "last_data": 0,
+                "local_id": "DD-219620",
+                "name": "DD CTE - SEDE"
+            }
+        }
+    },
+    "Condomínio Edifício Castelo": {
+        "id": 260922,
+        "meters": {
+            "1206288": {
+                "description": " ",
+                "id": 1206288,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3000055_EN15_CAS_OE",
+                "name": "4 PAV KRON 2"
+            },
+            "1206674": {
+                "description": " ",
+                "id": 1206674,
+                "last_data": "2022-12-13T12:15:00-03:00",
+                "local_id": "ED-CASTELO-MEDICAO-CONCESSIONARIA_EN15_CAS_CK",
+                "name": "[EN-GR-EDF] ED. CASTELO"
+            },
+            "1206677": {
+                "description": " ",
+                "id": 1206677,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE2-M_3000995_EN15_CAS_OE",
+                "name": "QGBT-1"
+            },
+            "1206678": {
+                "description": " ",
+                "id": 1206678,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE2-M_3001962_EN15_CAS_OE",
+                "name": "QGBT - 2"
+            },
+            "1206679": {
+                "description": " ",
+                "id": 1206679,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE2-M_3001010_EN15_CAS_OE",
+                "name": "QDG INCÊNDIO"
+            },
+            "1206680": {
+                "description": " ",
+                "id": 1206680,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3000040_EN15_CAS_OE",
+                "name": "4-PAV KRON 1"
+            },
+            "1206681": {
+                "description": " ",
+                "id": 1206681,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3000070_EN15_CAS_OE",
+                "name": "5 PAV KRON 1"
+            },
+            "1206682": {
+                "description": " ",
+                "id": 1206682,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3000085_EN15_CAS_OE",
+                "name": "5 PAV KRON 2"
+            },
+            "1206683": {
+                "description": " ",
+                "id": 1206683,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3000100_EN15_CAS_OE",
+                "name": "6 PAV KRON 1"
+            },
+            "1206684": {
+                "description": " ",
+                "id": 1206684,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3000115_EN15_CAS_OE",
+                "name": "6 PAV KRON 2"
+            },
+            "1206685": {
+                "description": " ",
+                "id": 1206685,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3000130_EN15_CAS_OE",
+                "name": "7 PAV KRON 1"
+            },
+            "1206686": {
+                "description": " ",
+                "id": 1206686,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3000145_EN15_CAS_OE",
+                "name": "7 PAV KRON 2"
+            },
+            "1206687": {
+                "description": " ",
+                "id": 1206687,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3000160_EN15_CAS_OE",
+                "name": "8 PAV KRON 1"
+            },
+            "1206688": {
+                "description": " ",
+                "id": 1206688,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3000175_EN15_CAS_OE",
+                "name": "8 PAV KRON 2"
+            },
+            "1206689": {
+                "description": " ",
+                "id": 1206689,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3000190_EN15_CAS_OE",
+                "name": "9 PAV KRON 1"
+            },
+            "1206690": {
+                "description": " ",
+                "id": 1206690,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3000205_EN15_CAS_OE",
+                "name": "9 PAV KRON 2"
+            },
+            "1206691": {
+                "description": " ",
+                "id": 1206691,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3000220_EN15_CAS_OE",
+                "name": "10 PAV KRON 1"
+            },
+            "1206692": {
+                "description": " ",
+                "id": 1206692,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3000235_EN15_CAS_OE",
+                "name": "10 PAV KRON 2"
+            },
+            "1206693": {
+                "description": " ",
+                "id": 1206693,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3000250_EN15_CAS_OE",
+                "name": "11 PAV KRON 1"
+            },
+            "1206694": {
+                "description": " ",
+                "id": 1206694,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3000265_EN15_CAS_OE",
+                "name": "11 PAV KRON 2"
+            },
+            "1206695": {
+                "description": " ",
+                "id": 1206695,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3000280_EN15_CAS_OE",
+                "name": "12 PAV KRON 1"
+            },
+            "1206696": {
+                "description": " ",
+                "id": 1206696,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3000295_EN15_CAS_OE",
+                "name": "12 PAV KRON 2"
+            },
+            "1206697": {
+                "description": " ",
+                "id": 1206697,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3000325_EN15_CAS_OE",
+                "name": "KRON LJ A"
+            },
+            "1206698": {
+                "description": " ",
+                "id": 1206698,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3000340_EN15_CAS_OE",
+                "name": "KRON LJ B"
+            },
+            "1206699": {
+                "description": " ",
+                "id": 1206699,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3000355_EN15_CAS_OE",
+                "name": "KRON LJ C"
+            },
+            "1206700": {
+                "description": " ",
+                "id": 1206700,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3000310_EN15_CAS_OE",
+                "name": "2 PAV KRON"
+            },
+            "1212037": {
+                "description": " Ministério Público",
+                "id": 1212037,
+                "local_id": "G_58",
+                "name": "[EN-GR-LOC] - MP"
+            },
+            "1212038": {
+                "description": " Advocacia Geral da União",
+                "id": 1212038,
+                "local_id": "G_59",
+                "name": "[EN-GR-LOC] - AGU"
+            },
+            "1212202": {
+                "description": " Loja C - Rolex",
+                "id": 1212202,
+                "local_id": "G_87",
+                "name": "[EN-GR-LOC] - Loja C - Rolex"
+            },
+            "1212203": {
+                "description": " Sala 201 - Mapfre",
+                "id": 1212203,
+                "local_id": "G_88",
+                "name": "[EN-GR-LOC] - Sala 201 Mapfre"
+            },
+            "1212204": {
+                "description": " QGD Incêndio",
+                "id": 1212204,
+                "local_id": "G_89",
+                "name": "[EN-GR-COM] - QGD Incêndio"
+            },
+            "1212205": {
+                "description": "Vagos",
+                "id": 1212205,
+                "local_id": "G_90",
+                "name": "[EN-GR-LOC] - Vagos"
+            },
+            "1212206": {
+                "description": " QGBTs Geral",
+                "id": 1212206,
+                "local_id": "G_91",
+                "name": "[EN-GR-EDF} - QGBTs Geral"
+            }
+        }
+    },
+    "Condomínio Infinity Master": {
+        "id": 263919,
+        "meters": {
+            "1206676": {
+                "description": " ",
+                "id": 1206676,
+                "last_data": "2022-12-13T12:15:00-03:00",
+                "local_id": "condominio-infinity-master_EN15_INF_CK",
+                "name": "[EN-GR-EDF] INFINITY"
+            },
+            "1209604": {
+                "description": " ",
+                "id": 1209604,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-M_3031850_EN15_INF_OE",
+                "name": "EN Jamie Oliver"
+            },
+            "1209605": {
+                "description": " ",
+                "id": 1209605,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-M_3032071_EN15_INF_OE",
+                "name": "01º SS - Facebook"
+            },
+            "1209606": {
+                "description": " ",
+                "id": 1209606,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3009419_EN15_INF_OE",
+                "name": "01º Pav - FB 1"
+            },
+            "1209607": {
+                "description": " ",
+                "id": 1209607,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004686_EN15_INF_OE",
+                "name": "01º Pav FL - Ar cond"
+            },
+            "1209608": {
+                "description": " ",
+                "id": 1209608,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3000852_EN15_INF_OE",
+                "name": "01º Pav FL - Iluminação"
+            },
+            "1209609": {
+                "description": " ",
+                "id": 1209609,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3002635_EN15_INF_OE",
+                "name": "01º Pav - FB 2"
+            },
+            "1209610": {
+                "description": " ",
+                "id": 1209610,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004699_EN15_INF_OE",
+                "name": "01º Pav CA - Ar cond"
+            },
+            "1209612": {
+                "description": " ",
+                "id": 1209612,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004648_EN15_INF_OE",
+                "name": "02º Pav FL - Ar cond"
+            },
+            "1209613": {
+                "description": " ",
+                "id": 1209613,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3000890_EN15_INF_OE",
+                "name": "02º Pav FL - Iluminação"
+            },
+            "1209614": {
+                "description": " ",
+                "id": 1209614,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004614_EN15_INF_OE",
+                "name": "03º Pav FL - Ar cond"
+            },
+            "1209615": {
+                "description": " ",
+                "id": 1209615,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3000916_EN15_INF_OE",
+                "name": "03º Pav FL - Iluminação"
+            },
+            "1209616": {
+                "description": " ",
+                "id": 1209616,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004596_EN15_INF_OE",
+                "name": "04º Pav FL - Ar cond"
+            },
+            "1209617": {
+                "description": " ",
+                "id": 1209617,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004611_EN15_INF_OE",
+                "name": "04º Pav CA - Ar cond"
+            },
+            "1209618": {
+                "description": " ",
+                "id": 1209618,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3000930_EN15_INF_OE",
+                "name": "04º Pav CA - Iluminação"
+            },
+            "1209619": {
+                "description": " ",
+                "id": 1209619,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3000962_EN15_INF_OE",
+                "name": "05º Pav FL - Iluminação"
+            },
+            "1209620": {
+                "description": " ",
+                "id": 1209620,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004579_EN15_INF_OE",
+                "name": "05º Pav - Ar cond"
+            },
+            "1209621": {
+                "description": " ",
+                "id": 1209621,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3000950_EN15_INF_OE",
+                "name": "05º Pav CA - Iluminação"
+            },
+            "1209622": {
+                "description": " ",
+                "id": 1209622,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004545_EN15_INF_OE",
+                "name": "06º Pav FL - Ar cond"
+            },
+            "1209623": {
+                "description": " ",
+                "id": 1209623,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001000_EN15_INF_OE",
+                "name": "06º Pav FL - Iluminação"
+            },
+            "1209624": {
+                "description": " ",
+                "id": 1209624,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004511_EN15_INF_OE",
+                "name": "07º Pav FL - Ar cond"
+            },
+            "1209625": {
+                "description": " ",
+                "id": 1209625,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001026_EN15_INF_OE",
+                "name": "07º Pav FL - Iluminação"
+            },
+            "1209626": {
+                "description": " ",
+                "id": 1209626,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001014_EN15_INF_OE",
+                "name": "07º Pav CA - Iluminação"
+            },
+            "1209627": {
+                "description": " ",
+                "id": 1209627,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004478_EN15_INF_OE",
+                "name": "08º Pav FL - Ar cond"
+            },
+            "1209628": {
+                "description": " ",
+                "id": 1209628,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001050_EN15_INF_OE",
+                "name": "08º Pav FL - Iluminação"
+            },
+            "1209629": {
+                "description": " ",
+                "id": 1209629,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001038_EN15_INF_OE",
+                "name": "08º Pav CA - Iluminação"
+            },
+            "1209630": {
+                "description": " ",
+                "id": 1209630,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004460_EN15_INF_OE",
+                "name": "09º Pav FL - Ar cond"
+            },
+            "1209631": {
+                "description": " ",
+                "id": 1209631,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001074_EN15_INF_OE",
+                "name": "09º Pav FL - Iluminação"
+            },
+            "1209632": {
+                "description": " ",
+                "id": 1209632,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004463_EN15_INF_OE",
+                "name": "09º Pav CA - Ar cond"
+            },
+            "1209633": {
+                "description": " ",
+                "id": 1209633,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001062_EN15_INF_OE",
+                "name": "09º Pav CA - Iluminação"
+            },
+            "1209634": {
+                "description": " ",
+                "id": 1209634,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-M_3032036_EN15_INF_OE",
+                "name": "01º SS - Credit"
+            },
+            "1209635": {
+                "description": " ",
+                "id": 1209635,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004426_EN15_INF_OE",
+                "name": "10º Pav FL - Ar cond"
+            },
+            "1209636": {
+                "description": " ",
+                "id": 1209636,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001126_EN15_INF_OE",
+                "name": "10º Pav FL - Iluminação"
+            },
+            "1209637": {
+                "description": " ",
+                "id": 1209637,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004443_EN15_INF_OE",
+                "name": "10º Pav CA - Ar cond"
+            },
+            "1209638": {
+                "description": " ",
+                "id": 1209638,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001100_EN15_INF_OE",
+                "name": "10º Pav CA - Iluminação"
+            },
+            "1209639": {
+                "description": " ",
+                "id": 1209639,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004388_EN15_INF_OE",
+                "name": "11º Pav FL - Ar cond"
+            },
+            "1209640": {
+                "description": " ",
+                "id": 1209640,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001152_EN15_INF_OE",
+                "name": "11º Pav FL - Iluminação"
+            },
+            "1209641": {
+                "description": " ",
+                "id": 1209641,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004409_EN15_INF_OE",
+                "name": "11º Pav CA - Ar cond"
+            },
+            "1209642": {
+                "description": " ",
+                "id": 1209642,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001140_EN15_INF_OE",
+                "name": "11º Pav CA - Iluminação"
+            },
+            "1209643": {
+                "description": " ",
+                "id": 1209643,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004358_EN15_INF_OE",
+                "name": "12º Pav FL - Ar cond"
+            },
+            "1209644": {
+                "description": " ",
+                "id": 1209644,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001176_EN15_INF_OE",
+                "name": "12º Pav FL - Iluminação"
+            },
+            "1209645": {
+                "description": " ",
+                "id": 1209645,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004374_EN15_INF_OE",
+                "name": "12º Pav CA - Ar cond"
+            },
+            "1209646": {
+                "description": " ",
+                "id": 1209646,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001164_EN15_INF_OE",
+                "name": "12º Pav CA - Iluminação"
+            },
+            "1209647": {
+                "description": " ",
+                "id": 1209647,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004340_EN15_INF_OE",
+                "name": "13º Pav FL - Ar cond"
+            },
+            "1209648": {
+                "description": " ",
+                "id": 1209648,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001212_EN15_INF_OE",
+                "name": "13º Pav FL - Iluminação"
+            },
+            "1209649": {
+                "description": " ",
+                "id": 1209649,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004356_EN15_INF_OE",
+                "name": "13º Pav CA - Ar cond"
+            },
+            "1209650": {
+                "description": " ",
+                "id": 1209650,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001188_EN15_INF_OE",
+                "name": "13º Pav CA - Iluminação"
+            },
+            "1209651": {
+                "description": " ",
+                "id": 1209651,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001220_EN15_INF_OE",
+                "name": "14º Pav - Ilum (Credit)"
+            },
+            "1209652": {
+                "description": " ",
+                "id": 1209652,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004322_EN15_INF_OE",
+                "name": "14º Pav CA - Ar cond"
+            },
+            "1209653": {
+                "description": " ",
+                "id": 1209653,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001254_EN15_INF_OE",
+                "name": "14º Pav FL - Iluminação"
+            },
+            "1209654": {
+                "description": " ",
+                "id": 1209654,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001228_EN15_INF_OE",
+                "name": "14º Pav CA - Iluminação"
+            },
+            "1209655": {
+                "description": " ",
+                "id": 1209655,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004306_EN15_INF_OE",
+                "name": "14º Pav FL - Ar cond"
+            },
+            "1209656": {
+                "description": " ",
+                "id": 1209656,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001280_EN15_INF_OE",
+                "name": "15º Pav FL - Iluminação"
+            },
+            "1209657": {
+                "description": " ",
+                "id": 1209657,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004289_EN15_INF_OE",
+                "name": "15º Pav - Ar cond"
+            },
+            "1209658": {
+                "description": " ",
+                "id": 1209658,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001268_EN15_INF_OE",
+                "name": "15º Pav CA - Iluminação"
+            },
+            "1209659": {
+                "description": " ",
+                "id": 1209659,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001304_EN15_INF_OE",
+                "name": "16º Pav FL - Iluminação"
+            },
+            "1209660": {
+                "description": " ",
+                "id": 1209660,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004272_EN15_INF_OE",
+                "name": "16º Pav - Ar cond"
+            },
+            "1209661": {
+                "description": " ",
+                "id": 1209661,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001292_EN15_INF_OE",
+                "name": "16º Pav CA - Iluminação"
+            },
+            "1209662": {
+                "description": " ",
+                "id": 1209662,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001328_EN15_INF_OE",
+                "name": "17º Pav FL - Iluminação"
+            },
+            "1209663": {
+                "description": " ",
+                "id": 1209663,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004255_EN15_INF_OE",
+                "name": "17º Pav - Ar cond"
+            },
+            "1209664": {
+                "description": " ",
+                "id": 1209664,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001316_EN15_INF_OE",
+                "name": "17º Pav CA - Iluminação"
+            },
+            "1209665": {
+                "description": " ",
+                "id": 1209665,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-M_3032052_EN15_INF_OE",
+                "name": "01º SS - Goldman"
+            },
+            "1209666": {
+                "description": " ",
+                "id": 1209666,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3011452_EN15_INF_OE",
+                "name": "19º Pav - TI Goldman"
+            },
+            "1209667": {
+                "description": " ",
+                "id": 1209667,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001366_EN15_INF_OE",
+                "name": "18º Pav FL - Iluminação"
+            },
+            "1209668": {
+                "description": " ",
+                "id": 1209668,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3004251_EN15_INF_OE",
+                "name": "18º Pav - Ar cond"
+            },
+            "1209669": {
+                "description": " ",
+                "id": 1209669,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE6-M_3001340_EN15_INF_OE",
+                "name": "18º Pav CA - Iluminação"
+            },
+            "1209670": {
+                "description": " ",
+                "id": 1209670,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3011699_EN15_INF_OE",
+                "name": "EN CAC"
+            },
+            "1209671": {
+                "description": " ",
+                "id": 1209671,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3011511_EN15_INF_OE",
+                "name": "CAG"
+            },
+            "1209672": {
+                "description": " ",
+                "id": 1209672,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-M_3031750_EN15_INF_OE",
+                "name": "Disj geral QGBT 1.1"
+            },
+            "1209673": {
+                "description": " ",
+                "id": 1209673,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3011468_EN15_INF_OE",
+                "name": "Disj geral QGBT 3.1"
+            },
+            "1209674": {
+                "description": " ",
+                "id": 1209674,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3011559_EN15_INF_OE",
+                "name": "Disj geral QGBT 3.2"
+            },
+            "1209675": {
+                "description": " ",
+                "id": 1209675,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3011622_EN15_INF_OE",
+                "name": "Disj geral QGBT 3.3"
+            },
+            "1209676": {
+                "description": " ",
+                "id": 1209676,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE4-M_3010740_EN15_INF_OE",
+                "name": "Medidor geral QGBT 2.1"
+            },
+            "1209677": {
+                "description": " ",
+                "id": 1209677,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE4-M_3010873_EN15_INF_OE",
+                "name": "Medidor geral QGBT 2.2"
+            },
+            "1212175": {
+                "description": " Apple - Energia",
+                "id": 1212175,
+                "local_id": "G_60",
+                "name": "[EN-GR-LOC] Apple"
+            },
+            "1212176": {
+                "description": " Bloomberg - Energia",
+                "id": 1212176,
+                "local_id": "G_61",
+                "name": "[EN-GR-LOC] Bloomberg"
+            },
+            "1212177": {
+                "description": " Credit Suisse - Energia",
+                "id": 1212177,
+                "local_id": "G_62",
+                "name": "[EN-GR-LOC] Credit Suisse"
+            },
+            "1212178": {
+                "description": " Facebook - Energia",
+                "id": 1212178,
+                "local_id": "G_63",
+                "name": "[EN-GR-LOC] Facebook"
+            },
+            "1212179": {
+                "description": " Goldman Sachs - Energia",
+                "id": 1212179,
+                "local_id": "G_64",
+                "name": "[EN-GR-LOC] Goldman Sachs"
+            },
+            "1212180": {
+                "description": "QGBTs Condomínio",
+                "id": 1212180,
+                "local_id": "G_65",
+                "name": "[EN-GR-EDF] QGBTs Geral"
+            },
+            "1212181": {
+                "description": " Disjuntor Geral QGBT 1.1",
+                "id": 1212181,
+                "local_id": "G_66",
+                "name": "[EN-GR-EDF] Disjuntor Geral QGBT 1.1"
+            },
+            "1212182": {
+                "description": "Disjuntor Geral QGBT 3.1",
+                "id": 1212182,
+                "local_id": "G_67",
+                "name": "[EN-GR-EDF] Disjuntor Geral QGBT 3.1"
+            },
+            "1212183": {
+                "description": "Disjuntor Geral QGBT 3.2",
+                "id": 1212183,
+                "local_id": "G_68",
+                "name": "[EN-GR-EDF] Disjuntor Geral QGBT 3.2"
+            },
+            "1212184": {
+                "description": "Disjuntor Geral QGBT 3.3",
+                "id": 1212184,
+                "local_id": "G_69",
+                "name": "[EN-GR-EDF] Disjuntor Geral QGBT 3.3"
+            },
+            "1212185": {
+                "description": "Medidor Geral QGBT 2.1",
+                "id": 1212185,
+                "local_id": "G_70",
+                "name": "[EN-GR-EDF] Medidor Geral QGBT 2.1"
+            },
+            "1212186": {
+                "description": "Medidor Geral QGBT 2.2",
+                "id": 1212186,
+                "local_id": "G_71",
+                "name": "[EN-GR-EDF] Medidor Geral QGBT 2.2"
+            },
+            "1212187": {
+                "description": "CAG",
+                "id": 1212187,
+                "local_id": "G_72",
+                "name": "[EN-GR-EDF} CAG"
+            },
+            "1212188": {
+                "description": "CAC - Energia",
+                "id": 1212188,
+                "local_id": "G_73",
+                "name": "[EN-GR-EDF] CAC"
+            },
+            "1212189": {
+                "description": " Apple - Água",
+                "id": 1212189,
+                "last_data": 0,
+                "local_id": "G_74",
+                "name": "[AG-GR-LOC] Apple"
+            },
+            "1212190": {
+                "description": " Bloomberg - Água",
+                "id": 1212190,
+                "last_data": 0,
+                "local_id": "G_75",
+                "name": "[AG-GR-LOC] Bloomberg"
+            },
+            "1212191": {
+                "description": " Credit Suisse - Água",
+                "id": 1212191,
+                "last_data": 0,
+                "local_id": "G_76",
+                "name": "[AG-GR-LOC] Credit Suisse"
+            },
+            "1212192": {
+                "description": " Facebook - Água",
+                "id": 1212192,
+                "last_data": 0,
+                "local_id": "G_77",
+                "name": "[AG-GR-LOC] Facebook"
+            },
+            "1212193": {
+                "description": "Goldman Sachs - Água",
+                "id": 1212193,
+                "last_data": 0,
+                "local_id": "G_78",
+                "name": "[AG-GR-LOC] Goldman Sachs"
+            },
+            "1212194": {
+                "description": " Jamie Oliver - Energia",
+                "id": 1212194,
+                "local_id": "G_79",
+                "name": "[EN-GR-LOC] Jamie Oliver"
+            },
+            "1212195": {
+                "description": " Jamie Oliver - Água",
+                "id": 1212195,
+                "last_data": 0,
+                "local_id": "G_80",
+                "name": "[AG-GR-LOC] Jamie Oliver"
+            },
+            "1212196": {
+                "description": " CAC - Água",
+                "id": 1212196,
+                "last_data": 0,
+                "local_id": "G_81",
+                "name": "[AG-GR-EDF] CAC"
+            },
+            "1212197": {
+                "description": " Irrigação",
+                "id": 1212197,
+                "last_data": 0,
+                "local_id": "G_82",
+                "name": "[AG-GR-EDF] Irrigação"
+            },
+            "1212198": {
+                "description": " Complemento Água Reuso",
+                "id": 1212198,
+                "last_data": 0,
+                "local_id": "G_83",
+                "name": "[AG-GR-EDF] Complemento Reuso"
+            },
+            "1212199": {
+                "description": " SABESP",
+                "id": 1212199,
+                "last_data": 0,
+                "local_id": "G_84",
+                "name": "[AG-GR-EDF] SABESP"
+            },
+            "1212200": {
+                "description": " Complemento Água Reuso Poço",
+                "id": 1212200,
+                "last_data": 0,
+                "local_id": "G_85",
+                "name": "[AG-GR-EDF] Complemento Reuso Poço"
+            },
+            "1212201": {
+                "description": " ETA",
+                "id": 1212201,
+                "last_data": 0,
+                "local_id": "G_86",
+                "name": "[AG-GR-EDF] ETA"
+            },
+            "1212207": {
+                "description": " Vagos",
+                "id": 1212207,
+                "local_id": "G_92",
+                "name": "[EN-GR-LOC] Vagos"
+            },
+            "1212208": {
+                "description": " Vagos",
+                "id": 1212208,
+                "last_data": 0,
+                "local_id": "G_93",
+                "name": "[AG-GR-LOC] Vagos"
+            },
+            "1224925": {
+                "description": " ",
+                "id": 1224925,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1419_AGL15_INF_OE",
+                "name": "16º Pav - CL"
+            },
+            "1224926": {
+                "description": " ",
+                "id": 1224926,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1434_AGL15_INF_OE",
+                "name": "18º Pav - FL"
+            },
+            "1224927": {
+                "description": " ",
+                "id": 1224927,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1431_AGL15_INF_OE",
+                "name": "18º Pav - CL"
+            },
+            "1224928": {
+                "description": " ",
+                "id": 1224928,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1428_AGL15_INF_OE",
+                "name": "17º Pav - FL"
+            },
+            "1225128": {
+                "description": " ",
+                "id": 1225128,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1510_AGL15_INF_OE",
+                "name": "05º Pav - CL"
+            },
+            "1225129": {
+                "description": " ",
+                "id": 1225129,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1532_AGL15_INF_OE",
+                "name": "02º Pav - CL"
+            },
+            "1225130": {
+                "description": " ",
+                "id": 1225130,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1425_AGL15_INF_OE",
+                "name": "17º Pav - CL"
+            },
+            "1225131": {
+                "description": " ",
+                "id": 1225131,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1458_AGL15_INF_OE",
+                "name": "14º Pav - FL"
+            },
+            "1225132": {
+                "description": " ",
+                "id": 1225132,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1455_AGL15_INF_OE",
+                "name": "14º Pav - CL"
+            },
+            "1225133": {
+                "description": " ",
+                "id": 1225133,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1452_AGL15_INF_OE",
+                "name": "13º Pav - FL"
+            },
+            "1225134": {
+                "description": " ",
+                "id": 1225134,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1486_AGL15_INF_OE",
+                "name": "11º Pav - FL"
+            },
+            "1225475": {
+                "description": " ",
+                "id": 1225475,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_2241_AGL15_INF_OE",
+                "name": "AG SABESP"
+            },
+            "1225476": {
+                "description": " ",
+                "id": 1225476,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE2-H_2710_AGL15_INF_OE",
+                "name": "AG Jamie Oliver"
+            },
+            "1225477": {
+                "description": " ",
+                "id": 1225477,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_2741_AGL15_INF_OE",
+                "name": "AG Irrigação"
+            },
+            "1225478": {
+                "description": " ",
+                "id": 1225478,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_2259_AGL15_INF_OE",
+                "name": "AG ETA"
+            },
+            "1225479": {
+                "description": " ",
+                "id": 1225479,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_3023526_AGL15_INF_OE",
+                "name": "AG Compl. Reuso Poço"
+            },
+            "1225480": {
+                "description": " ",
+                "id": 1225480,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_2239_AGL15_INF_OE",
+                "name": "AG Complemento Reuso"
+            },
+            "1225481": {
+                "description": " ",
+                "id": 1225481,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-H_5444_AGL15_INF_OE",
+                "name": "AG CAC"
+            },
+            "1225482": {
+                "description": " ",
+                "id": 1225482,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1422_AGL15_INF_OE",
+                "name": "16º Pav - FL"
+            },
+            "1225483": {
+                "description": " ",
+                "id": 1225483,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1464_AGL15_INF_OE",
+                "name": "15º Pav - FL"
+            },
+            "1225484": {
+                "description": " ",
+                "id": 1225484,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1461_AGL15_INF_OE",
+                "name": "15º Pav - CL"
+            },
+            "1225485": {
+                "description": " ",
+                "id": 1225485,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1449_AGL15_INF_OE",
+                "name": "13º Pav - CL"
+            },
+            "1225486": {
+                "description": " ",
+                "id": 1225486,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1492_AGL15_INF_OE",
+                "name": "12º Pav - FL"
+            },
+            "1225487": {
+                "description": " ",
+                "id": 1225487,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1483_AGL15_INF_OE",
+                "name": "11º Pav - CL"
+            },
+            "1225488": {
+                "description": " ",
+                "id": 1225488,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1480_AGL15_INF_OE",
+                "name": "10º Pav - FL"
+            },
+            "1225489": {
+                "description": " ",
+                "id": 1225489,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1477_AGL15_INF_OE",
+                "name": "10º Pav - CL"
+            },
+            "1225490": {
+                "description": " ",
+                "id": 1225490,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1752_AGL15_INF_OE",
+                "name": "09º Pav - FL"
+            },
+            "1225491": {
+                "description": " ",
+                "id": 1225491,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1749_AGL15_INF_OE",
+                "name": "09º Pav - CL"
+            },
+            "1225492": {
+                "description": " ",
+                "id": 1225492,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1746_AGL15_INF_OE",
+                "name": "08º Pav - FL"
+            },
+            "1225493": {
+                "description": " ",
+                "id": 1225493,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1743_AGL15_INF_OE",
+                "name": "08º Pav - CL"
+            },
+            "1225494": {
+                "description": " ",
+                "id": 1225494,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1740_AGL15_INF_OE",
+                "name": "07º Pav - FL"
+            },
+            "1225495": {
+                "description": " ",
+                "id": 1225495,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1737_AGL15_INF_OE",
+                "name": "07º Pav - CL"
+            },
+            "1225496": {
+                "description": " ",
+                "id": 1225496,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1519_AGL15_INF_OE",
+                "name": "06º Pav - FL"
+            },
+            "1225497": {
+                "description": " ",
+                "id": 1225497,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1516_AGL15_INF_OE",
+                "name": "06º Pav - CL"
+            },
+            "1225498": {
+                "description": " ",
+                "id": 1225498,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1513_AGL15_INF_OE",
+                "name": "05º Pav - FL"
+            },
+            "1225499": {
+                "description": " ",
+                "id": 1225499,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1507_AGL15_INF_OE",
+                "name": "04º Pav - FL"
+            },
+            "1225500": {
+                "description": " ",
+                "id": 1225500,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1504_AGL15_INF_OE",
+                "name": "04º Pav - CL"
+            },
+            "1225501": {
+                "description": " ",
+                "id": 1225501,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-H_3008107_AGL15_INF_OE",
+                "name": "04º Pav - ABN"
+            },
+            "1225502": {
+                "description": " ",
+                "id": 1225502,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1541_AGL15_INF_OE",
+                "name": "03º Pav - FL"
+            },
+            "1225503": {
+                "description": " ",
+                "id": 1225503,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1538_AGL15_INF_OE",
+                "name": "03º Pav - CL"
+            },
+            "1225504": {
+                "description": " ",
+                "id": 1225504,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1535_AGL15_INF_OE",
+                "name": "02º Pav - FL"
+            },
+            "1225505": {
+                "description": " ",
+                "id": 1225505,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1529_AGL15_INF_OE",
+                "name": "01º Pav - FL"
+            },
+            "1225506": {
+                "description": " ",
+                "id": 1225506,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_3031680_AGL15_INF_OE",
+                "name": "01º Pav - FB_2"
+            },
+            "1225507": {
+                "description": " ",
+                "id": 1225507,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-H_3009659_AGL15_INF_OE",
+                "name": "01º Pav - FB_1"
+            },
+            "1225508": {
+                "description": " ",
+                "id": 1225508,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE1-H_1526_AGL15_INF_OE",
+                "name": "01º Pav - CL"
+            },
+            "1230131": {
+                "description": " ",
+                "id": 1230131,
+                "last_data": "2022-11-30T21:15:00.000-03:00",
+                "local_id": "NAE3-M_3000840_EN_INF_OE",
+                "name": "01º Pav CA - Iluminação"
+            },
+            "1231538": {
+                "description": " Soma de todos os medidores de Ac privativas ",
+                "id": 1231538,
+                "local_id": "G_132",
+                "name": "[EN-GR-LOC] - Ac privativas"
+            },
+            "1231539": {
+                "description": " Soma dos medidores de tomada e iluminação nas áreas privativas ",
+                "id": 1231539,
+                "local_id": "G_133",
+                "name": "[EN-GR-LOC] - Tomadas e iluminação (privativas)"
+            },
+            "1231540": {
+                "description": " Soma de Ac privativas e Iluminação e tomadas ",
+                "id": 1231540,
+                "local_id": "G_134",
+                "name": "[EN-GR-LOC] - Privativas "
+            },
+            "1231546": {
+                "description": "Total - Privativas",
+                "id": 1231546,
+                "local_id": "G_135",
+                "name": "[EN-GR-EDF] - Comuns "
+            }
+        }
+    },
+    "Condomínio Vista Faria Lima": {
+        "id": 219844,
+        "meters": {
+            "1064801": {
+                "description": "",
+                "id": 1064801,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_4_Iluminacao",
+                "name": "MM_4_Iluminacao"
+            },
+            "1064802": {
+                "description": "",
+                "id": 1064802,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_5_Elevador",
+                "name": "MM_5_Elevador"
+            },
+            "1064803": {
+                "description": "",
+                "id": 1064803,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_6_ArCond",
+                "name": "MM_6_ArCond"
+            },
+            "1064804": {
+                "description": "",
+                "id": 1064804,
+                "last_data": "2022-11-04T12:00:00-03:00",
+                "local_id": "MM_E_ArCond",
+                "name": "MM_E_ArCond"
+            },
+            "1064805": {
+                "description": "",
+                "id": 1064805,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_E_BombaInc",
+                "name": "MM_E_BombaInc"
+            },
+            "1064806": {
+                "description": "",
+                "id": 1064806,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_E_Elevador",
+                "name": "MM_E_Elevador"
+            },
+            "1064807": {
+                "description": "",
+                "id": 1064807,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_E_Iluminacao",
+                "name": "MM_E_Iluminacao"
+            },
+            "1064808": {
+                "description": "",
+                "id": 1064808,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_E_Motor",
+                "name": "MM_E_Motor"
+            },
+            "1064809": {
+                "description": "",
+                "id": 1064809,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_E_NoBreak",
+                "name": "MM_E_NoBreak"
+            },
+            "1064810": {
+                "description": "",
+                "id": 1064810,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_NG_ArCond",
+                "name": "MM_NG_ArCond"
+            },
+            "1064811": {
+                "description": "",
+                "id": 1064811,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_NG_BombaInc",
+                "name": "MM_NG_BombaInc"
+            },
+            "1064812": {
+                "description": "",
+                "id": 1064812,
+                "last_data": "2022-11-23T08:15:00-03:00",
+                "local_id": "MM_NG_Elevador",
+                "name": "MM_NG_Elevador"
+            },
+            "1064813": {
+                "description": "",
+                "id": 1064813,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_NG_Iluminacao",
+                "name": "MM_NG_Iluminacao"
+            },
+            "1064814": {
+                "description": "",
+                "id": 1064814,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_NG_Motor",
+                "name": "MM_NG_Motor"
+            },
+            "1064816": {
+                "description": "",
+                "id": 1064816,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_Pv18_Sala1",
+                "name": "MM_Pv18_Sala1"
+            },
+            "1064817": {
+                "description": "",
+                "id": 1064817,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_Pv18_Sala2",
+                "name": "MM_Pv18_Sala2"
+            },
+            "1064818": {
+                "description": "",
+                "id": 1064818,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_18P_Sala1_Potavel",
+                "name": "Hid_18P_Sala1_Potavel"
+            },
+            "1064819": {
+                "description": "",
+                "id": 1064819,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_18P_Sala1_Reuso",
+                "name": "Hid_18P_Sala1_Reuso"
+            },
+            "1064820": {
+                "description": "",
+                "id": 1064820,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_18P_Sala2_Potavel",
+                "name": "Hid_18P_Sala2_Potavel"
+            },
+            "1064821": {
+                "description": "",
+                "id": 1064821,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_18P_Sala2_Reuso",
+                "name": "Hid_18P_Sala2_Reuso"
+            },
+            "1064822": {
+                "description": "",
+                "id": 1064822,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_Pv17_Sala1",
+                "name": "MM_Pv17_Sala1"
+            },
+            "1064823": {
+                "description": "",
+                "id": 1064823,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_Pv17_Sala2",
+                "name": "MM_Pv17_Sala2"
+            },
+            "1064824": {
+                "description": "",
+                "id": 1064824,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_17P_Sala1_Potavel",
+                "name": "Hid_17P_Sala1_Potavel"
+            },
+            "1064825": {
+                "description": "",
+                "id": 1064825,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_17P_Sala1_Reuso",
+                "name": "Hid_17P_Sala1_Reuso"
+            },
+            "1064826": {
+                "description": "",
+                "id": 1064826,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_17P_Sala2_Potavel",
+                "name": "Hid_17P_Sala2_Potavel"
+            },
+            "1064827": {
+                "description": "",
+                "id": 1064827,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_17P_Sala2_Reuso",
+                "name": "Hid_17P_Sala2_Reuso"
+            },
+            "1064828": {
+                "description": "",
+                "id": 1064828,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_Pv16_Sala1",
+                "name": "MM_Pv16_Sala1"
+            },
+            "1064829": {
+                "description": "",
+                "id": 1064829,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_Pv16_Sala2",
+                "name": "MM_Pv16_Sala2"
+            },
+            "1064830": {
+                "description": "",
+                "id": 1064830,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_16P_Sala1_Potavel",
+                "name": "Hid_16P_Sala1_Potavel"
+            },
+            "1064831": {
+                "description": "",
+                "id": 1064831,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_16P_Sala1_Reuso",
+                "name": "Hid_16P_Sala1_Reuso"
+            },
+            "1064832": {
+                "description": "",
+                "id": 1064832,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_16P_Sala2_Potavel",
+                "name": "Hid_16P_Sala2_Potavel"
+            },
+            "1064833": {
+                "description": "",
+                "id": 1064833,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_16P_Sala2_Reuso",
+                "name": "Hid_16P_Sala2_Reuso"
+            },
+            "1064834": {
+                "description": "",
+                "id": 1064834,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_Pv15_Sala1",
+                "name": "MM_Pv15_Sala1"
+            },
+            "1064835": {
+                "description": "",
+                "id": 1064835,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_Pv15_Sala2",
+                "name": "MM_Pv15_Sala2"
+            },
+            "1064836": {
+                "description": "",
+                "id": 1064836,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_15P_Sala01_Potavel",
+                "name": "Hid_15P_Sala01_Potavel"
+            },
+            "1064837": {
+                "description": "",
+                "id": 1064837,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_15P_Sala01_Reuso",
+                "name": "Hid_15P_Sala01_Reuso"
+            },
+            "1064838": {
+                "description": "",
+                "id": 1064838,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_15P_Sala02_Potavel",
+                "name": "Hid_15P_Sala02_Potavel"
+            },
+            "1064839": {
+                "description": "",
+                "id": 1064839,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_15P_Sala02_Reuso",
+                "name": "Hid_15P_Sala02_Reuso"
+            },
+            "1064840": {
+                "description": "",
+                "id": 1064840,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_Pv14_Sala1",
+                "name": "MM_Pv14_Sala1"
+            },
+            "1064841": {
+                "description": "",
+                "id": 1064841,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_Pv14_Sala2",
+                "name": "MM_Pv14_Sala2"
+            },
+            "1064842": {
+                "description": "",
+                "id": 1064842,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_14P_Sala1_Potavel",
+                "name": "Hid_14P_Sala1_Potavel"
+            },
+            "1064843": {
+                "description": "",
+                "id": 1064843,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_14P_Sala1_Reuso",
+                "name": "Hid_14P_Sala1_Reuso"
+            },
+            "1064844": {
+                "description": "",
+                "id": 1064844,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_14P_Sala2_Potavel",
+                "name": "Hid_14P_Sala2_Potavel"
+            },
+            "1064845": {
+                "description": "",
+                "id": 1064845,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_14P_Sala2_Reuso",
+                "name": "Hid_14P_Sala2_Reuso"
+            },
+            "1064846": {
+                "description": "",
+                "id": 1064846,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_Pv13_Sala1",
+                "name": "MM_Pv13_Sala1"
+            },
+            "1064847": {
+                "description": "",
+                "id": 1064847,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_Pv13_Sala2",
+                "name": "MM_Pv13_Sala2"
+            },
+            "1064848": {
+                "description": "",
+                "id": 1064848,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_13P_Sala1_Potavel",
+                "name": "Hid_13P_Sala1_Potavel"
+            },
+            "1064849": {
+                "description": "",
+                "id": 1064849,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_13P_Sala1_Reuso",
+                "name": "Hid_13P_Sala1_Reuso"
+            },
+            "1064850": {
+                "description": "",
+                "id": 1064850,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_13P_Sala2_Potavel",
+                "name": "Hid_13P_Sala2_Potavel"
+            },
+            "1064851": {
+                "description": "",
+                "id": 1064851,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_13P_Sala2_Reuso",
+                "name": "Hid_13P_Sala2_Reuso"
+            },
+            "1064852": {
+                "description": "",
+                "id": 1064852,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_Pv12_Sala1",
+                "name": "MM_Pv12_Sala1"
+            },
+            "1064853": {
+                "description": "",
+                "id": 1064853,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_Pv12_Sala2",
+                "name": "MM_Pv12_Sala2"
+            },
+            "1064854": {
+                "description": "",
+                "id": 1064854,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_12P_Sala1_Potavel",
+                "name": "Hid_12P_Sala1_Potavel"
+            },
+            "1064855": {
+                "description": "",
+                "id": 1064855,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_12P_Sala1_Reuso",
+                "name": "Hid_12P_Sala1_Reuso"
+            },
+            "1064856": {
+                "description": "",
+                "id": 1064856,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_12P_Sala2_Potavel",
+                "name": "Hid_12P_Sala2_Potavel"
+            },
+            "1064857": {
+                "description": "",
+                "id": 1064857,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_12P_Sala2_Reuso",
+                "name": "Hid_12P_Sala2_Reuso"
+            },
+            "1064858": {
+                "description": "",
+                "id": 1064858,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_Pv11_Sala1",
+                "name": "MM_Pv11_Sala1"
+            },
+            "1064859": {
+                "description": "",
+                "id": 1064859,
+                "last_data": "2022-12-13T10:15:00-03:00",
+                "local_id": "MM_Pv11_Sala2",
+                "name": "MM_Pv11_Sala2"
+            },
+            "1064860": {
+                "description": "",
+                "id": 1064860,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_11P_Sala1_Potavel",
+                "name": "Hid_11P_Sala1_Potavel"
+            },
+            "1064861": {
+                "description": "",
+                "id": 1064861,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_11P_Sala1_Reuso",
+                "name": "Hid_11P_Sala1_Reuso"
+            },
+            "1064862": {
+                "description": "",
+                "id": 1064862,
+                "last_data": "2022-12-13T00:30:00-03:00",
+                "local_id": "Hid_11P_Sala2_Potavel",
+                "name": "Hid_11P_Sala2_Potavel"
+            },
+            "1064863": {
+                "description": "",
+                "id": 1064863,
+                "local_id": "Hid_11P_Sala2_Reuso",
+                "name": "Hid_11P_Sala2_Reuso"
+            },
+            "1064864": {
+                "description": "",
+                "id": 1064864,
+                "local_id": "MM_Pv10_Sala1",
+                "name": "MM_Pv10_Sala1"
+            },
+            "1064865": {
+                "description": "",
+                "id": 1064865,
+                "local_id": "MM_Pv10_Sala2",
+                "name": "MM_Pv10_Sala2"
+            },
+            "1064866": {
+                "description": "",
+                "id": 1064866,
+                "local_id": "Hid_10P_Sala1_Potavel",
+                "name": "Hid_10P_Sala1_Potavel"
+            },
+            "1064867": {
+                "description": "",
+                "id": 1064867,
+                "local_id": "Hid_10P_Sala1_Reuso",
+                "name": "Hid_10P_Sala1_Reuso"
+            },
+            "1064868": {
+                "description": "",
+                "id": 1064868,
+                "local_id": "Hid_10P_Sala2_Potavel",
+                "name": "Hid_10P_Sala2_Potavel"
+            },
+            "1064869": {
+                "description": "",
+                "id": 1064869,
+                "local_id": "Hid_10P_Sala2_Reuso",
+                "name": "Hid_10P_Sala2_Reuso"
+            },
+            "1064870": {
+                "description": "",
+                "id": 1064870,
+                "local_id": "MM_Pv09_Sala1",
+                "name": "MM_Pv09_Sala1"
+            },
+            "1064871": {
+                "description": "",
+                "id": 1064871,
+                "local_id": "MM_Pv09_Sala2",
+                "name": "MM_Pv09_Sala2"
+            },
+            "1064872": {
+                "description": "",
+                "id": 1064872,
+                "local_id": "Hid_9P_Sala1_Potavel",
+                "name": "Hid_9P_Sala1_Potavel"
+            },
+            "1064873": {
+                "description": "",
+                "id": 1064873,
+                "local_id": "Hid_9P_Sala1_Reuso",
+                "name": "Hid_9P_Sala1_Reuso"
+            },
+            "1064874": {
+                "description": "",
+                "id": 1064874,
+                "local_id": "Hid_9P_Sala2_Potavel",
+                "name": "Hid_9P_Sala2_Potavel"
+            },
+            "1064875": {
+                "description": "",
+                "id": 1064875,
+                "local_id": "Hid_9P_Sala2_Reuso",
+                "name": "Hid_9P_Sala2_Reuso"
+            },
+            "1064876": {
+                "description": "",
+                "id": 1064876,
+                "local_id": "MM_Pv08_Sala1",
+                "name": "MM_Pv08_Sala1"
+            },
+            "1064877": {
+                "description": "",
+                "id": 1064877,
+                "local_id": "MM_Pv08_Sala2",
+                "name": "MM_Pv08_Sala2"
+            },
+            "1064878": {
+                "description": "",
+                "id": 1064878,
+                "local_id": "Hid_8P_Sala1_Potavel",
+                "name": "Hid_8P_Sala1_Potavel"
+            },
+            "1064879": {
+                "description": "",
+                "id": 1064879,
+                "local_id": "Hid_8P_Sala1_Reuso",
+                "name": "Hid_8P_Sala1_Reuso"
+            },
+            "1064880": {
+                "description": "",
+                "id": 1064880,
+                "local_id": "Hid_8P_Sala2_Potavel",
+                "name": "Hid_8P_Sala2_Potavel"
+            },
+            "1064881": {
+                "description": "",
+                "id": 1064881,
+                "local_id": "Hid_8P_Sala2_Reuso",
+                "name": "Hid_8P_Sala2_Reuso"
+            },
+            "1064882": {
+                "description": "",
+                "id": 1064882,
+                "local_id": "MM_Pv07_Sala1",
+                "name": "MM_Pv07_Sala1"
+            },
+            "1064883": {
+                "description": "",
+                "id": 1064883,
+                "local_id": "MM_Pv07_Sala2",
+                "name": "MM_Pv07_Sala2"
+            },
+            "1064884": {
+                "description": "",
+                "id": 1064884,
+                "local_id": "Hid_7P_Sala1_Potavel",
+                "name": "Hid_7P_Sala1_Potavel"
+            },
+            "1064885": {
+                "description": "",
+                "id": 1064885,
+                "local_id": "Hid_7P_Sala1_Reuso",
+                "name": "Hid_7P_Sala1_Reuso"
+            },
+            "1064886": {
+                "description": "",
+                "id": 1064886,
+                "local_id": "Hid_7P_Sala2_Potavel",
+                "name": "Hid_7P_Sala2_Potavel"
+            },
+            "1064887": {
+                "description": "",
+                "id": 1064887,
+                "local_id": "Hid_7P_Sala2_Reuso",
+                "name": "Hid_7P_Sala2_Reuso"
+            },
+            "1064888": {
+                "description": "",
+                "id": 1064888,
+                "local_id": "MM_Pv06_Sala1",
+                "name": "MM_Pv06_Sala1"
+            },
+            "1064889": {
+                "description": "",
+                "id": 1064889,
+                "local_id": "MM_Pv06_Sala2",
+                "name": "MM_Pv06_Sala2"
+            },
+            "1064890": {
+                "description": "",
+                "id": 1064890,
+                "local_id": "Hid_6P_Sala1_Potavel",
+                "name": "Hid_6P_Sala1_Potavel"
+            },
+            "1064891": {
+                "description": "",
+                "id": 1064891,
+                "local_id": "Hid_6P_Sala1_Reuso",
+                "name": "Hid_6P_Sala1_Reuso"
+            },
+            "1064892": {
+                "description": "",
+                "id": 1064892,
+                "local_id": "Hid_6P_Sala2_Potavel",
+                "name": "Hid_6P_Sala2_Potavel"
+            },
+            "1064893": {
+                "description": "",
+                "id": 1064893,
+                "local_id": "Hid_6P_Sala2_Reuso",
+                "name": "Hid_6P_Sala2_Reuso"
+            },
+            "1064894": {
+                "description": "",
+                "id": 1064894,
+                "local_id": "MM_Pv05_Sala1",
+                "name": "MM_Pv05_Sala1"
+            },
+            "1064895": {
+                "description": "",
+                "id": 1064895,
+                "local_id": "MM_Pv05_Sala2",
+                "name": "MM_Pv05_Sala2"
+            },
+            "1064896": {
+                "description": "",
+                "id": 1064896,
+                "local_id": "Hid_5P_Sala1_Potavel",
+                "name": "Hid_5P_Sala1_Potavel"
+            },
+            "1064897": {
+                "description": "",
+                "id": 1064897,
+                "local_id": "Hid_5P_Sala1_Reuso",
+                "name": "Hid_5P_Sala1_Reuso"
+            },
+            "1064898": {
+                "description": "",
+                "id": 1064898,
+                "local_id": "Hid_5P_Sala2_Potavel",
+                "name": "Hid_5P_Sala2_Potavel"
+            },
+            "1064899": {
+                "description": "",
+                "id": 1064899,
+                "local_id": "Hid_5P_Sala2_Reuso",
+                "name": "Hid_5P_Sala2_Reuso"
+            },
+            "1064900": {
+                "description": "",
+                "id": 1064900,
+                "local_id": "MM_Pv04_Sala1",
+                "name": "MM_Pv04_Sala1"
+            },
+            "1064901": {
+                "description": "",
+                "id": 1064901,
+                "local_id": "MM_Pv04_Sala2",
+                "name": "MM_Pv04_Sala2"
+            },
+            "1064902": {
+                "description": "",
+                "id": 1064902,
+                "local_id": "Hid_4P_Sala1_Potavel",
+                "name": "Hid_4P_Sala1_Potavel"
+            },
+            "1064903": {
+                "description": "",
+                "id": 1064903,
+                "local_id": "Hid_4P_Sala1_Reuso",
+                "name": "Hid_4P_Sala1_Reuso"
+            },
+            "1064904": {
+                "description": "",
+                "id": 1064904,
+                "local_id": "Hid_4P_Sala2_Potavel",
+                "name": "Hid_4P_Sala2_Potavel"
+            },
+            "1064905": {
+                "description": "",
+                "id": 1064905,
+                "local_id": "Hid_4P_Sala2_Reuso",
+                "name": "Hid_4P_Sala2_Reuso"
+            },
+            "1064906": {
+                "description": "",
+                "id": 1064906,
+                "local_id": "MM_Pv03_Sala1",
+                "name": "MM_Pv03_Sala1"
+            },
+            "1064907": {
+                "description": "",
+                "id": 1064907,
+                "local_id": "MM_Pv03_Sala2",
+                "name": "MM_Pv03_Sala2"
+            },
+            "1064908": {
+                "description": "",
+                "id": 1064908,
+                "local_id": "Hid_3P_Sala1_Potavel",
+                "name": "Hid_3P_Sala1_Potavel"
+            },
+            "1064909": {
+                "description": "",
+                "id": 1064909,
+                "local_id": "Hid_3P_Sala1_Reuso",
+                "name": "Hid_3P_Sala1_Reuso"
+            },
+            "1064910": {
+                "description": "",
+                "id": 1064910,
+                "local_id": "Hid_3P_Sala2_Potavel",
+                "name": "Hid_3P_Sala2_Potavel"
+            },
+            "1064911": {
+                "description": "",
+                "id": 1064911,
+                "local_id": "Hid_3P_Sala2_Reuso",
+                "name": "Hid_3P_Sala2_Reuso"
+            },
+            "1064912": {
+                "description": "",
+                "id": 1064912,
+                "local_id": "MM_Pv02_Sala1",
+                "name": "MM_Pv02_Sala1"
+            },
+            "1064913": {
+                "description": "",
+                "id": 1064913,
+                "local_id": "MM_Pv02_Sala2",
+                "name": "MM_Pv02_Sala2"
+            },
+            "1064914": {
+                "description": "",
+                "id": 1064914,
+                "local_id": "Hid_2P_Sala1_Potavel",
+                "name": "Hid_2P_Sala1_Potavel"
+            },
+            "1064915": {
+                "description": "",
+                "id": 1064915,
+                "local_id": "Hid_2P_Sala1_Reuso",
+                "name": "Hid_2P_Sala1_Reuso"
+            },
+            "1064916": {
+                "description": "",
+                "id": 1064916,
+                "local_id": "Hid_2P_Sala2_Potavel",
+                "name": "Hid_2P_Sala2_Potavel"
+            },
+            "1064917": {
+                "description": "",
+                "id": 1064917,
+                "local_id": "Hid_2P_Sala2_Reuso",
+                "name": "Hid_2P_Sala2_Reuso"
+            },
+            "1083764": {
+                "description": " ",
+                "id": 1083764,
+                "local_id": "G_0",
+                "name": "[EN] PRIVATIVAS - TOTAL MEDIDO"
+            },
+            "1083765": {
+                "description": " ",
+                "id": 1083765,
+                "local_id": "G_1",
+                "name": "[EN] COMUNS - ELEVADORES"
+            },
+            "1083766": {
+                "description": " ",
+                "id": 1083766,
+                "local_id": "G_2",
+                "name": "[EN] COMUNS - ILUMINAÇÃO"
+            },
+            "1083767": {
+                "description": " ",
+                "id": 1083767,
+                "local_id": "G_3",
+                "name": "[EN] COMUNS - BOMBAS E MOTORES E NOBREAK"
+            },
+            "1083768": {
+                "description": " ",
+                "id": 1083768,
+                "local_id": "G_4",
+                "name": "[EN] COMUNS - AR CONDICIONADO"
+            },
+            "1084151": {
+                "description": " ",
+                "id": 1084151,
+                "local_id": "G_5",
+                "name": "[EN] PRIVATIVAS - AR CONDICIONADO"
+            },
+            "1084152": {
+                "description": " ",
+                "id": 1084152,
+                "local_id": "G_6",
+                "name": "[EN] PRIVATIVAS - ILUMINAÇÃO"
+            },
+            "1084153": {
+                "description": " ",
+                "id": 1084153,
+                "local_id": "G_7",
+                "name": "[EN] COMUNS - TOTAL MEDIDO"
+            },
+            "1084154": {
+                "description": " ",
+                "id": 1084154,
+                "local_id": "G_8",
+                "name": "[AG] PRIVATIVAS - TOTAL MEDIDO"
+            },
+            "1084155": {
+                "description": " ",
+                "id": 1084155,
+                "local_id": "G_9",
+                "name": "[AG] PRIVATIVAS - POTÁVEL"
+            },
+            "1084156": {
+                "description": " ",
+                "id": 1084156,
+                "local_id": "G_10",
+                "name": "[AG] PRIVATIVAS - REÚSO"
+            },
+            "1084217": {
+                "description": " ",
+                "id": 1084217,
+                "local_id": "G_11",
+                "name": "[EN] CONSUMO TOTAL"
+            },
+            "1097634": {
+                "description": "",
+                "id": 1097634,
+                "local_id": "MM_Pv16_Sala3",
+                "name": "MM_Pv16_Sala3"
+            },
+            "1097635": {
+                "description": "",
+                "id": 1097635,
+                "local_id": "MM_Pv16_Sala4",
+                "name": "MM_Pv16_Sala4"
+            },
+            "1097636": {
+                "description": "",
+                "id": 1097636,
+                "local_id": "MM_Pv13_Sala3",
+                "name": "MM_Pv13_Sala3"
+            },
+            "1097637": {
+                "description": "",
+                "id": 1097637,
+                "local_id": "MM_Pv13_Sala4",
+                "name": "MM_Pv13_Sala4"
+            },
+            "1097639": {
+                "description": "",
+                "id": 1097639,
+                "local_id": "Hid_Pot_ZB_Area_Comum",
+                "name": "Hid_Pot_ZB_Area_Comum"
+            },
+            "1097640": {
+                "description": "",
+                "id": 1097640,
+                "local_id": "Irrigacao_5SS",
+                "name": "Irrigacao_5SS"
+            },
+            "1126726": {
+                "description": " ",
+                "id": 1126726,
+                "local_id": "DD-219844",
+                "name": "GHR São Paulo"
+            },
+            "1137716": {
+                "description": " ",
+                "id": 1137716,
+                "local_id": "G_32",
+                "name": "[EN-LOC] WeWork"
+            },
+            "1137719": {
+                "description": " ",
+                "id": 1137719,
+                "local_id": "G_33",
+                "name": "[EN-LOC] Sérgio Bermudes"
+            },
+            "1137721": {
+                "description": " ",
+                "id": 1137721,
+                "local_id": "G_34",
+                "name": "[EN-LOC] Shure"
+            },
+            "1137723": {
+                "description": " ",
+                "id": 1137723,
+                "local_id": "G_35",
+                "name": "[EN-LOC] SPX"
+            },
+            "1137724": {
+                "description": " ",
+                "id": 1137724,
+                "local_id": "G_36",
+                "name": "[EN-LOC] Lindt"
+            },
+            "1137726": {
+                "description": " ",
+                "id": 1137726,
+                "local_id": "G_38",
+                "name": "[EN-LOC] Citrix"
+            },
+            "1137729": {
+                "description": " ",
+                "id": 1137729,
+                "local_id": "G_39",
+                "name": "[EN-LOC] Cleary"
+            },
+            "1137730": {
+                "description": " ",
+                "id": 1137730,
+                "local_id": "G_40",
+                "name": "[EN-LOC] Canvas"
+            },
+            "1137731": {
+                "description": " ",
+                "id": 1137731,
+                "local_id": "G_41",
+                "name": "[EN-LOC] BNY Mellon"
+            },
+            "1138325": {
+                "description": " ",
+                "id": 1138325,
+                "local_id": "G_42",
+                "name": "[EN-LOC] GTIS"
+            },
+            "1139028": {
+                "description": " ",
+                "id": 1139028,
+                "local_id": "G_43",
+                "name": "[EN-LOC] Tend Micro"
+            },
+            "1144649": {
+                "description": " ",
+                "id": 1144649,
+                "local_id": "G_46",
+                "name": "[AG-LOC] WeWork"
+            },
+            "1144650": {
+                "description": " ",
+                "id": 1144650,
+                "local_id": "G_47",
+                "name": "[AG-LOC] Sergio Bermudes"
+            },
+            "1144651": {
+                "description": " ",
+                "id": 1144651,
+                "local_id": "G_48",
+                "name": "[AG-LOC] Shure"
+            },
+            "1144652": {
+                "description": " ",
+                "id": 1144652,
+                "local_id": "G_49",
+                "name": "[AG-LOC] SPX"
+            },
+            "1144653": {
+                "description": " ",
+                "id": 1144653,
+                "local_id": "G_50",
+                "name": "[AG-LOC] Lindt"
+            },
+            "1144655": {
+                "description": " ",
+                "id": 1144655,
+                "local_id": "G_52",
+                "name": "[AG-LOC] Citrix"
+            },
+            "1144657": {
+                "description": " ",
+                "id": 1144657,
+                "local_id": "G_53",
+                "name": "[AG-LOC] Cleary"
+            },
+            "1144658": {
+                "description": " ",
+                "id": 1144658,
+                "local_id": "G_54",
+                "name": "[AG-LOC] Canvas"
+            },
+            "1144659": {
+                "description": " ",
+                "id": 1144659,
+                "local_id": "G_55",
+                "name": "[AG-LOC] BNY Mellon"
+            },
+            "1144660": {
+                "description": " ",
+                "id": 1144660,
+                "local_id": "G_56",
+                "name": "[AG-LOC] GTIS"
+            },
+            "1144661": {
+                "description": " ",
+                "id": 1144661,
+                "local_id": "G_57",
+                "name": "[AG-LOC] Trend Micro"
+            },
+            "1206675": {
+                "description": "",
+                "id": 1206675,
+                "local_id": "condominio-vista-faria-lima_EN15_VFL_CK",
+                "name": "condominio-vista-faria-lima_EN15_VFL_CK"
+            },
+            "1206710": {
+                "description": "",
+                "id": 1206710,
+                "local_id": "MM_Pv_UPS11",
+                "name": "MM_Pv_UPS11"
+            },
+            "1206711": {
+                "description": "",
+                "id": 1206711,
+                "local_id": "MM_Pv15_Sala3",
+                "name": "MM_Pv15_Sala3"
+            },
+            "1206712": {
+                "description": "",
+                "id": 1206712,
+                "local_id": "MM_Pv15_Sala4",
+                "name": "MM_Pv15_Sala4"
+            },
+            "1212209": {
+                "description": " ",
+                "id": 1212209,
+                "local_id": "G_94",
+                "name": "[EN] PRIVATIVAS - VAGOS"
+            },
+            "1212210": {
+                "description": " ",
+                "id": 1212210,
+                "local_id": "G_95",
+                "name": "[AG] PRIVATIVAS - VAGOS"
+            },
+            "1212535": {
+                "description": "",
+                "id": 1212535,
+                "local_id": "Consumo_Ativo_MM_UPS_11_PV",
+                "name": "Consumo_Ativo_MM_UPS_11_PV"
+            }
+        }
+    },
+    "Condomínio Vista Guanabara": {
+        "id": 219916,
+        "meters": {
+            "1112149": {
+                "description": " ",
+                "id": 1112149,
+                "local_id": "DD-219916",
+                "name": "GHR Rio de Janeiro"
+            },
+            "1215124": {
+                "description": " ",
+                "id": 1215124,
+                "local_id": "VG_CAC",
+                "name": "VG_CAC_COM"
+            },
+            "1219251": {
+                "description": "",
+                "id": 1219251,
+                "local_id": "VG_12_SL1",
+                "name": "VG_12_SL1"
+            },
+            "1219252": {
+                "description": "",
+                "id": 1219252,
+                "local_id": "VG_05_AC1",
+                "name": "VG_05_AC1"
+            },
+            "1219253": {
+                "description": "",
+                "id": 1219253,
+                "local_id": "VG_05_AC2",
+                "name": "VG_05_AC2"
+            },
+            "1219254": {
+                "description": "",
+                "id": 1219254,
+                "local_id": "VG_05_SL1",
+                "name": "VG_05_SL1"
+            },
+            "1219255": {
+                "description": "",
+                "id": 1219255,
+                "local_id": "VG_05_SL2",
+                "name": "VG_05_SL2"
+            },
+            "1219256": {
+                "description": "",
+                "id": 1219256,
+                "local_id": "VG_06_SL1",
+                "name": "VG_06_SL1"
+            },
+            "1219257": {
+                "description": "",
+                "id": 1219257,
+                "local_id": "VG_06_AC1",
+                "name": "VG_06_AC1"
+            },
+            "1219258": {
+                "description": "",
+                "id": 1219258,
+                "local_id": "VG_06_AC2",
+                "name": "VG_06_AC2"
+            },
+            "1219259": {
+                "description": "",
+                "id": 1219259,
+                "local_id": "VG_06_SL2",
+                "name": "VG_06_SL2"
+            },
+            "1219260": {
+                "description": "",
+                "id": 1219260,
+                "local_id": "VG_07_AC1",
+                "name": "VG_07_AC1"
+            },
+            "1219261": {
+                "description": "",
+                "id": 1219261,
+                "local_id": "VG_07_AC2",
+                "name": "VG_07_AC2"
+            },
+            "1219262": {
+                "description": "",
+                "id": 1219262,
+                "local_id": "VG_07_SL1",
+                "name": "VG_07_SL1"
+            },
+            "1219263": {
+                "description": "",
+                "id": 1219263,
+                "local_id": "VG_08_AC1",
+                "name": "VG_08_AC1"
+            },
+            "1219264": {
+                "description": "",
+                "id": 1219264,
+                "local_id": "VG_08_AC2",
+                "name": "VG_08_AC2"
+            },
+            "1219265": {
+                "description": "",
+                "id": 1219265,
+                "local_id": "VG_08_SL1",
+                "name": "VG_08_SL1"
+            },
+            "1219266": {
+                "description": "",
+                "id": 1219266,
+                "local_id": "VG_08_SL2",
+                "name": "VG_08_SL2"
+            },
+            "1219267": {
+                "description": "",
+                "id": 1219267,
+                "local_id": "VG_09_AC1",
+                "name": "VG_09_AC1"
+            },
+            "1219268": {
+                "description": "",
+                "id": 1219268,
+                "local_id": "VG_09_AC2",
+                "name": "VG_09_AC2"
+            },
+            "1219269": {
+                "description": "",
+                "id": 1219269,
+                "local_id": "VG_09_SL1",
+                "name": "VG_09_SL1"
+            },
+            "1219270": {
+                "description": "",
+                "id": 1219270,
+                "local_id": "VG_07_SL2",
+                "name": "VG_07_SL2"
+            },
+            "1219271": {
+                "description": "",
+                "id": 1219271,
+                "local_id": "VG_11_AC2",
+                "name": "VG_11_AC2"
+            },
+            "1219276": {
+                "description": "",
+                "id": 1219276,
+                "local_id": "VG_19_AC1",
+                "name": "VG_19_AC1"
+            },
+            "1219277": {
+                "description": "",
+                "id": 1219277,
+                "local_id": "VG_19_AC2",
+                "name": "VG_19_AC2"
+            },
+            "1219278": {
+                "description": "",
+                "id": 1219278,
+                "local_id": "VG_19_SL2",
+                "name": "VG_19_SL2"
+            },
+            "1219279": {
+                "description": "",
+                "id": 1219279,
+                "local_id": "VG_20_AC1",
+                "name": "VG_20_AC1"
+            },
+            "1219289": {
+                "description": "",
+                "id": 1219289,
+                "local_id": "VG_18_AC1",
+                "name": "VG_18_AC1"
+            },
+            "1219290": {
+                "description": "",
+                "id": 1219290,
+                "local_id": "VG_18_SL1",
+                "name": "VG_18_SL1"
+            },
+            "1219295": {
+                "description": "",
+                "id": 1219295,
+                "local_id": "VG_LOJA",
+                "name": "VG_LOJA"
+            },
+            "1219296": {
+                "description": "",
+                "id": 1219296,
+                "local_id": "VG_10_AC1",
+                "name": "VG_10_AC1"
+            },
+            "1219297": {
+                "description": "",
+                "id": 1219297,
+                "local_id": "VG_11_SL1",
+                "name": "VG_11_SL1"
+            },
+            "1219298": {
+                "description": "",
+                "id": 1219298,
+                "local_id": "VG_11_SL2",
+                "name": "VG_11_SL2"
+            },
+            "1219331": {
+                "description": "",
+                "id": 1219331,
+                "local_id": "VG_21_AC1",
+                "name": "VG_21_AC1"
+            },
+            "1219332": {
+                "description": "",
+                "id": 1219332,
+                "local_id": "VG_LIGHT",
+                "name": "VG_LIGHT"
+            },
+            "1219333": {
+                "description": " ",
+                "id": 1219333,
+                "local_id": "VG_LOJA_AG",
+                "name": "VG_LOJA_AG"
+            },
+            "1219334": {
+                "description": "",
+                "id": 1219334,
+                "local_id": "VG_10_AC2",
+                "name": "VG_10_AC2"
+            },
+            "1219335": {
+                "description": "",
+                "id": 1219335,
+                "local_id": "VG_10_SL1",
+                "name": "VG_10_SL1"
+            },
+            "1219336": {
+                "description": "",
+                "id": 1219336,
+                "local_id": "VG_10_SL2",
+                "name": "VG_10_SL2"
+            },
+            "1219337": {
+                "description": "",
+                "id": 1219337,
+                "local_id": "VG_11_AC1",
+                "name": "VG_11_AC1"
+            },
+            "1219338": {
+                "description": "",
+                "id": 1219338,
+                "local_id": "VG_12_AC1",
+                "name": "VG_12_AC1"
+            },
+            "1219339": {
+                "description": "",
+                "id": 1219339,
+                "local_id": "VG_12_AC2",
+                "name": "VG_12_AC2"
+            },
+            "1219340": {
+                "description": "",
+                "id": 1219340,
+                "local_id": "VG_12_SL2",
+                "name": "VG_12_SL2"
+            },
+            "1219341": {
+                "description": "",
+                "id": 1219341,
+                "local_id": "VG_13_AC1",
+                "name": "VG_13_AC1"
+            },
+            "1219342": {
+                "description": "",
+                "id": 1219342,
+                "local_id": "VG_13_AC2",
+                "name": "VG_13_AC2"
+            },
+            "1219343": {
+                "description": "",
+                "id": 1219343,
+                "local_id": "VG_13_SL1",
+                "name": "VG_13_SL1"
+            },
+            "1219344": {
+                "description": "",
+                "id": 1219344,
+                "local_id": "VG_13_SL2",
+                "name": "VG_13_SL2"
+            },
+            "1219345": {
+                "description": "",
+                "id": 1219345,
+                "local_id": "VG_14_AC1",
+                "name": "VG_14_AC1"
+            },
+            "1219367": {
+                "description": "",
+                "id": 1219367,
+                "local_id": "VG_14_AC2",
+                "name": "VG_14_AC2"
+            },
+            "1219368": {
+                "description": "",
+                "id": 1219368,
+                "local_id": "VG_14_SL1",
+                "name": "VG_14_SL1"
+            },
+            "1219369": {
+                "description": "",
+                "id": 1219369,
+                "local_id": "VG_14_SL2",
+                "name": "VG_14_SL2"
+            },
+            "1219370": {
+                "description": "",
+                "id": 1219370,
+                "local_id": "VG_15_AC1",
+                "name": "VG_15_AC1"
+            },
+            "1219371": {
+                "description": "",
+                "id": 1219371,
+                "local_id": "VG_15_AC2",
+                "name": "VG_15_AC2"
+            },
+            "1219372": {
+                "description": "",
+                "id": 1219372,
+                "local_id": "VG_15_SL1",
+                "name": "VG_15_SL1"
+            },
+            "1219373": {
+                "description": "",
+                "id": 1219373,
+                "local_id": "VG_16_AC1",
+                "name": "VG_16_AC1"
+            },
+            "1219374": {
+                "description": "",
+                "id": 1219374,
+                "local_id": "VG_16_AC2",
+                "name": "VG_16_AC2"
+            },
+            "1219375": {
+                "description": "",
+                "id": 1219375,
+                "local_id": "VG_16_SL1",
+                "name": "VG_16_SL1"
+            },
+            "1219376": {
+                "description": "",
+                "id": 1219376,
+                "local_id": "VG_16_SL2",
+                "name": "VG_16_SL2"
+            },
+            "1219377": {
+                "description": "",
+                "id": 1219377,
+                "local_id": "VG_17_AC1",
+                "name": "VG_17_AC1"
+            },
+            "1219379": {
+                "description": "",
+                "id": 1219379,
+                "local_id": "VG_17_SL1",
+                "name": "VG_17_SL1"
+            },
+            "1219380": {
+                "description": "",
+                "id": 1219380,
+                "local_id": "VG_17_SL2",
+                "name": "VG_17_SL2"
+            },
+            "1219381": {
+                "description": "",
+                "id": 1219381,
+                "local_id": "VG_18_AC2",
+                "name": "VG_18_AC2"
+            },
+            "1219382": {
+                "description": "",
+                "id": 1219382,
+                "local_id": "VG_18_SL2",
+                "name": "VG_18_SL2"
+            },
+            "1219383": {
+                "description": "",
+                "id": 1219383,
+                "local_id": "VG_19_SL1",
+                "name": "VG_19_SL1"
+            },
+            "1219385": {
+                "description": "",
+                "id": 1219385,
+                "local_id": "VG_20_AC2",
+                "name": "VG_20_AC2"
+            },
+            "1219386": {
+                "description": "",
+                "id": 1219386,
+                "local_id": "VG_20_SL1",
+                "name": "VG_20_SL1"
+            },
+            "1219387": {
+                "description": "",
+                "id": 1219387,
+                "local_id": "VG_20_SL2",
+                "name": "VG_20_SL2"
+            },
+            "1219388": {
+                "description": "",
+                "id": 1219388,
+                "local_id": "VG_21_AC2",
+                "name": "VG_21_AC2"
+            },
+            "1219389": {
+                "description": "",
+                "id": 1219389,
+                "local_id": "VG_21_SL1",
+                "name": "VG_21_SL1"
+            },
+            "1219390": {
+                "description": "",
+                "id": 1219390,
+                "local_id": "VG_21_SL2",
+                "name": "VG_21_SL2"
+            },
+            "1219407": {
+                "description": " ",
+                "id": 1219407,
+                "local_id": "VG_HTORRES",
+                "name": "VG_HTORRES"
+            },
+            "1219408": {
+                "description": "",
+                "id": 1219408,
+                "local_id": "VG_CEDAE",
+                "name": "VG_CEDAE"
+            },
+            "1221146": {
+                "description": "",
+                "id": 1221146,
+                "local_id": "VG_17_AC2",
+                "name": "VG_17_AC2"
+            },
+            "1224864": {
+                "description": " Soma dos Andares 5, 6, 7, 8, 9, 12",
+                "id": 1224864,
+                "local_id": "G_103",
+                "name": "[EN-LOC] Amil"
+            },
+            "1224865": {
+                "description": " Soma das salas 10 e 11",
+                "id": 1224865,
+                "local_id": "G_104",
+                "name": "[EN-LOC] Aguas do Rio"
+            },
+            "1224866": {
+                "description": " Soma das Salas 14 e 15",
+                "id": 1224866,
+                "local_id": "G_105",
+                "name": "[EN-LOC] Casa Granado"
+            },
+            "1224871": {
+                "description": " Somada das salas 16 L1 e L2, 17 L1",
+                "id": 1224871,
+                "local_id": "G_106",
+                "name": "[EN-LOC] Generali"
+            },
+            "1224872": {
+                "description": " Soma dos medidores do andar 19",
+                "id": 1224872,
+                "local_id": "G_107",
+                "name": "[EN-LOC] Bahia Asset"
+            },
+            "1224876": {
+                "description": " Soma das Salas 20 e 21",
+                "id": 1224876,
+                "local_id": "G_108",
+                "name": "[EN-LOC] Bocom BMM"
+            },
+            "1224878": {
+                "description": " Soma doas andares 13, 17 SL2, 18",
+                "id": 1224878,
+                "local_id": "G_109",
+                "name": "[EN] PRIVATIVAS - VAGOS"
+            },
+            "1224881": {
+                "description": " Medidor de consumo CAC de Áreas Comuns",
+                "id": 1224881,
+                "local_id": "G_110",
+                "name": "[EN] COMUNS - AR CONDICIONADO"
+            },
+            "1224882": {
+                "description": " Todos Medidores de Energia de áreas Privativas",
+                "id": 1224882,
+                "local_id": "G_111",
+                "name": "[EN] PRIVATIVAS - TOTAL MEDIDO"
+            },
+            "1224883": {
+                "description": " Todos os Privativos medidores SL 1 e 2",
+                "id": 1224883,
+                "local_id": "G_112",
+                "name": "[EN] PRIVATIVAS - ILUMINAÇÃO"
+            },
+            "1224885": {
+                "description": " Todos medidores de energia AC Privativos",
+                "id": 1224885,
+                "local_id": "G_113",
+                "name": "[EN] PRIVATIVAS - AR CONDICIONADO"
+            },
+            "1224886": {
+                "description": " Soma dos medidores de agua andares 5 a 9 e 12",
+                "id": 1224886,
+                "local_id": "G_114",
+                "name": "[AG-LOC] Amil"
+            },
+            "1224892": {
+                "description": " Medidores andar 10 e 11",
+                "id": 1224892,
+                "local_id": "G_115",
+                "name": "[AG-LOC] Aguas do Rio"
+            },
+            "1224894": {
+                "description": " medidores dos andares 14 e 15\r\n ",
+                "id": 1224894,
+                "local_id": "G_116",
+                "name": "[AG-LOC] Casa Granado"
+            },
+            "1224908": {
+                "description": " Soma dos medidores do Andar 19",
+                "id": 1224908,
+                "local_id": "G_117",
+                "name": "[AG-LOC] Bahia Asset"
+            },
+            "1224909": {
+                "description": "Soma dos medidores do andar 20 e 21\r\n",
+                "id": 1224909,
+                "local_id": "G_118",
+                "name": "[AG-LOC] Bocom BMM"
+            },
+            "1224910": {
+                "description": "Soma de Todos os medidores de AG potável ",
+                "id": 1224910,
+                "local_id": "G_119",
+                "name": "[AG] PRIVATIVAS - POTÁVEL"
+            },
+            "1224911": {
+                "description": " Soma de todos os medidores privativos de Reuso",
+                "id": 1224911,
+                "local_id": "G_120",
+                "name": "[AG] PRIVATIVAS - REÚSO"
+            },
+            "1224912": {
+                "description": " Soma de Todos os Medidores de AG privativo",
+                "id": 1224912,
+                "local_id": "G_121",
+                "name": "[AG] PRIVATIVAS - TOTAL MEDIDO"
+            },
+            "1224913": {
+                "description": " Soma de todos os medidores Vagos 18 e 13, exceto17 L2",
+                "id": 1224913,
+                "local_id": "G_122",
+                "name": "[AG] PRIVATIVAS - VAGOS"
+            },
+            "1224914": {
+                "description": " medidores do dos andares 16 e 17 incluso o 17 L2",
+                "id": 1224914,
+                "local_id": "G_123",
+                "name": "[AG-LOC] Generali"
+            },
+            "1224915": {
+                "description": "",
+                "id": 1224915,
+                "local_id": "VG_09_SL2",
+                "name": "VG_09_SL2"
+            },
+            "1224916": {
+                "description": "",
+                "id": 1224916,
+                "local_id": "VG_15_SL2",
+                "name": "VG_15_SL2"
+            },
+            "1228200": {
+                "description": " ",
+                "id": 1228200,
+                "local_id": "VG_14_HREU4",
+                "name": "VG_14_HREU4"
+            },
+            "1228201": {
+                "description": " ",
+                "id": 1228201,
+                "local_id": "VG_11_HPOT1",
+                "name": "VG_11_HPOT1"
+            },
+            "1228202": {
+                "description": " ",
+                "id": 1228202,
+                "local_id": "VG_15_HPOT1",
+                "name": "VG_15_HPOT1"
+            },
+            "1228203": {
+                "description": " ",
+                "id": 1228203,
+                "local_id": "VG_15_HPOT2",
+                "name": "VG_15_HPOT2"
+            },
+            "1228204": {
+                "description": " ",
+                "id": 1228204,
+                "local_id": "VG_15_HPOT3",
+                "name": "VG_15_HPOT3"
+            },
+            "1228205": {
+                "description": " ",
+                "id": 1228205,
+                "local_id": "VG_15_HREU4",
+                "name": "VG_15_HREU4"
+            },
+            "1228206": {
+                "description": " ",
+                "id": 1228206,
+                "local_id": "VG_15_HREU5",
+                "name": "VG_15_HREU5"
+            },
+            "1228207": {
+                "description": " ",
+                "id": 1228207,
+                "local_id": "VG_16_HPOT1",
+                "name": "VG_16_HPOT1"
+            },
+            "1228208": {
+                "description": " ",
+                "id": 1228208,
+                "local_id": "VG_16_HPOT2",
+                "name": "VG_16_HPOT2"
+            },
+            "1228209": {
+                "description": " ",
+                "id": 1228209,
+                "local_id": "VG_16_HPOT3",
+                "name": "VG_16_HPOT3"
+            },
+            "1228210": {
+                "description": " ",
+                "id": 1228210,
+                "local_id": "VG_16_HREU4",
+                "name": "VG_16_HREU4"
+            },
+            "1228211": {
+                "description": " ",
+                "id": 1228211,
+                "local_id": "VG_16_HREU5",
+                "name": "VG_16_HREU5"
+            },
+            "1228214": {
+                "description": " ",
+                "id": 1228214,
+                "local_id": "VG_21_HPOT1",
+                "name": "VG_21_HPOT1"
+            },
+            "1228215": {
+                "description": " ",
+                "id": 1228215,
+                "local_id": "VG_21_HPOT2",
+                "name": "VG_21_HPOT2"
+            },
+            "1228216": {
+                "description": " ",
+                "id": 1228216,
+                "local_id": "VG_21_HPOT3",
+                "name": "VG_21_HPOT3"
+            },
+            "1228217": {
+                "description": " ",
+                "id": 1228217,
+                "local_id": "VG_19_HPOT2",
+                "name": "VG_19_HPOT2"
+            },
+            "1228219": {
+                "description": " ",
+                "id": 1228219,
+                "local_id": "VG_10_HREU5",
+                "name": "VG_10_HREU5"
+            },
+            "1228220": {
+                "description": " ",
+                "id": 1228220,
+                "local_id": "VG_11_HPOT2",
+                "name": "VG_11_HPOT2"
+            },
+            "1228221": {
+                "description": " ",
+                "id": 1228221,
+                "local_id": "VG_11_HREU5",
+                "name": "VG_11_HREU5"
+            },
+            "1228222": {
+                "description": " ",
+                "id": 1228222,
+                "local_id": "VG_12_HPOT1",
+                "name": "VG_12_HPOT1"
+            },
+            "1228223": {
+                "description": " ",
+                "id": 1228223,
+                "local_id": "VG_12_HPOT2",
+                "name": "VG_12_HPOT2"
+            },
+            "1228224": {
+                "description": " ",
+                "id": 1228224,
+                "local_id": "VG_12_HPOT3",
+                "name": "VG_12_HPOT3"
+            },
+            "1228225": {
+                "description": " ",
+                "id": 1228225,
+                "local_id": "VG_12_HREU4",
+                "name": "VG_12_HREU4"
+            },
+            "1228226": {
+                "description": " ",
+                "id": 1228226,
+                "local_id": "VG_13_HPOT3",
+                "name": "VG_13_HPOT3"
+            },
+            "1228227": {
+                "description": " ",
+                "id": 1228227,
+                "local_id": "VG_13_HREU4",
+                "name": "VG_13_HREU4"
+            },
+            "1228230": {
+                "description": " ",
+                "id": 1228230,
+                "local_id": "VG_05_HPOT1",
+                "name": "VG_05_HPOT1"
+            },
+            "1228231": {
+                "description": " ",
+                "id": 1228231,
+                "local_id": "VG_05_HPOT2",
+                "name": "VG_05_HPOT2"
+            },
+            "1228232": {
+                "description": " ",
+                "id": 1228232,
+                "local_id": "VG_05_HREU5",
+                "name": "VG_05_HREU5"
+            },
+            "1228233": {
+                "description": " ",
+                "id": 1228233,
+                "local_id": "VG_05_HREU6",
+                "name": "VG_05_HREU6"
+            },
+            "1228234": {
+                "description": " ",
+                "id": 1228234,
+                "local_id": "VG_06_HPOT2",
+                "name": "VG_06_HPOT2"
+            },
+            "1228235": {
+                "description": " ",
+                "id": 1228235,
+                "local_id": "VG_06_HREU4",
+                "name": "VG_06_HREU4"
+            },
+            "1228236": {
+                "description": " ",
+                "id": 1228236,
+                "local_id": "VG_07_HPOT1",
+                "name": "VG_07_HPOT1"
+            },
+            "1228237": {
+                "description": " ",
+                "id": 1228237,
+                "local_id": "VG_07_HPOT2",
+                "name": "VG_07_HPOT2"
+            },
+            "1228238": {
+                "description": " ",
+                "id": 1228238,
+                "local_id": "VG_07_HPOT3",
+                "name": "VG_07_HPOT3"
+            },
+            "1228239": {
+                "description": " ",
+                "id": 1228239,
+                "local_id": "VG_07_HREU5",
+                "name": "VG_07_HREU5"
+            },
+            "1228240": {
+                "description": " ",
+                "id": 1228240,
+                "local_id": "VG_08_HPOT1",
+                "name": "VG_08_HPOT1"
+            },
+            "1228241": {
+                "description": " ",
+                "id": 1228241,
+                "local_id": "VG_08_HPOT2",
+                "name": "VG_08_HPOT2"
+            },
+            "1228242": {
+                "description": " ",
+                "id": 1228242,
+                "local_id": "VG_08_HPOT3",
+                "name": "VG_08_HPOT3"
+            },
+            "1228243": {
+                "description": " ",
+                "id": 1228243,
+                "local_id": "VG_08_HREU5",
+                "name": "VG_08_HREU5"
+            },
+            "1228244": {
+                "description": " ",
+                "id": 1228244,
+                "local_id": "VG_09_HPOT1",
+                "name": "VG_09_HPOT1"
+            },
+            "1228245": {
+                "description": "",
+                "id": 1228245,
+                "local_id": "VG_09_HPOT2",
+                "name": "VG_09_HPOT2"
+            },
+            "1228246": {
+                "description": " ",
+                "id": 1228246,
+                "local_id": "VG_09_HPOT3",
+                "name": "VG_09_HPOT3"
+            },
+            "1228247": {
+                "description": "",
+                "id": 1228247,
+                "local_id": "VG_09_HREU5",
+                "name": "VG_09_HREU5"
+            },
+            "1228248": {
+                "description": " ",
+                "id": 1228248,
+                "local_id": "VG_14_HPOT1",
+                "name": "VG_14_HPOT1"
+            },
+            "1228249": {
+                "description": " ",
+                "id": 1228249,
+                "local_id": "VG_14_HPOT3",
+                "name": "VG_14_HPOT3"
+            },
+            "1228250": {
+                "description": " ",
+                "id": 1228250,
+                "local_id": "VG_17_HPOT1",
+                "name": "VG_17_HPOT1"
+            },
+            "1228251": {
+                "description": " ",
+                "id": 1228251,
+                "local_id": "VG_17_HPOT2",
+                "name": "VG_17_HPOT2"
+            },
+            "1228252": {
+                "description": " ",
+                "id": 1228252,
+                "local_id": "VG_17_HREU4",
+                "name": "VG_17_HREU4"
+            },
+            "1228253": {
+                "description": " ",
+                "id": 1228253,
+                "local_id": "VG_18_HPOT2",
+                "name": "VG_18_HPOT2"
+            },
+            "1228254": {
+                "description": " ",
+                "id": 1228254,
+                "local_id": "VG_19_HREU4",
+                "name": "VG_19_HREU4"
+            },
+            "1228255": {
+                "description": " ",
+                "id": 1228255,
+                "local_id": "VG_19_HREU5",
+                "name": "VG_19_HREU5"
+            },
+            "1228256": {
+                "description": " ",
+                "id": 1228256,
+                "local_id": "VG_19_HREU6",
+                "name": "VG_19_HREU6"
+            },
+            "1228257": {
+                "description": " ",
+                "id": 1228257,
+                "local_id": "VG_20_HPOT1",
+                "name": "VG_20_HPOT1"
+            },
+            "1228258": {
+                "description": " ",
+                "id": 1228258,
+                "local_id": "VG_20_HPOT2",
+                "name": "VG_20_HPOT2"
+            },
+            "1228259": {
+                "description": " ",
+                "id": 1228259,
+                "local_id": "VG_20_HPOT3",
+                "name": "VG_20_HPOT3"
+            },
+            "1228260": {
+                "description": " ",
+                "id": 1228260,
+                "local_id": "VG_20_HREU4",
+                "name": "VG_20_HREU4"
+            },
+            "1228261": {
+                "description": " ",
+                "id": 1228261,
+                "local_id": "VG_21_HREU4",
+                "name": "VG_21_HREU4"
+            },
+            "1228262": {
+                "description": " ",
+                "id": 1228262,
+                "local_id": "VG_21_HREU5",
+                "name": "VG_21_HREU5"
+            },
+            "1228263": {
+                "description": " ",
+                "id": 1228263,
+                "local_id": "VG_21_HREU6",
+                "name": "VG_21_HREU6"
+            },
+            "1228264": {
+                "description": " ",
+                "id": 1228264,
+                "local_id": "VG_10_HPOT1",
+                "name": "VG_10_HPOT1"
+            },
+            "1228265": {
+                "description": " ",
+                "id": 1228265,
+                "local_id": "VG_10_HPOT2",
+                "name": "VG_10_HPOT2"
+            },
+            "1228266": {
+                "description": " ",
+                "id": 1228266,
+                "local_id": "VG_10_HPOT3",
+                "name": "VG_10_HPOT3"
+            },
+            "1239313": {
+                "description": " Soma de medidores de agua potável  dos andares 10 e 11",
+                "id": 1239313,
+                "local_id": "G_136",
+                "name": "[AG-LOC] Aguas do Rio (potável)"
+            },
+            "1239350": {
+                "description": "Soma de todos os medidores de aguas potavel Vagos 18 e 13, exceto17 L2",
+                "id": 1239350,
+                "local_id": "G_137",
+                "name": "[AG] PRIVATIVAS - VAGOS (Potável) "
+            },
+            "1239472": {
+                "description": " Soma dos medidores de agua potável andares 5 a 9 e 12",
+                "id": 1239472,
+                "local_id": "G_138",
+                "name": "[AG-LOC] Amil (potável)"
+            },
+            "1239473": {
+                "description": " Soma dos medidores do andar 20 e 21",
+                "id": 1239473,
+                "local_id": "G_139",
+                "name": "[AG-LOC] Bocom BMM (potável)"
+            },
+            "1239474": {
+                "description": " Soma dos medidores de agua potavel do Andar 19",
+                "id": 1239474,
+                "local_id": "G_140",
+                "name": "[AG-LOC] Bahia Asset (Potável)"
+            },
+            "1239475": {
+                "description": " medidores dos andares 14 e 15",
+                "id": 1239475,
+                "local_id": "G_141",
+                "name": "[AG-LOC] Casa Granado"
+            },
+            "1239476": {
+                "description": " medidores do dos andares 16 e 17 incluso o 17 L2",
+                "id": 1239476,
+                "local_id": "G_142",
+                "name": "[AG-LOC] Generali (potável) "
+            },
+            "1239571": {
+                "description": " ",
+                "id": 1239571,
+                "local_id": "VG_AR_EXT_02",
+                "name": "VG_AR_EXT_02_COM"
+            },
+            "1239572": {
+                "description": " ",
+                "id": 1239572,
+                "local_id": "VG_AR_EXT_01",
+                "name": "VG_AR_EXT_01_COM"
+            },
+            "1239573": {
+                "description": " ",
+                "id": 1239573,
+                "local_id": "VG_SERV_2",
+                "name": "VG_SERV_2_COM"
+            },
+            "1239574": {
+                "description": " ",
+                "id": 1239574,
+                "local_id": "VG_SERV_1",
+                "name": "VG_SERV_1_COM"
+            },
+            "1239575": {
+                "description": " ",
+                "id": 1239575,
+                "local_id": "VG_GMOT",
+                "name": "VG_GMOT_COM"
+            },
+            "1239576": {
+                "description": " ",
+                "id": 1239576,
+                "local_id": "VG_CAR_CRIT",
+                "name": "VG_CAR_CRIT_COM"
+            },
+            "1239577": {
+                "description": " ",
+                "id": 1239577,
+                "local_id": "VG_GPRESS_ESC",
+                "name": "VG_GPRESS_ESC_COM"
+            },
+            "1239578": {
+                "description": " ",
+                "id": 1239578,
+                "local_id": "VG_MED_ELEV",
+                "name": "VG_MED_ELEV_COM"
+            },
+            "1239579": {
+                "description": " ",
+                "id": 1239579,
+                "local_id": "VG_QF_BOM_HID",
+                "name": "VG_QF_BOM_HID_COM"
+            },
+            "1239580": {
+                "description": " ",
+                "id": 1239580,
+                "local_id": "VG_QF_INC",
+                "name": "VG_QF_INC_COM"
+            },
+            "1240165": {
+                "description": " ",
+                "id": 1240165,
+                "local_id": "G_143",
+                "name": "UPS"
+            },
+            "1246229": {
+                "description": " soma de todos medidores de ar condicionado\r\n",
+                "id": 1246229,
+                "local_id": "G_144",
+                "name": "[EN] BUSWAY AR CONDICIONADO"
+            },
+            "1246247": {
+                "description": " Todos medidores de áreas comuns\r\n",
+                "id": 1246247,
+                "local_id": "G_145",
+                "name": "[EN] COMUNS "
+            },
+            "1247422": {
+                "description": " ",
+                "id": 1247422,
+                "local_id": "VG_HELI",
+                "name": "VG_HELI_COM"
+            },
+            "1256456": {
+                "description": "",
+                "id": 1256456,
+                "local_id": "VG_GER_PAR_COM",
+                "name": "VG_GER_PAR_COM"
+            },
+            "1256457": {
+                "description": "",
+                "id": 1256457,
+                "local_id": "VG_BUY_AC_COM",
+                "name": "VG_BUY_AC_COM"
+            }
+        }
+    },
+    "Condomínio Vista Mauá": {
+        "id": 265705,
+        "meters": {
+            "1219160": {
+                "description": "",
+                "id": 1219160,
+                "local_id": "VM_banheiro_5_Agua",
+                "name": "VM_banheiro_5_Agua"
+            },
+            "1219161": {
+                "description": "",
+                "id": 1219161,
+                "local_id": "VM_ala1_en",
+                "name": "VM_ala1_en"
+            },
+            "1219162": {
+                "description": "",
+                "id": 1219162,
+                "local_id": "VM_ala2_en",
+                "name": "VM_ala2_en"
+            },
+            "1219163": {
+                "description": "",
+                "id": 1219163,
+                "local_id": "VM_arcond_en",
+                "name": "VM_arcond_en"
+            },
+            "1219164": {
+                "description": "",
+                "id": 1219164,
+                "local_id": "VM_bombasinc_en",
+                "name": "VM_bombasinc_en"
+            },
+            "1219165": {
+                "description": "",
+                "id": 1219165,
+                "local_id": "VM_bombaspressur_en",
+                "name": "VM_bombaspressur_en"
+            },
+            "1219166": {
+                "description": "",
+                "id": 1219166,
+                "local_id": "VM_elevpne_en",
+                "name": "VM_elevpne_en"
+            },
+            "1219167": {
+                "description": "",
+                "id": 1219167,
+                "local_id": "VM_elev_en",
+                "name": "VM_elev_en"
+            },
+            "1219168": {
+                "description": "",
+                "id": 1219168,
+                "local_id": "VM_ilumemerg_en",
+                "name": "VM_ilumemerg_en"
+            },
+            "1219169": {
+                "description": "",
+                "id": 1219169,
+                "local_id": "VM_pressur_en",
+                "name": "VM_pressur_en"
+            },
+            "1219170": {
+                "description": "",
+                "id": 1219170,
+                "local_id": "VM_quadroserv_en",
+                "name": "VM_quadroserv_en"
+            },
+            "1219171": {
+                "description": "",
+                "id": 1219171,
+                "local_id": "VM_sala_2002_en",
+                "name": "VM_sala_2002_en"
+            },
+            "1219172": {
+                "description": "",
+                "id": 1219172,
+                "local_id": "VM_sala_2001_en",
+                "name": "VM_sala_2001_en"
+            },
+            "1219173": {
+                "description": "",
+                "id": 1219173,
+                "local_id": "VM_sala_1902_en",
+                "name": "VM_sala_1902_en"
+            },
+            "1219174": {
+                "description": "",
+                "id": 1219174,
+                "local_id": "VM_sala_1901_en",
+                "name": "VM_sala_1901_en"
+            },
+            "1219175": {
+                "description": "",
+                "id": 1219175,
+                "local_id": "VM_sala_1802_en",
+                "name": "VM_sala_1802_en"
+            },
+            "1219176": {
+                "description": "",
+                "id": 1219176,
+                "local_id": "VM_sala_1801_en",
+                "name": "VM_sala_1801_en"
+            },
+            "1219177": {
+                "description": "",
+                "id": 1219177,
+                "local_id": "VM_sala_1702_en",
+                "name": "VM_sala_1702_en"
+            },
+            "1219178": {
+                "description": "",
+                "id": 1219178,
+                "local_id": "VM_sala_1701_en",
+                "name": "VM_sala_1701_en"
+            },
+            "1219179": {
+                "description": "",
+                "id": 1219179,
+                "local_id": "VM_sala_1602_en",
+                "name": "VM_sala_1602_en"
+            },
+            "1219180": {
+                "description": "",
+                "id": 1219180,
+                "local_id": "VM_sala_1601_en",
+                "name": "VM_sala_1601_en"
+            },
+            "1219181": {
+                "description": "",
+                "id": 1219181,
+                "local_id": "VM_sala_1502_en",
+                "name": "VM_sala_1502_en"
+            },
+            "1219182": {
+                "description": "",
+                "id": 1219182,
+                "local_id": "VM_sala_1501_en",
+                "name": "VM_sala_1501_en"
+            },
+            "1219183": {
+                "description": "",
+                "id": 1219183,
+                "local_id": "VM_sala_1402_en",
+                "name": "VM_sala_1402_en"
+            },
+            "1219184": {
+                "description": "",
+                "id": 1219184,
+                "local_id": "VM_sala_1401_en",
+                "name": "VM_sala_1401_en"
+            },
+            "1219185": {
+                "description": "",
+                "id": 1219185,
+                "local_id": "VM_sala_1302_en",
+                "name": "VM_sala_1302_en"
+            },
+            "1219186": {
+                "description": "",
+                "id": 1219186,
+                "local_id": "VM_sala_1301_en",
+                "name": "VM_sala_1301_en"
+            },
+            "1219187": {
+                "description": "",
+                "id": 1219187,
+                "local_id": "VM_sala_1202_en",
+                "name": "VM_sala_1202_en"
+            },
+            "1219188": {
+                "description": "",
+                "id": 1219188,
+                "local_id": "VM_sala_1201_en",
+                "name": "VM_sala_1201_en"
+            },
+            "1219189": {
+                "description": "",
+                "id": 1219189,
+                "local_id": "VM_sala_1102_en",
+                "name": "VM_sala_1102_en"
+            },
+            "1219190": {
+                "description": "",
+                "id": 1219190,
+                "local_id": "VM_sala_1101_en",
+                "name": "VM_sala_1101_en"
+            },
+            "1219191": {
+                "description": "",
+                "id": 1219191,
+                "local_id": "VM_sala_1002_en",
+                "name": "VM_sala_1002_en"
+            },
+            "1219192": {
+                "description": "",
+                "id": 1219192,
+                "local_id": "VM_sala_1001_en",
+                "name": "VM_sala_1001_en"
+            },
+            "1219193": {
+                "description": "",
+                "id": 1219193,
+                "local_id": "VM_sala_902_en",
+                "name": "VM_sala_902_en"
+            },
+            "1219194": {
+                "description": "",
+                "id": 1219194,
+                "local_id": "VM_sala_901_en",
+                "name": "VM_sala_901_en"
+            },
+            "1219195": {
+                "description": "",
+                "id": 1219195,
+                "local_id": "VM_sala_802_en",
+                "name": "VM_sala_802_en"
+            },
+            "1219196": {
+                "description": "",
+                "id": 1219196,
+                "local_id": "VM_sala_801_en",
+                "name": "VM_sala_801_en"
+            },
+            "1219197": {
+                "description": "",
+                "id": 1219197,
+                "local_id": "VM_sala_702_en",
+                "name": "VM_sala_702_en"
+            },
+            "1219198": {
+                "description": "",
+                "id": 1219198,
+                "local_id": "VM_sala_701_en",
+                "name": "VM_sala_701_en"
+            },
+            "1219199": {
+                "description": "",
+                "id": 1219199,
+                "local_id": "VM_sala_602_en",
+                "name": "VM_sala_602_en"
+            },
+            "1219200": {
+                "description": "",
+                "id": 1219200,
+                "local_id": "VM_sala_601_en",
+                "name": "VM_sala_601_en"
+            },
+            "1219201": {
+                "description": "",
+                "id": 1219201,
+                "local_id": "VM_sala_502_en",
+                "name": "VM_sala_502_en"
+            },
+            "1219202": {
+                "description": "",
+                "id": 1219202,
+                "local_id": "VM_sala_501_en",
+                "name": "VM_sala_501_en"
+            },
+            "1219203": {
+                "description": "",
+                "id": 1219203,
+                "local_id": "VM_hid_5A1_Agua",
+                "name": "VM_hid_5A1_Agua"
+            },
+            "1219204": {
+                "description": "",
+                "id": 1219204,
+                "local_id": "VM_hid_5A2_Agua",
+                "name": "VM_hid_5A2_Agua"
+            },
+            "1219205": {
+                "description": "",
+                "id": 1219205,
+                "local_id": "VM_hid_6A1_Agua",
+                "name": "VM_hid_6A1_Agua"
+            },
+            "1219207": {
+                "description": "",
+                "id": 1219207,
+                "local_id": "VM_banheiro_6_Agua",
+                "name": "VM_banheiro_6_Agua"
+            },
+            "1219208": {
+                "description": "",
+                "id": 1219208,
+                "local_id": "VM_hid_6A2_Agua",
+                "name": "VM_hid_6A2_Agua"
+            },
+            "1219209": {
+                "description": "",
+                "id": 1219209,
+                "local_id": "VM_banheiro_7_Agua",
+                "name": "VM_banheiro_7_Agua"
+            },
+            "1219210": {
+                "description": "",
+                "id": 1219210,
+                "local_id": "VM_hid_7A1_Agua",
+                "name": "VM_hid_7A1_Agua"
+            },
+            "1219211": {
+                "description": "",
+                "id": 1219211,
+                "local_id": "VM_hid_7A2_Agua",
+                "name": "VM_hid_7A2_Agua"
+            },
+            "1219212": {
+                "description": "",
+                "id": 1219212,
+                "local_id": "VM_banheiro_8_Agua",
+                "name": "VM_banheiro_8_Agua"
+            },
+            "1219213": {
+                "description": "",
+                "id": 1219213,
+                "local_id": "VM_hid_8A1_Agua",
+                "name": "VM_hid_8A1_Agua"
+            },
+            "1219214": {
+                "description": "",
+                "id": 1219214,
+                "local_id": "VM_hid_8A2_Agua",
+                "name": "VM_hid_8A2_Agua"
+            },
+            "1219215": {
+                "description": "",
+                "id": 1219215,
+                "local_id": "VM_banheiro_9_Agua",
+                "name": "VM_banheiro_9_Agua"
+            },
+            "1219216": {
+                "description": "",
+                "id": 1219216,
+                "local_id": "VM_hid_9A1_Agua",
+                "name": "VM_hid_9A1_Agua"
+            },
+            "1219217": {
+                "description": "",
+                "id": 1219217,
+                "local_id": "VM_hid_9A2_Agua",
+                "name": "VM_hid_9A2_Agua"
+            },
+            "1219218": {
+                "description": "",
+                "id": 1219218,
+                "local_id": "VM_banheiro_10_Agua",
+                "name": "VM_banheiro_10_Agua"
+            },
+            "1219219": {
+                "description": "",
+                "id": 1219219,
+                "local_id": "VM_hid_10A1_Agua",
+                "name": "VM_hid_10A1_Agua"
+            },
+            "1219220": {
+                "description": "",
+                "id": 1219220,
+                "local_id": "VM_hid_10A2_Agua",
+                "name": "VM_hid_10A2_Agua"
+            },
+            "1219221": {
+                "description": "",
+                "id": 1219221,
+                "local_id": "VM_banheiro_11_Agua",
+                "name": "VM_banheiro_11_Agua"
+            },
+            "1219222": {
+                "description": "",
+                "id": 1219222,
+                "local_id": "VM_hid_11A1_Agua",
+                "name": "VM_hid_11A1_Agua"
+            },
+            "1219223": {
+                "description": "",
+                "id": 1219223,
+                "local_id": "VM_hid_11A2_Agua",
+                "name": "VM_hid_11A2_Agua"
+            },
+            "1219224": {
+                "description": "",
+                "id": 1219224,
+                "local_id": "VM_banheiro_12_Agua",
+                "name": "VM_banheiro_12_Agua"
+            },
+            "1219225": {
+                "description": "",
+                "id": 1219225,
+                "local_id": "VM_hid_12A1_Agua",
+                "name": "VM_hid_12A1_Agua"
+            },
+            "1219226": {
+                "description": "",
+                "id": 1219226,
+                "local_id": "VM_hid_12A2_Agua",
+                "name": "VM_hid_12A2_Agua"
+            },
+            "1219227": {
+                "description": "",
+                "id": 1219227,
+                "local_id": "VM_banheiro_13_Agua",
+                "name": "VM_banheiro_13_Agua"
+            },
+            "1219228": {
+                "description": "",
+                "id": 1219228,
+                "local_id": "VM_hid_13A1_Agua",
+                "name": "VM_hid_13A1_Agua"
+            },
+            "1219229": {
+                "description": "",
+                "id": 1219229,
+                "local_id": "VM_hid_13A2_Agua",
+                "name": "VM_hid_13A2_Agua"
+            },
+            "1219230": {
+                "description": "",
+                "id": 1219230,
+                "local_id": "VM_banheiro_14_Agua",
+                "name": "VM_banheiro_14_Agua"
+            },
+            "1219231": {
+                "description": "",
+                "id": 1219231,
+                "local_id": "VM_hid_14A1_Agua",
+                "name": "VM_hid_14A1_Agua"
+            },
+            "1219232": {
+                "description": "",
+                "id": 1219232,
+                "local_id": "VM_hid_14A2_Agua",
+                "name": "VM_hid_14A2_Agua"
+            },
+            "1219233": {
+                "description": "",
+                "id": 1219233,
+                "local_id": "VM_banheiro_15_Agua",
+                "name": "VM_banheiro_15_Agua"
+            },
+            "1219234": {
+                "description": "",
+                "id": 1219234,
+                "local_id": "VM_hid_15A1_Agua",
+                "name": "VM_hid_15A1_Agua"
+            },
+            "1219235": {
+                "description": "",
+                "id": 1219235,
+                "local_id": "VM_hid_15A2_Agua",
+                "name": "VM_hid_15A2_Agua"
+            },
+            "1219236": {
+                "description": "",
+                "id": 1219236,
+                "local_id": "VM_banheiro_16_Agua",
+                "name": "VM_banheiro_16_Agua"
+            },
+            "1219237": {
+                "description": "",
+                "id": 1219237,
+                "local_id": "VM_hid_16A1_Agua",
+                "name": "VM_hid_16A1_Agua"
+            },
+            "1219238": {
+                "description": "",
+                "id": 1219238,
+                "local_id": "VM_hid_16A2_Agua",
+                "name": "VM_hid_16A2_Agua"
+            },
+            "1219239": {
+                "description": "",
+                "id": 1219239,
+                "local_id": "VM_banheiro_17_Agua",
+                "name": "VM_banheiro_17_Agua"
+            },
+            "1219240": {
+                "description": "",
+                "id": 1219240,
+                "local_id": "VM_hid_17A1_Agua",
+                "name": "VM_hid_17A1_Agua"
+            },
+            "1219241": {
+                "description": "",
+                "id": 1219241,
+                "local_id": "VM_hid_17A2_Agua",
+                "name": "VM_hid_17A2_Agua"
+            },
+            "1219242": {
+                "description": "",
+                "id": 1219242,
+                "local_id": "VM_banheiro_18_Agua",
+                "name": "VM_banheiro_18_Agua"
+            },
+            "1219243": {
+                "description": "",
+                "id": 1219243,
+                "local_id": "VM_hid_18A1_Agua",
+                "name": "VM_hid_18A1_Agua"
+            },
+            "1219244": {
+                "description": "",
+                "id": 1219244,
+                "local_id": "VM_hid_18A2_Agua",
+                "name": "VM_hid_18A2_Agua"
+            },
+            "1219245": {
+                "description": "",
+                "id": 1219245,
+                "local_id": "VM_banheiro_19_Agua",
+                "name": "VM_banheiro_19_Agua"
+            },
+            "1219246": {
+                "description": "",
+                "id": 1219246,
+                "local_id": "VM_hid_19A1_Agua",
+                "name": "VM_hid_19A1_Agua"
+            },
+            "1219247": {
+                "description": "",
+                "id": 1219247,
+                "local_id": "VM_hid_19A2_Agua",
+                "name": "VM_hid_19A2_Agua"
+            },
+            "1219248": {
+                "description": "",
+                "id": 1219248,
+                "local_id": "VM_banheiro_20_Agua",
+                "name": "VM_banheiro_20_Agua"
+            },
+            "1219249": {
+                "description": "",
+                "id": 1219249,
+                "local_id": "VM_hid_20A1_Agua",
+                "name": "VM_hid_20A1_Agua"
+            },
+            "1219250": {
+                "description": "",
+                "id": 1219250,
+                "local_id": "VM_hid_20A2_Agua",
+                "name": "VM_hid_20A2_Agua"
+            },
+            "1253758": {
+                "description": "",
+                "id": 1253758,
+                "local_id": "vista_maua_entrada",
+                "name": "vista_maua_entrada"
+            }
+        }
+    },
+    "DCC - Cajamar": {
+        "id": 265704,
+        "meters": {
+            "1223997": {
+                "description": "",
+                "id": 1223997,
+                "local_id": "QDG_G01_B100_1",
+                "name": "QDG_G01_B100_1"
+            },
+            "1223998": {
+                "description": "",
+                "id": 1223998,
+                "local_id": "QDG_G02_B100_1",
+                "name": "QDG_G02_B100_1"
+            },
+            "1224000": {
+                "description": "",
+                "id": 1224000,
+                "local_id": "QGD_G04_B100_1",
+                "name": "QGD_G04_B100_1"
+            },
+            "1224001": {
+                "description": "",
+                "id": 1224001,
+                "local_id": "QGD_G05_B100_1",
+                "name": "QGD_G05_B100_1"
+            },
+            "1224002": {
+                "description": "",
+                "id": 1224002,
+                "local_id": "QGD_G06_B100_1",
+                "name": "QGD_G06_B100_1"
+            },
+            "1224003": {
+                "description": "",
+                "id": 1224003,
+                "local_id": "QGD_G07_B200_1",
+                "name": "QGD_G07_B200_1"
+            },
+            "1224004": {
+                "description": "",
+                "id": 1224004,
+                "local_id": "QGD_G08_B200_1",
+                "name": "QGD_G08_B200_1"
+            },
+            "1224005": {
+                "description": "",
+                "id": 1224005,
+                "local_id": "QGD_G09_B200_1",
+                "name": "QGD_G09_B200_1"
+            },
+            "1224006": {
+                "description": "",
+                "id": 1224006,
+                "local_id": "QGD_G10_B200_1",
+                "name": "QGD_G10_B200_1"
+            },
+            "1224007": {
+                "description": "",
+                "id": 1224007,
+                "local_id": "QGD_G11_B200_1",
+                "name": "QGD_G11_B200_1"
+            },
+            "1224008": {
+                "description": "",
+                "id": 1224008,
+                "local_id": "QGD_G12_B200_1",
+                "name": "QGD_G12_B200_1"
+            },
+            "1224009": {
+                "description": "",
+                "id": 1224009,
+                "local_id": "QGD_G13_B200_1",
+                "name": "QGD_G13_B200_1"
+            },
+            "1224010": {
+                "description": "",
+                "id": 1224010,
+                "local_id": "QGD_G14_B200_1",
+                "name": "QGD_G14_B200_1"
+            },
+            "1224011": {
+                "description": "",
+                "id": 1224011,
+                "local_id": "QGD_G15_B200_1",
+                "name": "QGD_G15_B200_1"
+            },
+            "1224012": {
+                "description": "",
+                "id": 1224012,
+                "local_id": "QGD_G16_B200_1",
+                "name": "QGD_G16_B200_1"
+            },
+            "1224013": {
+                "description": "",
+                "id": 1224013,
+                "local_id": "QGD_G17_B300_1",
+                "name": "QGD_G17_B300_1"
+            },
+            "1224014": {
+                "description": "",
+                "id": 1224014,
+                "local_id": "QGD_G18_B300_1",
+                "name": "QGD_G18_B300_1"
+            },
+            "1224015": {
+                "description": "",
+                "id": 1224015,
+                "local_id": "QGD_G19_B300_1",
+                "name": "QGD_G19_B300_1"
+            },
+            "1224016": {
+                "description": "",
+                "id": 1224016,
+                "local_id": "QGD_G20_B300_1",
+                "name": "QGD_G20_B300_1"
+            },
+            "1224017": {
+                "description": "",
+                "id": 1224017,
+                "local_id": "QGD_G21_B300_1",
+                "name": "QGD_G21_B300_1"
+            },
+            "1224018": {
+                "description": "",
+                "id": 1224018,
+                "local_id": "QGD_G22_B300_1",
+                "name": "QGD_G22_B300_1"
+            },
+            "1224019": {
+                "description": "",
+                "id": 1224019,
+                "local_id": "QGD_NE_ETE",
+                "name": "QGD_NE_ETE"
+            },
+            "1224020": {
+                "description": "",
+                "id": 1224020,
+                "local_id": "QGBT_NE_ADM_1",
+                "name": "QGBT_NE_ADM_1"
+            },
+            "1224033": {
+                "description": "",
+                "id": 1224033,
+                "local_id": "QGD_G03_B100_1",
+                "name": "QGD_G03_B100_1"
+            },
+            "1224293": {
+                "description": "Soma GP04, GP05 e GP06",
+                "id": 1224293,
+                "local_id": "G_96",
+                "name": "[EN-LOC] Maersk"
+            },
+            "1224564": {
+                "description": " Soma dos medidores dos GP-07, GP-08, GP-09, GP-10, GP-11, GP-12, GP-13, GP-14, GP-15, GP-16",
+                "id": 1224564,
+                "local_id": "G_97",
+                "name": "[EN-LOC] Mercado Livre"
+            },
+            "1224567": {
+                "description": " Soma dos Galpões GP17",
+                "id": 1224567,
+                "local_id": "G_99",
+                "name": "[EN-LOC] Piquetur"
+            },
+            "1224568": {
+                "description": " Soma dos Galpões GP-18",
+                "id": 1224568,
+                "local_id": "G_100",
+                "name": "[EN-LOC] Ziehl-Abbeg"
+            },
+            "1224569": {
+                "description": " Soma dos Galpões GP-20, GP-21, GP-22",
+                "id": 1224569,
+                "local_id": "G_101",
+                "name": "[EN-LOC] Luft Logistics"
+            },
+            "1224570": {
+                "description": " Soma dos Galpões Vagos GP-01, GP02, GP03, GP19",
+                "id": 1224570,
+                "local_id": "G_102",
+                "name": "[EN-LOC] Vagos"
+            },
+            "1227362": {
+                "description": "",
+                "id": 1227362,
+                "local_id": "MCI01_G01_B100_1",
+                "name": "MCI01_G01_B100_1"
+            },
+            "1227363": {
+                "description": "",
+                "id": 1227363,
+                "local_id": "MCI01_G02_B100_1",
+                "name": "MCI01_G02_B100_1"
+            },
+            "1227364": {
+                "description": "",
+                "id": 1227364,
+                "local_id": "MCI01_G03_B100_1",
+                "name": "MCI01_G03_B100_1"
+            },
+            "1227365": {
+                "description": "",
+                "id": 1227365,
+                "local_id": "MCI01_G04_B100_1",
+                "name": "MCI01_G04_B100_1"
+            },
+            "1227366": {
+                "description": "",
+                "id": 1227366,
+                "local_id": "MCI01_G05_B100_1",
+                "name": "MCI01_G05_B100_1"
+            },
+            "1227367": {
+                "description": "",
+                "id": 1227367,
+                "local_id": "MCI01_G06_B100_1",
+                "name": "MCI01_G06_B100_1"
+            },
+            "1227368": {
+                "description": "",
+                "id": 1227368,
+                "local_id": "MCI02_G07_B200_1",
+                "name": "MCI02_G07_B200_1"
+            },
+            "1227369": {
+                "description": "",
+                "id": 1227369,
+                "local_id": "MCI02_G08_B200_1",
+                "name": "MCI02_G08_B200_1"
+            },
+            "1227370": {
+                "description": "",
+                "id": 1227370,
+                "local_id": "MCI02_G09_B200_1",
+                "name": "MCI02_G09_B200_1"
+            },
+            "1227371": {
+                "description": "",
+                "id": 1227371,
+                "local_id": "MCI02_G10_B200_1",
+                "name": "MCI02_G10_B200_1"
+            },
+            "1227372": {
+                "description": "",
+                "id": 1227372,
+                "local_id": "MCI02_G11_B200_1",
+                "name": "MCI02_G11_B200_1"
+            },
+            "1227373": {
+                "description": "",
+                "id": 1227373,
+                "local_id": "MCI03_G12_B200_1",
+                "name": "MCI03_G12_B200_1"
+            },
+            "1227377": {
+                "description": "",
+                "id": 1227377,
+                "local_id": "MCI03_G13_B200_1",
+                "name": "MCI03_G13_B200_1"
+            },
+            "1227378": {
+                "description": "",
+                "id": 1227378,
+                "local_id": "MCI03_G14_B200_1",
+                "name": "MCI03_G14_B200_1"
+            },
+            "1227379": {
+                "description": "",
+                "id": 1227379,
+                "local_id": "MCI03_G15_B200_1",
+                "name": "MCI03_G15_B200_1"
+            },
+            "1227380": {
+                "description": "",
+                "id": 1227380,
+                "local_id": "MCI03_G16_B200_1",
+                "name": "MCI03_G16_B200_1"
+            },
+            "1227381": {
+                "description": "",
+                "id": 1227381,
+                "local_id": "MCI04_G17_B300_1",
+                "name": "MCI04_G17_B300_1"
+            },
+            "1227382": {
+                "description": "",
+                "id": 1227382,
+                "local_id": "MCI04_G18_B300_1",
+                "name": "MCI04_G18_B300_1"
+            },
+            "1227383": {
+                "description": "",
+                "id": 1227383,
+                "local_id": "MCI04_G19_B300_1",
+                "name": "MCI04_G19_B300_1"
+            },
+            "1227384": {
+                "description": "",
+                "id": 1227384,
+                "local_id": "MCI04_G20_B300_1",
+                "name": "MCI04_G20_B300_1"
+            },
+            "1227385": {
+                "description": "",
+                "id": 1227385,
+                "local_id": "MCI04_G21_B300_1",
+                "name": "MCI04_G21_B300_1"
+            },
+            "1227386": {
+                "description": "",
+                "id": 1227386,
+                "local_id": "MCI04_G22_B300_1",
+                "name": "MCI04_G22_B300_1"
+            },
+            "1227393": {
+                "description": " Soma dos Galpões GP-20, GP-21, GP-22",
+                "id": 1227393,
+                "local_id": "G_126",
+                "name": "[AG-LOC] Luft Logistics"
+            },
+            "1227394": {
+                "description": " Soma GP04, GP05 e GP06",
+                "id": 1227394,
+                "local_id": "G_127",
+                "name": "[AG-LOC] Maersk"
+            },
+            "1227395": {
+                "description": " Soma dos medidores dos GP-07, GP-08, GP-09, GP-10, GP-11, GP-12, GP-13, GP-14, GP-15, GP-16",
+                "id": 1227395,
+                "local_id": "G_128",
+                "name": "[AG-LOC] Mercado Livre"
+            },
+            "1227396": {
+                "description": " Soma dos Galpões GP17",
+                "id": 1227396,
+                "local_id": "G_129",
+                "name": "[AG-LOC] Piquetur"
+            },
+            "1227397": {
+                "description": " Soma dos Galpões GP-18",
+                "id": 1227397,
+                "local_id": "G_130",
+                "name": "[AG-LOC] Ziehl-Abbeg"
+            },
+            "1227398": {
+                "description": " Soma dos Galpões Vagos GP-01, GP02, GP03, GP19",
+                "id": 1227398,
+                "local_id": "G_131",
+                "name": "[AG-LOC] Vagos"
+            },
+            "1231244": {
+                "description": " ",
+                "id": 1231244,
+                "local_id": "QS-A-4P01-M_43F6CD_AGL15_VCA_SF",
+                "name": "QS-A-4P01-M_43F6CD_AGL15_VCA_SF"
+            },
+            "1234977": {
+                "description": " ",
+                "id": 1234977,
+                "local_id": "SF_43F6CD_AGL15_DCC_SF",
+                "name": "DCC - ETA"
+            },
+            "1234978": {
+                "description": " ",
+                "id": 1234978,
+                "local_id": "SF_4502E5_AGL15_DCC_SF",
+                "name": "DCC - Restaurante"
+            }
+        }
+    },
+    "Rio de Janeiro": {
+        "id": 239073,
+        "meters": {
+            "1104865": {
+                "description": "meteo",
+                "id": 1104865,
+                "local_id": "meteo",
+                "name": "Dados Climáticos - Rio de Janeiro"
+            },
+            "1112149": {
+                "description": " ",
+                "id": 1112149,
+                "local_id": "DD-219916",
+                "name": "GHR Rio de Janeiro"
+            }
+        }
+    },
+    "São Paulo": {
+        "id": 239072,
+        "meters": {
+            "1126402": {
+                "description": "meteo",
+                "id": 1126402,
+                "local_id": "meteo",
+                "name": "Dados Climáticos - São Paulo"
+            },
+            "1126726": {
+                "description": " ",
+                "id": 1126726,
+                "local_id": "DD-219844",
+                "name": "GHR São Paulo"
+            }
+        }
+    },
+    "Vista Carioca 1111": {
+        "id": 264483,
+        "meters": {
+            "1206287": {
+                "description": " ",
+                "id": 1206287,
+                "local_id": "QS-A-4P01-M_3000419_EN15_VCA_OE",
+                "name": "1111_04º Pav_L2"
+            },
+            "1209724": {
+                "description": " ",
+                "id": 1209724,
+                "local_id": "QS-A-4P01-M_3000377_EN15_VCA_OE",
+                "name": "1111_03º Pav_L1"
+            },
+            "1209725": {
+                "description": " ",
+                "id": 1209725,
+                "local_id": "QS-A-4P01-M_3000391_EN15_VCA_OE",
+                "name": "1111_03º Pav_L2"
+            },
+            "1209726": {
+                "description": " ",
+                "id": 1209726,
+                "local_id": "QS-A-4P01-M_3000405_EN15_VCA_OE",
+                "name": "1111_04º Pav_L1"
+            },
+            "1209727": {
+                "description": " ",
+                "id": 1209727,
+                "local_id": "QS-A-4P01-M_3000433_EN15_VCA_OE",
+                "name": "1111_05º Pav_L1"
+            },
+            "1209728": {
+                "description": " ",
+                "id": 1209728,
+                "local_id": "QS-A-4P01-M_3000447_EN15_VCA_OE",
+                "name": "1111_05º Pav_L2"
+            },
+            "1209729": {
+                "description": " ",
+                "id": 1209729,
+                "local_id": "QS-A-11P01-M_3001262_EN15_VCA_OE",
+                "name": "1111_06º Pav_L1"
+            },
+            "1209730": {
+                "description": " ",
+                "id": 1209730,
+                "local_id": "QS-A-11P01-M_3001276_EN15_VCA_OE",
+                "name": "1111_06º Pav_L2"
+            },
+            "1209731": {
+                "description": " ",
+                "id": 1209731,
+                "local_id": "QS-A-11P01-M_3001290_EN15_VCA_OE",
+                "name": "1111_07º Pav_L1"
+            },
+            "1209732": {
+                "description": " ",
+                "id": 1209732,
+                "local_id": "QS-A-11P01-M_3001304_EN15_VCA_OE",
+                "name": "1111_07º Pav_L2"
+            },
+            "1209733": {
+                "description": " ",
+                "id": 1209733,
+                "local_id": "QS-A-11P01-M_3001318_EN15_VCA_OE",
+                "name": "1111_08º Pav_L1"
+            },
+            "1209734": {
+                "description": " ",
+                "id": 1209734,
+                "local_id": "QS-A-11P01-M_3001332_EN15_VCA_OE",
+                "name": "1111_08º Pav_L2"
+            },
+            "1209735": {
+                "description": " ",
+                "id": 1209735,
+                "local_id": "QS-A-11P01-M_3001346_EN15_VCA_OE",
+                "name": "1111_09º Pav_L1"
+            },
+            "1209736": {
+                "description": " ",
+                "id": 1209736,
+                "local_id": "QS-A-11P01-M_3001360_EN15_VCA_OE",
+                "name": "1111_09º Pav_L2"
+            },
+            "1209737": {
+                "description": " ",
+                "id": 1209737,
+                "local_id": "QS-A-11P01-M_3001374_EN15_VCA_OE",
+                "name": "1111_10º Pav_L1"
+            },
+            "1209738": {
+                "description": " ",
+                "id": 1209738,
+                "local_id": "QS-A-11P01-M_3001388_EN15_VCA_OE",
+                "name": "1111_10º Pav_L2"
+            },
+            "1209739": {
+                "description": " ",
+                "id": 1209739,
+                "local_id": "QS-A-11P01-M_3001402_EN15_VCA_OE",
+                "name": "1111_11º Pav_L1"
+            },
+            "1209740": {
+                "description": " ",
+                "id": 1209740,
+                "local_id": "QS-A-11P01-M_3001416_EN15_VCA_OE",
+                "name": "1111_11º Pav_L2"
+            },
+            "1209741": {
+                "description": " ",
+                "id": 1209741,
+                "local_id": "QS-A-11P01-M_3001430_EN15_VCA_OE",
+                "name": "1111_12º Pav_L1"
+            },
+            "1209742": {
+                "description": " ",
+                "id": 1209742,
+                "local_id": "QS-A-11P01-M_3001444_EN15_VCA_OE",
+                "name": "1111_12º Pav_L2"
+            },
+            "1209743": {
+                "description": " ",
+                "id": 1209743,
+                "local_id": "QS-A-11P01-M_3001458_EN15_VCA_OE",
+                "name": "1111_13º Pav_L1"
+            },
+            "1209744": {
+                "description": " ",
+                "id": 1209744,
+                "local_id": "QS-A-11P01-M_3001472_EN15_VCA_OE",
+                "name": "1111_13º Pav_L2"
+            },
+            "1209745": {
+                "description": " ",
+                "id": 1209745,
+                "local_id": "QS-A-11P01-M_3001486_EN15_VCA_OE",
+                "name": "1111_14º Pav_L1"
+            },
+            "1209746": {
+                "description": " ",
+                "id": 1209746,
+                "local_id": "QS-A-11P01-M_3001500_EN15_VCA_OE",
+                "name": "1111_14º Pav_L2"
+            },
+            "1209747": {
+                "description": " ",
+                "id": 1209747,
+                "local_id": "QS-A-11P01-M_3001514_EN15_VCA_OE",
+                "name": "1111_15º Pav_L1"
+            },
+            "1209748": {
+                "description": " ",
+                "id": 1209748,
+                "local_id": "QS-A-11P01-M_3001528_EN15_VCA_OE",
+                "name": "1111_15º Pav_L2"
+            },
+            "1209749": {
+                "description": " ",
+                "id": 1209749,
+                "local_id": "QS-A-11P01-M_3001542_EN15_VCA_OE",
+                "name": "1111_16º Pav_L1"
+            },
+            "1209750": {
+                "description": " ",
+                "id": 1209750,
+                "local_id": "QS-A-11P01-M_3001556_EN15_VCA_OE",
+                "name": "1111_16º Pav_L2"
+            },
+            "1209751": {
+                "description": " ",
+                "id": 1209751,
+                "local_id": "QS-A-11P01-M_3001655_EN15_VCA_OE",
+                "name": "1111_EN_CAG"
+            },
+            "1225537": {
+                "description": " ",
+                "id": 1225537,
+                "local_id": "QS-A-11P01-H_3000067_AGL15_VCA_OE",
+                "name": "1111_16º Pav_L2_Hid34"
+            },
+            "1225538": {
+                "description": " ",
+                "id": 1225538,
+                "local_id": "QS-A-11P01-H_3000059_AGL15_VCA_OE",
+                "name": "1111_16º Pav_L1_Hid33"
+            },
+            "1225539": {
+                "description": " ",
+                "id": 1225539,
+                "local_id": "QS-A-11P01-H_3000057_AGL15_VCA_OE",
+                "name": "1111_15º Pav_L2_Hid32"
+            },
+            "1225540": {
+                "description": " ",
+                "id": 1225540,
+                "local_id": "QS-A-11P01-H_3000055_AGL15_VCA_OE",
+                "name": "1111_15º Pav_L1_Hid31"
+            },
+            "1225541": {
+                "description": " ",
+                "id": 1225541,
+                "local_id": "QS-A-11P01-H_3000056_AGL15_VCA_OE",
+                "name": "1111_14º Pav_L2_Hid30"
+            },
+            "1225542": {
+                "description": " ",
+                "id": 1225542,
+                "local_id": "QS-A-11P01-H_3000065_AGL15_VCA_OE",
+                "name": "1111_14º Pav_L1_Hid29"
+            },
+            "1225543": {
+                "description": " ",
+                "id": 1225543,
+                "local_id": "QS-A-11P01-H_3000060_AGL15_VCA_OE",
+                "name": "1111_13º Pav_L2_Hid28"
+            },
+            "1225544": {
+                "description": " ",
+                "id": 1225544,
+                "local_id": "QS-A-11P01-H_3000064_AGL15_VCA_OE",
+                "name": "1111_13º Pav_L1_Hid27"
+            },
+            "1225545": {
+                "description": " ",
+                "id": 1225545,
+                "local_id": "QS-A-11P01-H_3000066_AGL15_VCA_OE",
+                "name": "1111_12º Pav_L2_Hid26"
+            },
+            "1225546": {
+                "description": " ",
+                "id": 1225546,
+                "local_id": "QS-A-11P01-H_3000062_AGL15_VCA_OE",
+                "name": "1111_12º Pav_L1_Hid25"
+            },
+            "1225547": {
+                "description": " ",
+                "id": 1225547,
+                "local_id": "QS-A-11P01-H_3000054_AGL15_VCA_OE",
+                "name": "1111_11º Pav_L2_Hid24"
+            },
+            "1225548": {
+                "description": " ",
+                "id": 1225548,
+                "local_id": "QS-A-11P01-H_3000063_AGL15_VCA_OE",
+                "name": "1111_11º Pav_L1_Hid23"
+            },
+            "1225549": {
+                "description": " ",
+                "id": 1225549,
+                "local_id": "QS-A-11P01-H_3000061_AGL15_VCA_OE",
+                "name": "1111_10º Pav_L2_Hid22"
+            },
+            "1225550": {
+                "description": " ",
+                "id": 1225550,
+                "local_id": "QS-A-11P01-H_3000058_AGL15_VCA_OE",
+                "name": "1111_10º Pav_L1_Hid21"
+            },
+            "1225551": {
+                "description": " ",
+                "id": 1225551,
+                "local_id": "QS-A-4P01-H_3000054_AGL15_VCA_OE",
+                "name": "1111_09º Pav_L2_Hid20"
+            },
+            "1225552": {
+                "description": " ",
+                "id": 1225552,
+                "local_id": "QS-A-4P01-H_3000046_AGL15_VCA_OE",
+                "name": "1111_09º Pav_L1_Hid19"
+            },
+            "1225553": {
+                "description": " ",
+                "id": 1225553,
+                "local_id": "QS-A-4P01-H_3000044_AGL15_VCA_OE",
+                "name": "1111_08º Pav_L2_Hid18"
+            },
+            "1225554": {
+                "description": " ",
+                "id": 1225554,
+                "local_id": "QS-A-4P01-H_3000042_AGL15_VCA_OE",
+                "name": "1111_08º Pav_L1_Hid17"
+            },
+            "1225555": {
+                "description": " ",
+                "id": 1225555,
+                "local_id": "QS-A-4P01-H_3000043_AGL15_VCA_OE",
+                "name": "1111_07º Pav_L2_Hid16"
+            },
+            "1225556": {
+                "description": " ",
+                "id": 1225556,
+                "local_id": "QS-A-4P01-H_3000052_AGL15_VCA_OE",
+                "name": "1111_07º Pav_L1_Hid15"
+            },
+            "1225557": {
+                "description": " ",
+                "id": 1225557,
+                "local_id": "QS-A-4P01-H_3000047_AGL15_VCA_OE",
+                "name": "1111_06º Pav_L2_Hid14"
+            },
+            "1225558": {
+                "description": " ",
+                "id": 1225558,
+                "local_id": "QS-A-4P01-H_3000051_AGL15_VCA_OE",
+                "name": "1111_06º Pav_L1_Hid13"
+            },
+            "1225559": {
+                "description": " ",
+                "id": 1225559,
+                "local_id": "QS-A-4P01-H_3000053_AGL15_VCA_OE",
+                "name": "1111_05º Pav_L2_Hid12"
+            },
+            "1225560": {
+                "description": " ",
+                "id": 1225560,
+                "local_id": "QS-A-4P01-H_3000049_AGL15_VCA_OE",
+                "name": "1111_05º Pav_L1_Hid11"
+            },
+            "1225561": {
+                "description": " ",
+                "id": 1225561,
+                "local_id": "QS-A-4P01-H_3000041_AGL15_VCA_OE",
+                "name": "1111_04º Pav_L2_Hid10"
+            },
+            "1225562": {
+                "description": " ",
+                "id": 1225562,
+                "local_id": "QS-A-4P01-H_3000050_AGL15_VCA_OE",
+                "name": "1111_04º Pav_L1_Hid09"
+            },
+            "1225563": {
+                "description": " ",
+                "id": 1225563,
+                "local_id": "QS-A-4P01-H_3000048_AGL15_VCA_OE",
+                "name": "1111_03º Pav_L2_Hid08"
+            },
+            "1225564": {
+                "description": " ",
+                "id": 1225564,
+                "local_id": "QS-A-4P01-H_3000045_AGL15_VCA_OE",
+                "name": "1111_03º Pav_L1_Hid07"
+            },
+            "1227281": {
+                "description": " Soma dos medidores do 1º ao 9º andar\r\n",
+                "id": 1227281,
+                "local_id": "G_124",
+                "name": "[EN-LOC] Estácio"
+            },
+            "1227282": {
+                "description": " Soma dos medidores",
+                "id": 1227282,
+                "local_id": "G_125",
+                "name": "[EN] PRIVATIVAS - VAGOS"
+            },
+            "1234899": {
+                "description": "",
+                "id": 1234899,
+                "local_id": "DD-264483",
+                "name": "DD Vista Carioca 1111"
+            }
+        }
+    },
+    "Vista Carioca 1121": {
+        "id": 264484,
+        "meters": {
+            "1209752": {
+                "description": " ",
+                "id": 1209752,
+                "local_id": "QS-B-4P01-M_3000383_EN15_VCA_OE",
+                "name": "1121_03º Pav_L1"
+            },
+            "1209753": {
+                "description": " ",
+                "id": 1209753,
+                "local_id": "QS-B-4P01-M_3000397_EN15_VCA_OE",
+                "name": "1121_03º Pav_L2"
+            },
+            "1209754": {
+                "description": " ",
+                "id": 1209754,
+                "local_id": "QS-B-4P01-M_3000411_EN15_VCA_OE",
+                "name": "1121_04º Pav_L1"
+            },
+            "1209755": {
+                "description": " ",
+                "id": 1209755,
+                "local_id": "QS-B-4P01-M_3000425_EN15_VCA_OE",
+                "name": "1121_04º Pav_L2"
+            },
+            "1209756": {
+                "description": " ",
+                "id": 1209756,
+                "local_id": "QS-B-4P01-M_3000439_EN15_VCA_OE",
+                "name": "1121_05º Pav_L1"
+            },
+            "1209757": {
+                "description": " ",
+                "id": 1209757,
+                "local_id": "QS-B-4P01-M_3000453_EN15_VCA_OE",
+                "name": "1121_05º Pav_L2"
+            },
+            "1209758": {
+                "description": " ",
+                "id": 1209758,
+                "local_id": "QS-B-11P01-M_3000548_EN15_VCA_OE",
+                "name": "1121_06º Pav_L1"
+            },
+            "1209759": {
+                "description": " ",
+                "id": 1209759,
+                "local_id": "QS-B-11P01-M_3000562_EN15_VCA_OE",
+                "name": "1121_06º Pav_L2"
+            },
+            "1209771": {
+                "description": " ",
+                "id": 1209771,
+                "local_id": "QS-B-11P01-M_3000576_EN15_VCA_OE",
+                "name": "1121_07º Pav_L1"
+            },
+            "1209772": {
+                "description": " ",
+                "id": 1209772,
+                "local_id": "QS-B-11P01-M_3000590_EN15_VCA_OE",
+                "name": "1121_07º Pav_L2"
+            },
+            "1209773": {
+                "description": " ",
+                "id": 1209773,
+                "local_id": "QS-B-11P01-M_3000604_EN15_VCA_OE",
+                "name": "1121_08º Pav_L1"
+            },
+            "1209774": {
+                "description": " ",
+                "id": 1209774,
+                "local_id": "QS-B-11P01-M_3000618_EN15_VCA_OE",
+                "name": "1121_08º Pav_L2"
+            },
+            "1209775": {
+                "description": " ",
+                "id": 1209775,
+                "local_id": "QS-B-11P01-M_3000632_EN15_VCA_OE",
+                "name": "1121_09º Pav_L1"
+            },
+            "1209776": {
+                "description": " ",
+                "id": 1209776,
+                "local_id": "QS-B-11P01-M_3000646_EN15_VCA_OE",
+                "name": "1121_09º Pav_L2"
+            },
+            "1209777": {
+                "description": " ",
+                "id": 1209777,
+                "local_id": "QS-B-11P01-M_3000660_EN15_VCA_OE",
+                "name": "1121_10º Pav_L1"
+            },
+            "1209778": {
+                "description": " ",
+                "id": 1209778,
+                "local_id": "QS-B-11P01-M_3000674_EN15_VCA_OE",
+                "name": "1121_10º Pav_L2"
+            },
+            "1209779": {
+                "description": " ",
+                "id": 1209779,
+                "local_id": "QS-B-11P01-M_3000688_EN15_VCA_OE",
+                "name": "1121_11º Pav_L1"
+            },
+            "1209780": {
+                "description": " ",
+                "id": 1209780,
+                "local_id": "QS-B-11P01-M_3000702_EN15_VCA_OE",
+                "name": "1121_11º Pav_L2"
+            },
+            "1209781": {
+                "description": " ",
+                "id": 1209781,
+                "local_id": "QS-B-11P01-M_3000716_EN15_VCA_OE",
+                "name": "1121_12º Pav_L1"
+            },
+            "1209782": {
+                "description": " ",
+                "id": 1209782,
+                "local_id": "QS-B-11P01-M_3000730_EN15_VCA_OE",
+                "name": "1121_12º Pav_L2"
+            },
+            "1209783": {
+                "description": " ",
+                "id": 1209783,
+                "local_id": "QS-B-11P01-M_3000744_EN15_VCA_OE",
+                "name": "1121_13º Pav_L1"
+            },
+            "1209784": {
+                "description": " ",
+                "id": 1209784,
+                "local_id": "QS-B-11P01-M_3000758_EN15_VCA_OE",
+                "name": "1121_13º Pav_L2"
+            },
+            "1209785": {
+                "description": " ",
+                "id": 1209785,
+                "local_id": "QS-B-11P01-M_3000772_EN15_VCA_OE",
+                "name": "1121_14º Pav_L1"
+            },
+            "1209786": {
+                "description": " ",
+                "id": 1209786,
+                "local_id": "QS-B-11P01-M_3000786_EN15_VCA_OE",
+                "name": "1121_14º Pav_L2"
+            },
+            "1209787": {
+                "description": " ",
+                "id": 1209787,
+                "local_id": "QS-B-11P01-M_3000800_EN15_VCA_OE",
+                "name": "1121_15º Pav_L1"
+            },
+            "1209788": {
+                "description": " ",
+                "id": 1209788,
+                "local_id": "QS-B-11P01-M_3000814_EN15_VCA_OE",
+                "name": "1121_15º Pav_L2"
+            },
+            "1209789": {
+                "description": " ",
+                "id": 1209789,
+                "local_id": "QS-B-11P01-M_3000828_EN15_VCA_OE",
+                "name": "1121_16º Pav_L1"
+            },
+            "1209790": {
+                "description": " ",
+                "id": 1209790,
+                "local_id": "QS-B-11P01-M_3000842_EN15_VCA_OE",
+                "name": "1121_16º Pav_L2"
+            },
+            "1209791": {
+                "description": " ",
+                "id": 1209791,
+                "local_id": "QS-B-11P01-M_3000880_EN15_VCA_OE",
+                "name": "1121_EN_CAG"
+            },
+            "1225509": {
+                "description": " ",
+                "id": 1225509,
+                "local_id": "QS-B-11P01-H_3000060_AGL15_VCA_OE",
+                "name": "1121_16º Pav_L2_Hid68"
+            },
+            "1225510": {
+                "description": " ",
+                "id": 1225510,
+                "local_id": "QS-B-11P01-H_3000052_AGL15_VCA_OE",
+                "name": "1121_16º Pav_L1_Hid67"
+            },
+            "1225511": {
+                "description": " ",
+                "id": 1225511,
+                "local_id": "QS-B-11P01-H_3000050_AGL15_VCA_OE",
+                "name": "1121_15º Pav_L2_Hid66"
+            },
+            "1225512": {
+                "description": " ",
+                "id": 1225512,
+                "local_id": "QS-B-11P01-H_3000048_AGL15_VCA_OE",
+                "name": "1121_15º Pav_L1_Hid65"
+            },
+            "1225513": {
+                "description": " ",
+                "id": 1225513,
+                "local_id": "QS-B-11P01-H_3000049_AGL15_VCA_OE",
+                "name": "1121_14º Pav_L2_Hid64"
+            },
+            "1225514": {
+                "description": " ",
+                "id": 1225514,
+                "local_id": "QS-B-11P01-H_3000058_AGL15_VCA_OE",
+                "name": "1121_14º Pav_L1_Hid63"
+            },
+            "1225515": {
+                "description": " ",
+                "id": 1225515,
+                "local_id": "QS-B-11P01-H_3000053_AGL15_VCA_OE",
+                "name": "1121_13º Pav_L2_Hid62"
+            },
+            "1225516": {
+                "description": " ",
+                "id": 1225516,
+                "local_id": "QS-B-11P01-H_3000057_AGL15_VCA_OE",
+                "name": "1121_13º Pav_L1_Hid61"
+            },
+            "1225517": {
+                "description": " ",
+                "id": 1225517,
+                "local_id": "QS-B-11P01-H_3000059_AGL15_VCA_OE",
+                "name": "1121_12º Pav_L2_Hid60"
+            },
+            "1225518": {
+                "description": " ",
+                "id": 1225518,
+                "local_id": "QS-B-11P01-H_3000055_AGL15_VCA_OE",
+                "name": "1121_12º Pav_L1_Hid59"
+            },
+            "1225519": {
+                "description": " ",
+                "id": 1225519,
+                "local_id": "QS-B-11P01-H_3000047_AGL15_VCA_OE",
+                "name": "1121_11º Pav_L2_Hid58"
+            },
+            "1225520": {
+                "description": " ",
+                "id": 1225520,
+                "local_id": "QS-B-11P01-H_3000056_AGL15_VCA_OE",
+                "name": "1121_11º Pav_L1_Hid57"
+            },
+            "1225521": {
+                "description": " ",
+                "id": 1225521,
+                "local_id": "QS-B-11P01-H_3000054_AGL15_VCA_OE",
+                "name": "1121_10º Pav_L2_Hid56"
+            },
+            "1225522": {
+                "description": " ",
+                "id": 1225522,
+                "local_id": "QS-B-11P01-H_3000051_AGL15_VCA_OE",
+                "name": "1121_10º Pav_L1_Hid55"
+            },
+            "1225523": {
+                "description": " ",
+                "id": 1225523,
+                "local_id": "QS-B-4P01-H_3000053_AGL15_VCA_OE",
+                "name": "1121_09º Pav_L1_Hid54"
+            },
+            "1225524": {
+                "description": " ",
+                "id": 1225524,
+                "local_id": "QS-B-4P01-H_3000045_AGL15_VCA_OE",
+                "name": "1121_09º Pav_L1_Hid53"
+            },
+            "1225525": {
+                "description": " ",
+                "id": 1225525,
+                "local_id": "QS-B-4P01-H_3000043_AGL15_VCA_OE",
+                "name": "1121_08º Pav_L1_Hid52"
+            },
+            "1225526": {
+                "description": " ",
+                "id": 1225526,
+                "local_id": "QS-B-4P01-H_3000041_AGL15_VCA_OE",
+                "name": "1121_08º Pav_L1_Hid51"
+            },
+            "1225527": {
+                "description": " ",
+                "id": 1225527,
+                "local_id": "QS-B-4P01-H_3000042_AGL15_VCA_OE",
+                "name": "1121_07º Pav_L1_Hid50"
+            },
+            "1225528": {
+                "description": " ",
+                "id": 1225528,
+                "local_id": "QS-B-4P01-H_3000051_AGL15_VCA_OE",
+                "name": "1121_07º Pav_L1_Hid49"
+            },
+            "1225529": {
+                "description": " ",
+                "id": 1225529,
+                "local_id": "QS-B-4P01-H_3000046_AGL15_VCA_OE",
+                "name": "1121_06º Pav_L1_Hid48"
+            },
+            "1225530": {
+                "description": " ",
+                "id": 1225530,
+                "local_id": "QS-B-4P01-H_3000050_AGL15_VCA_OE",
+                "name": "1121_06º Pav_L1_Hid47"
+            },
+            "1225531": {
+                "description": " ",
+                "id": 1225531,
+                "local_id": "QS-B-4P01-H_3000052_AGL15_VCA_OE",
+                "name": "1121_05º Pav_L1_Hid46"
+            },
+            "1225532": {
+                "description": " ",
+                "id": 1225532,
+                "local_id": "QS-B-4P01-H_3000048_AGL15_VCA_OE",
+                "name": "1121_05º Pav_L1_Hid45"
+            },
+            "1225533": {
+                "description": " ",
+                "id": 1225533,
+                "local_id": "QS-B-4P01-H_3000040_AGL15_VCA_OE",
+                "name": "1121_04º Pav_L1_Hid44"
+            },
+            "1225534": {
+                "description": " ",
+                "id": 1225534,
+                "local_id": "QS-B-4P01-H_3000049_AGL15_VCA_OE",
+                "name": "1121_04º Pav_L1_Hid43"
+            },
+            "1225535": {
+                "description": " ",
+                "id": 1225535,
+                "local_id": "QS-B-4P01-H_3000047_AGL15_VCA_OE",
+                "name": "1121_03º Pav_L1_Hid42"
+            },
+            "1225536": {
+                "description": " ",
+                "id": 1225536,
+                "local_id": "QS-B-4P01-H_3000044_AGL15_VCA_OE",
+                "name": "1121_03º Pav_L1_Hid41"
+            }
+        }
+    }
+}

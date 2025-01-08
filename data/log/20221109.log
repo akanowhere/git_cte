@@ -1,0 +1,489 @@
+[2022-11-09 00:00:03.216713] [INFO] Uploading QS-B-4P01-H_3000046_AGL15_VCA_OE.tmp
+[2022-11-09 00:00:17.770400] [INFO] Uploading QS-B-4P01-H_3000047_AGL15_VCA_OE.tmp
+[2022-11-09 00:01:36.502406] [INFO] Uploading QS-B-4P01-H_3000048_AGL15_VCA_OE.tmp
+[2022-11-09 00:04:17.622171] [INFO] Uploading QS-B-4P01-H_3000049_AGL15_VCA_OE.tmp
+[2022-11-09 00:04:18.709145] [ERROR] Uploading data from QS-B-4P01-H_3000045_AGL15_VCA_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADF9D5188>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADF9D5188>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADF9D5188>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-09 00:04:18.709145] [INFO] Uploading QS-B-4P01-H_3000050_AGL15_VCA_OE.tmp
+[2022-11-09 00:05:46.636009] [INFO] Uploading QS-B-4P01-H_3000051_AGL15_VCA_OE.tmp
+[2022-11-09 00:05:54.015899] [INFO] Uploading QS-B-4P01-H_3000052_AGL15_VCA_OE.tmp
+[2022-11-09 00:05:55.767053] [INFO] Uploading QS-B-4P01-H_3000053_AGL15_VCA_OE.tmp
+[2022-11-09 00:08:48.715929] [INFO] Uploading QS-B-4P01-M_3000383_EN15_VCA_OE.tmp
+[2022-11-09 00:08:51.527019] [INFO] Uploading QS-B-4P01-M_3000397_EN15_VCA_OE.tmp
+[2022-11-09 00:13:00.730100] [INFO] Uploading QS-B-4P01-M_3000411_EN15_VCA_OE.tmp
+[2022-11-09 00:13:15.982786] [INFO] Uploading QS-B-4P01-M_3000425_EN15_VCA_OE.tmp
+[2022-11-09 00:14:25.079234] [ERROR] Uploading data from QS-B-4P01-H_3000051_AGL15_VCA_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE8847C8>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE8847C8>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE8847C8>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-09 00:14:25.081233] [INFO] Uploading QS-B-4P01-M_3000439_EN15_VCA_OE.tmp
+[2022-11-09 00:14:33.402558] [ERROR] Uploading data from QS-B-4P01-M_3000383_EN15_VCA_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE87F508>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE87F508>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE87F508>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-09 00:14:33.402558] [INFO] Uploading QS-B-4P01-M_3000453_EN15_VCA_OE.tmp
+[2022-11-09 00:27:31.070275] [INFO] Upload finished...
+[2022-11-09 00:27:31.070275] [INFO] Waiting 10 minutes
+[2022-11-09 00:37:31.072295] [INFO] Start!
+[2022-11-09 00:47:38.522006] [INFO] Preparing to upload
+[2022-11-09 00:47:38.522006] [INFO] Uploading NAE1-H_1419_AGL15_INF_OE.tmp
+[2022-11-09 00:47:38.522006] [INFO] Uploading NAE1-H_1422_AGL15_INF_OE.tmp
+[2022-11-09 00:47:38.537634] [INFO] Uploading NAE1-H_1425_AGL15_INF_OE.tmp
+[2022-11-09 00:47:38.537634] [INFO] Uploading NAE1-H_1431_AGL15_INF_OE.tmp
+[2022-11-09 00:47:38.537634] [INFO] Uploading NAE1-H_1428_AGL15_INF_OE.tmp
+[2022-11-09 00:47:38.537634] [INFO] Uploading NAE1-H_1449_AGL15_INF_OE.tmp
+[2022-11-09 00:47:38.537634] [INFO] Uploading NAE1-H_1455_AGL15_INF_OE.tmp
+[2022-11-09 00:47:38.537634] [INFO] Uploading NAE1-H_1434_AGL15_INF_OE.tmp
+[2022-11-09 00:47:38.537634] [INFO] Uploading NAE1-H_1458_AGL15_INF_OE.tmp
+[2022-11-09 00:47:38.537634] [INFO] Uploading NAE1-H_1452_AGL15_INF_OE.tmp
+[2022-11-09 00:51:08.014408] [ERROR] Uploading data from NAE1-H_1428_AGL15_INF_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE7BCF08>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE7BCF08>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE7BCF08>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-09 00:51:08.014408] [INFO] Uploading NAE1-H_1461_AGL15_INF_OE.tmp
+[2022-11-09 15:37:41.328685] [INFO] Start!
+[2022-11-09 15:37:47.806025] [ERROR] Invalid meter NAE2-M_3001962_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 284, in omnieletronica_query
+    tmp = req.get(url).json()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 723, in send
+    history = [resp for resp in gen]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 723, in <listcomp>
+    history = [resp for resp in gen]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 274, in resolve_redirects
+    **adapter_kwargs,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\Programas\Anaconda\Anaconda3\lib\http\client.py", line 1373, in getresponse
+    response.begin()
+  File "D:\Programas\Anaconda\Anaconda3\lib\http\client.py", line 319, in begin
+    version, status, reason = self._read_status()
+  File "D:\Programas\Anaconda\Anaconda3\lib\http\client.py", line 280, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\Programas\Anaconda\Anaconda3\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "D:\Programas\Anaconda\Anaconda3\lib\ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "D:\Programas\Anaconda\Anaconda3\lib\ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
+
+[2022-11-09 15:39:00.192570] [INFO] Start!
+[2022-11-09 15:39:06.158613] [ERROR] Invalid meter NAE2-M_3001962_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 284, in omnieletronica_query
+    tmp = req.get(url).json()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 723, in send
+    history = [resp for resp in gen]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 723, in <listcomp>
+    history = [resp for resp in gen]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 274, in resolve_redirects
+    **adapter_kwargs,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 745, in send
+    r.content
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\models.py", line 899, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\models.py", line 816, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\response.py", line 575, in stream
+    for line in self.read_chunked(amt, decode_content=decode_content):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\response.py", line 770, in read_chunked
+    chunk = self._handle_chunk(amt)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\response.py", line 714, in _handle_chunk
+    value = self._fp._safe_read(amt)
+  File "D:\Programas\Anaconda\Anaconda3\lib\http\client.py", line 628, in _safe_read
+    chunk = self.fp.read(min(amt, MAXAMOUNT))
+  File "D:\Programas\Anaconda\Anaconda3\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "D:\Programas\Anaconda\Anaconda3\lib\ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "D:\Programas\Anaconda\Anaconda3\lib\ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
+
+[2022-11-09 15:40:09.351106] [INFO] Start!
+[2022-11-09 15:42:45.231183] [INFO] Start!
+[2022-11-09 15:43:02.550521] [ERROR] Creating TEMP archive from NAE3-M_3000100_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 294, in omnieletronica_query
+    print(meter, convertToISO(data['measure_at']), var, data['value'])
+KeyboardInterrupt
+
+[2022-11-09 15:43:13.675551] [INFO] Start!
+[2022-11-09 15:43:16.015703] [ERROR] Invalid meter NAE2-M_3000995_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 284, in omnieletronica_query
+    tmp = req.get(url).json()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "D:\Programas\Anaconda\Anaconda3\lib\http\client.py", line 1281, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programas\Anaconda\Anaconda3\lib\http\client.py", line 1327, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programas\Anaconda\Anaconda3\lib\http\client.py", line 1276, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programas\Anaconda\Anaconda3\lib\http\client.py", line 1036, in _send_output
+    self.send(msg)
+  File "D:\Programas\Anaconda\Anaconda3\lib\http\client.py", line 976, in send
+    self.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+KeyboardInterrupt
+
+[2022-11-09 15:43:42.526492] [INFO] Start!
+[2022-11-09 15:43:55.039612] [ERROR] Invalid meter NAE3-M_3000085_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 284, in omnieletronica_query
+    tmp = req.get(url).json()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 723, in send
+    history = [resp for resp in gen]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 723, in <listcomp>
+    history = [resp for resp in gen]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 274, in resolve_redirects
+    **adapter_kwargs,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 424, in connect
+    tls_in_tls=tls_in_tls,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\ssl_.py", line 450, in ssl_wrap_socket
+    sock, context, tls_in_tls, server_hostname=server_hostname
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "D:\Programas\Anaconda\Anaconda3\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "D:\Programas\Anaconda\Anaconda3\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "D:\Programas\Anaconda\Anaconda3\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+KeyboardInterrupt
+
+[2022-11-09 15:45:27.304426] [INFO] Start!
+[2022-11-09 15:45:30.037900] [ERROR] Invalid meter NAE2-M_3000995_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 284, in omnieletronica_query
+    tmp = req.get(url).json()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 723, in send
+    history = [resp for resp in gen]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 723, in <listcomp>
+    history = [resp for resp in gen]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 274, in resolve_redirects
+    **adapter_kwargs,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 424, in connect
+    tls_in_tls=tls_in_tls,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\ssl_.py", line 450, in ssl_wrap_socket
+    sock, context, tls_in_tls, server_hostname=server_hostname
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "D:\Programas\Anaconda\Anaconda3\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "D:\Programas\Anaconda\Anaconda3\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "D:\Programas\Anaconda\Anaconda3\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+KeyboardInterrupt
+
+[2022-11-09 15:46:45.520891] [INFO] Start!
+[2022-11-09 15:46:50.181734] [ERROR] Invalid meter NAE2-M_3001962_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 284, in omnieletronica_query
+    tmp = req.get(url).json()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 723, in send
+    history = [resp for resp in gen]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 723, in <listcomp>
+    history = [resp for resp in gen]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 274, in resolve_redirects
+    **adapter_kwargs,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 424, in connect
+    tls_in_tls=tls_in_tls,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\ssl_.py", line 450, in ssl_wrap_socket
+    sock, context, tls_in_tls, server_hostname=server_hostname
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "D:\Programas\Anaconda\Anaconda3\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "D:\Programas\Anaconda\Anaconda3\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "D:\Programas\Anaconda\Anaconda3\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+KeyboardInterrupt
+

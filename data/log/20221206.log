@@ -1,0 +1,1463 @@
+[2022-12-06 00:00:13.539423] [INFO] Uploading QS-A-4P01-H_3000051_AGL15_VCA_OE.tmp
+[2022-12-06 00:00:14.093587] [INFO] Uploading QS-A-4P01-H_3000052_AGL15_VCA_OE.tmp
+[2022-12-06 00:00:14.711427] [INFO] Uploading QS-A-4P01-H_3000053_AGL15_VCA_OE.tmp
+[2022-12-06 00:00:26.962577] [INFO] Uploading QS-A-4P01-H_3000054_AGL15_VCA_OE.tmp
+[2022-12-06 00:00:36.574035] [INFO] Uploading QS-A-4P01-M_3000377_EN15_VCA_OE.tmp
+[2022-12-06 00:00:38.024006] [INFO] Uploading QS-A-4P01-M_3000391_EN15_VCA_OE.tmp
+[2022-12-06 00:00:38.092724] [INFO] Uploading QS-A-4P01-M_3000405_EN15_VCA_OE.tmp
+[2022-12-06 00:00:38.108350] [INFO] Uploading QS-A-4P01-M_3000419_EN15_VCA_OE.tmp
+[2022-12-06 00:00:38.123976] [INFO] Uploading QS-A-4P01-M_3000433_EN15_VCA_OE.tmp
+[2022-12-06 00:00:38.224582] [INFO] Uploading QS-A-4P01-M_3000447_EN15_VCA_OE.tmp
+[2022-12-06 00:00:54.664203] [INFO] Uploading QS-B-11P01-H_3000047_AGL15_VCA_OE.tmp
+[2022-12-06 00:00:55.134437] [INFO] Uploading QS-B-11P01-H_3000048_AGL15_VCA_OE.tmp
+[2022-12-06 00:00:55.767841] [INFO] Uploading QS-B-11P01-H_3000049_AGL15_VCA_OE.tmp
+[2022-12-06 00:01:08.034876] [INFO] Uploading QS-B-11P01-H_3000050_AGL15_VCA_OE.tmp
+[2022-12-06 00:01:14.474223] [INFO] Uploading QS-B-11P01-H_3000051_AGL15_VCA_OE.tmp
+[2022-12-06 00:01:15.844652] [INFO] Uploading QS-B-11P01-H_3000052_AGL15_VCA_OE.tmp
+[2022-12-06 00:01:15.998349] [INFO] Uploading QS-B-11P01-H_3000053_AGL15_VCA_OE.tmp
+[2022-12-06 00:01:16.013977] [INFO] Uploading QS-B-11P01-H_3000054_AGL15_VCA_OE.tmp
+[2022-12-06 00:01:16.029502] [INFO] Uploading QS-B-11P01-H_3000055_AGL15_VCA_OE.tmp
+[2022-12-06 00:01:16.045128] [INFO] Uploading QS-B-11P01-H_3000056_AGL15_VCA_OE.tmp
+[2022-12-06 00:01:35.711263] [INFO] Uploading QS-B-11P01-H_3000057_AGL15_VCA_OE.tmp
+[2022-12-06 00:01:36.196629] [INFO] Uploading QS-B-11P01-H_3000058_AGL15_VCA_OE.tmp
+[2022-12-06 00:01:36.867594] [INFO] Uploading QS-B-11P01-H_3000059_AGL15_VCA_OE.tmp
+[2022-12-06 00:01:49.120472] [INFO] Uploading QS-B-11P01-H_3000060_AGL15_VCA_OE.tmp
+[2022-12-06 00:01:55.521787] [INFO] Uploading QS-B-11P01-M_3000548_EN15_VCA_OE.tmp
+[2022-12-06 00:01:56.926578] [INFO] Uploading QS-B-11P01-M_3000562_EN15_VCA_OE.tmp
+[2022-12-06 00:01:57.057794] [INFO] Uploading QS-B-11P01-M_3000576_EN15_VCA_OE.tmp
+[2022-12-06 00:01:57.104869] [INFO] Uploading QS-B-11P01-M_3000590_EN15_VCA_OE.tmp
+[2022-12-06 00:01:57.142452] [INFO] Uploading QS-B-11P01-M_3000604_EN15_VCA_OE.tmp
+[2022-12-06 00:01:57.158069] [INFO] Uploading QS-B-11P01-M_3000618_EN15_VCA_OE.tmp
+[2022-12-06 00:02:16.758148] [INFO] Uploading QS-B-11P01-M_3000632_EN15_VCA_OE.tmp
+[2022-12-06 00:02:17.312787] [INFO] Uploading QS-B-11P01-M_3000646_EN15_VCA_OE.tmp
+[2022-12-06 00:02:18.015772] [INFO] Uploading QS-B-11P01-M_3000660_EN15_VCA_OE.tmp
+[2022-12-06 00:02:30.220161] [INFO] Uploading QS-B-11P01-M_3000674_EN15_VCA_OE.tmp
+[2022-12-06 00:02:30.953802] [INFO] Uploading QS-B-11P01-M_3000688_EN15_VCA_OE.tmp
+[2022-12-06 00:02:32.562313] [INFO] Uploading QS-B-11P01-M_3000702_EN15_VCA_OE.tmp
+[2022-12-06 00:02:32.627991] [INFO] Uploading QS-B-11P01-M_3000716_EN15_VCA_OE.tmp
+[2022-12-06 00:02:32.706128] [INFO] Uploading QS-B-11P01-M_3000730_EN15_VCA_OE.tmp
+[2022-12-06 00:02:32.728107] [INFO] Uploading QS-B-11P01-M_3000744_EN15_VCA_OE.tmp
+[2022-12-06 00:02:32.728107] [INFO] Uploading QS-B-11P01-M_3000758_EN15_VCA_OE.tmp
+[2022-12-06 00:02:52.302382] [INFO] Uploading QS-B-11P01-M_3000772_EN15_VCA_OE.tmp
+[2022-12-06 00:02:52.888525] [INFO] Uploading QS-B-11P01-M_3000786_EN15_VCA_OE.tmp
+[2022-12-06 00:02:53.706578] [INFO] Uploading QS-B-11P01-M_3000800_EN15_VCA_OE.tmp
+[2022-12-06 00:03:05.631896] [INFO] Uploading QS-B-11P01-M_3000814_EN15_VCA_OE.tmp
+[2022-12-06 00:03:05.700801] [INFO] Uploading QS-B-11P01-M_3000828_EN15_VCA_OE.tmp
+[2022-12-06 00:03:07.188929] [INFO] Uploading QS-B-11P01-M_3000842_EN15_VCA_OE.tmp
+[2022-12-06 00:03:07.188929] [INFO] Uploading QS-B-11P01-M_3000880_EN15_VCA_OE.tmp
+[2022-12-06 00:03:07.336144] [INFO] Uploading QS-B-4P01-H_3000040_AGL15_VCA_OE.tmp
+[2022-12-06 00:03:07.436163] [INFO] Uploading QS-B-4P01-H_3000041_AGL15_VCA_OE.tmp
+[2022-12-06 00:03:07.436163] [INFO] Uploading QS-B-4P01-H_3000042_AGL15_VCA_OE.tmp
+[2022-12-06 00:03:26.929969] [INFO] Uploading QS-B-4P01-H_3000043_AGL15_VCA_OE.tmp
+[2022-12-06 00:03:27.494593] [INFO] Uploading QS-B-4P01-H_3000044_AGL15_VCA_OE.tmp
+[2022-12-06 00:03:28.350007] [INFO] Uploading QS-B-4P01-H_3000045_AGL15_VCA_OE.tmp
+[2022-12-06 00:03:40.199877] [INFO] Uploading QS-B-4P01-H_3000046_AGL15_VCA_OE.tmp
+[2022-12-06 00:03:40.462837] [INFO] Uploading QS-B-4P01-H_3000047_AGL15_VCA_OE.tmp
+[2022-12-06 00:03:41.889344] [INFO] Uploading QS-B-4P01-H_3000048_AGL15_VCA_OE.tmp
+[2022-12-06 00:03:41.904974] [INFO] Uploading QS-B-4P01-H_3000049_AGL15_VCA_OE.tmp
+[2022-12-06 00:03:46.034926] [INFO] Uploading QS-B-4P01-H_3000050_AGL15_VCA_OE.tmp
+[2022-12-06 00:03:46.050244] [INFO] Uploading QS-B-4P01-H_3000051_AGL15_VCA_OE.tmp
+[2022-12-06 00:03:46.065868] [INFO] Uploading QS-B-4P01-H_3000052_AGL15_VCA_OE.tmp
+[2022-12-06 00:04:05.559038] [INFO] Uploading QS-B-4P01-H_3000053_AGL15_VCA_OE.tmp
+[2022-12-06 00:04:06.231877] [INFO] Uploading QS-B-4P01-M_3000383_EN15_VCA_OE.tmp
+[2022-12-06 00:04:07.056412] [INFO] Uploading QS-B-4P01-M_3000397_EN15_VCA_OE.tmp
+[2022-12-06 00:04:18.887677] [INFO] Uploading QS-B-4P01-M_3000411_EN15_VCA_OE.tmp
+[2022-12-06 00:04:19.103482] [INFO] Uploading QS-B-4P01-M_3000425_EN15_VCA_OE.tmp
+[2022-12-06 00:04:20.506837] [INFO] Uploading QS-B-4P01-M_3000439_EN15_VCA_OE.tmp
+[2022-12-06 00:04:20.554823] [INFO] Uploading QS-B-4P01-M_3000453_EN15_VCA_OE.tmp
+[2022-12-06 00:04:47.181958] [INFO] Upload finished...
+[2022-12-06 00:04:47.181958] [INFO] Waiting 10 minutes
+[2022-12-06 00:14:47.199256] [INFO] Start!
+[2022-12-06 00:14:48.334481] [ERROR] Creating TEMP archive from NAE3-M_3000055_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:14:49.338169] [ERROR] Creating TEMP archive from NAE2-M_3000995_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:14:50.394965] [ERROR] Creating TEMP archive from NAE2-M_3001962_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:14:51.398316] [ERROR] Creating TEMP archive from NAE2-M_3001010_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:14:52.402076] [ERROR] Creating TEMP archive from NAE3-M_3000040_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:14:53.421562] [ERROR] Creating TEMP archive from NAE3-M_3000070_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:14:54.440741] [ERROR] Creating TEMP archive from NAE3-M_3000085_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:14:55.443953] [ERROR] Creating TEMP archive from NAE3-M_3000100_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:14:56.462611] [ERROR] Creating TEMP archive from NAE3-M_3000115_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:14:57.496815] [ERROR] Creating TEMP archive from NAE3-M_3000130_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:14:58.500353] [ERROR] Creating TEMP archive from NAE3-M_3000145_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:14:59.519415] [ERROR] Creating TEMP archive from NAE3-M_3000160_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:15:00.893414] [ERROR] Creating TEMP archive from NAE3-M_3000175_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:15:01.965915] [ERROR] Creating TEMP archive from NAE3-M_3000190_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:15:03.000402] [ERROR] Creating TEMP archive from NAE3-M_3000205_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:15:04.019742] [ERROR] Creating TEMP archive from NAE3-M_3000220_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:15:05.863625] [ERROR] Creating TEMP archive from NAE3-M_3000235_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:15:07.839611] [ERROR] Creating TEMP archive from NAE3-M_3000250_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:15:09.413829] [ERROR] Creating TEMP archive from NAE3-M_3000265_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:15:10.432805] [ERROR] Creating TEMP archive from NAE3-M_3000280_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:15:13.374381] [ERROR] Creating TEMP archive from NAE3-M_3000295_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:15:15.920760] [ERROR] Creating TEMP archive from NAE3-M_3000325_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:15:16.992424] [ERROR] Creating TEMP archive from NAE3-M_3000340_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:15:18.027528] [ERROR] Creating TEMP archive from NAE3-M_3000355_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:15:19.049798] [ERROR] Creating TEMP archive from NAE3-M_3000310_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:15:25.779459] [ERROR] Creating TEMP archive from NAE3-M_3002635_EN15_INF_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:17:30.936288] [ERROR] Creating TEMP archive from NAE3-M_3000840_EN_INF_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 00:19:38.420730] [INFO] Preparing to upload
+[2022-12-06 00:19:38.420730] [INFO] Uploading NAE1-H_1419_AGL15_INF_OE.tmp
+[2022-12-06 00:19:38.420730] [INFO] Uploading NAE1-H_1422_AGL15_INF_OE.tmp
+[2022-12-06 00:19:38.420730] [INFO] Uploading NAE1-H_1425_AGL15_INF_OE.tmp
+[2022-12-06 00:19:38.427235] [INFO] Uploading NAE1-H_1431_AGL15_INF_OE.tmp
+[2022-12-06 00:19:38.427235] [INFO] Uploading NAE1-H_1434_AGL15_INF_OE.tmp
+[2022-12-06 00:19:38.427235] [INFO] Uploading NAE1-H_1428_AGL15_INF_OE.tmp
+[2022-12-06 00:19:38.427235] [INFO] Uploading NAE1-H_1452_AGL15_INF_OE.tmp
+[2022-12-06 00:19:38.427235] [INFO] Uploading NAE1-H_1449_AGL15_INF_OE.tmp
+[2022-12-06 00:19:38.427235] [INFO] Uploading NAE1-H_1458_AGL15_INF_OE.tmp
+[2022-12-06 00:19:38.427235] [INFO] Uploading NAE1-H_1455_AGL15_INF_OE.tmp
+[2022-12-06 00:19:56.345950] [INFO] Uploading NAE1-H_1461_AGL15_INF_OE.tmp
+[2022-12-06 00:19:56.383988] [INFO] Uploading NAE1-H_1464_AGL15_INF_OE.tmp
+[2022-12-06 00:19:56.399572] [INFO] Uploading NAE1-H_1477_AGL15_INF_OE.tmp
+[2022-12-06 00:19:56.399572] [INFO] Uploading NAE1-H_1480_AGL15_INF_OE.tmp
+[2022-12-06 00:19:56.414919] [INFO] Uploading NAE1-H_1483_AGL15_INF_OE.tmp
+[2022-12-06 00:19:56.430545] [INFO] Uploading NAE1-H_1486_AGL15_INF_OE.tmp
+[2022-12-06 00:19:56.446171] [INFO] Uploading NAE1-H_1492_AGL15_INF_OE.tmp
+[2022-12-06 00:19:56.468291] [INFO] Uploading NAE1-H_1504_AGL15_INF_OE.tmp
+[2022-12-06 00:19:56.483918] [INFO] Uploading NAE1-H_1507_AGL15_INF_OE.tmp
+[2022-12-06 00:19:56.499544] [INFO] Uploading NAE1-H_1510_AGL15_INF_OE.tmp
+[2022-12-06 00:20:14.044969] [INFO] Uploading NAE1-H_1513_AGL15_INF_OE.tmp
+[2022-12-06 00:20:14.114382] [INFO] Uploading NAE1-H_1516_AGL15_INF_OE.tmp
+[2022-12-06 00:20:14.114382] [INFO] Uploading NAE1-H_1519_AGL15_INF_OE.tmp
+[2022-12-06 00:20:14.160943] [INFO] Uploading NAE1-H_1526_AGL15_INF_OE.tmp
+[2022-12-06 00:20:14.198802] [INFO] Uploading NAE1-H_1529_AGL15_INF_OE.tmp
+[2022-12-06 00:20:14.198802] [INFO] Uploading NAE1-H_1532_AGL15_INF_OE.tmp
+[2022-12-06 00:20:14.769360] [INFO] Uploading NAE1-H_1535_AGL15_INF_OE.tmp
+[2022-12-06 00:20:15.001319] [INFO] Uploading NAE1-H_1538_AGL15_INF_OE.tmp
+[2022-12-06 00:20:15.016945] [INFO] Uploading NAE1-H_1541_AGL15_INF_OE.tmp
+[2022-12-06 00:20:15.063824] [INFO] Uploading NAE1-H_1737_AGL15_INF_OE.tmp
+[2022-12-06 00:20:31.835983] [INFO] Uploading NAE1-H_1740_AGL15_INF_OE.tmp
+[2022-12-06 00:20:31.951712] [INFO] Uploading NAE1-H_1743_AGL15_INF_OE.tmp
+[2022-12-06 00:20:32.620610] [INFO] Uploading NAE1-H_1746_AGL15_INF_OE.tmp
+[2022-12-06 00:20:32.653662] [INFO] Uploading NAE1-H_1749_AGL15_INF_OE.tmp
+[2022-12-06 00:20:32.722301] [INFO] Uploading NAE1-H_1752_AGL15_INF_OE.tmp
+[2022-12-06 00:20:32.784807] [INFO] Uploading NAE1-H_2239_AGL15_INF_OE.tmp
+[2022-12-06 00:20:32.800433] [INFO] Uploading NAE1-H_2241_AGL15_INF_OE.tmp
+[2022-12-06 00:20:33.301920] [INFO] Uploading NAE1-H_2259_AGL15_INF_OE.tmp
+[2022-12-06 00:20:33.570952] [INFO] Uploading NAE1-H_2741_AGL15_INF_OE.tmp
+[2022-12-06 00:20:33.617830] [INFO] Uploading NAE1-H_3023526_AGL15_INF_OE.tmp
+[2022-12-06 00:20:49.573019] [INFO] Uploading NAE1-H_3031680_AGL15_INF_OE.tmp
+[2022-12-06 00:20:49.704902] [INFO] Uploading NAE1-M_3031750_EN15_INF_OE.tmp
+[2022-12-06 00:20:50.338163] [INFO] Uploading NAE1-M_3031850_EN15_INF_OE.tmp
+[2022-12-06 00:20:50.353320] [INFO] Uploading NAE1-M_3032036_EN15_INF_OE.tmp
+[2022-12-06 00:20:50.522589] [INFO] Uploading NAE1-M_3032052_EN15_INF_OE.tmp
+[2022-12-06 00:20:50.554975] [INFO] Uploading NAE1-M_3032071_EN15_INF_OE.tmp
+[2022-12-06 00:20:50.591769] [INFO] Uploading NAE2-H_2710_AGL15_INF_OE.tmp
+[2022-12-06 00:20:51.008904] [INFO] Uploading NAE3-H_3008107_AGL15_INF_OE.tmp
+[2022-12-06 00:20:51.294410] [INFO] Uploading NAE3-H_3009659_AGL15_INF_OE.tmp
+[2022-12-06 00:20:51.309652] [INFO] Uploading NAE3-H_5444_AGL15_INF_OE.tmp
+[2022-12-06 00:21:08.143574] [INFO] Uploading NAE3-M_3004251_EN15_INF_OE.tmp
+[2022-12-06 00:21:20.169853] [INFO] Uploading NAE3-M_3004255_EN15_INF_OE.tmp
+[2022-12-06 00:21:20.370312] [INFO] Uploading NAE3-M_3004272_EN15_INF_OE.tmp
+[2022-12-06 00:21:20.439289] [INFO] Uploading NAE3-M_3004289_EN15_INF_OE.tmp
+[2022-12-06 00:21:20.454923] [INFO] Uploading NAE3-M_3004306_EN15_INF_OE.tmp
+[2022-12-06 00:21:21.003045] [INFO] Uploading NAE3-M_3004322_EN15_INF_OE.tmp
+[2022-12-06 00:21:24.256095] [INFO] Uploading NAE3-M_3004340_EN15_INF_OE.tmp
+[2022-12-06 00:21:36.308704] [INFO] Uploading NAE3-M_3004356_EN15_INF_OE.tmp
+[2022-12-06 00:21:36.478055] [INFO] Uploading NAE3-M_3004358_EN15_INF_OE.tmp
+[2022-12-06 00:21:36.524832] [INFO] Uploading NAE3-M_3004374_EN15_INF_OE.tmp
+[2022-12-06 00:21:36.524832] [INFO] Uploading NAE3-M_3004388_EN15_INF_OE.tmp
+[2022-12-06 00:21:37.111387] [INFO] Uploading NAE3-M_3004409_EN15_INF_OE.tmp
+[2022-12-06 00:21:40.336611] [INFO] Uploading NAE3-M_3004426_EN15_INF_OE.tmp
+[2022-12-06 00:21:52.431817] [INFO] Uploading NAE3-M_3004443_EN15_INF_OE.tmp
+[2022-12-06 00:21:52.632705] [INFO] Uploading NAE3-M_3004460_EN15_INF_OE.tmp
+[2022-12-06 00:21:52.685797] [INFO] Uploading NAE3-M_3004463_EN15_INF_OE.tmp
+[2022-12-06 00:21:52.685797] [INFO] Uploading NAE3-M_3004478_EN15_INF_OE.tmp
+[2022-12-06 00:21:53.287948] [INFO] Uploading NAE3-M_3004511_EN15_INF_OE.tmp
+[2022-12-06 00:21:56.414373] [INFO] Uploading NAE3-M_3004545_EN15_INF_OE.tmp
+[2022-12-06 00:22:08.534105] [INFO] Uploading NAE3-M_3004579_EN15_INF_OE.tmp
+[2022-12-06 00:22:08.729522] [INFO] Uploading NAE3-M_3004596_EN15_INF_OE.tmp
+[2022-12-06 00:22:08.766975] [INFO] Uploading NAE3-M_3004614_EN15_INF_OE.tmp
+[2022-12-06 00:22:08.829489] [INFO] Uploading NAE3-M_3004648_EN15_INF_OE.tmp
+[2022-12-06 00:22:09.199963] [INFO] Uploading NAE3-M_3004686_EN15_INF_OE.tmp
+[2022-12-06 00:22:09.415961] [INFO] Uploading NAE3-M_3004699_EN15_INF_OE.tmp
+[2022-12-06 00:22:09.616474] [INFO] Uploading NAE3-M_3009419_EN15_INF_OE.tmp
+[2022-12-06 00:22:09.654230] [INFO] Uploading NAE3-M_3011452_EN15_INF_OE.tmp
+[2022-12-06 00:22:12.576004] [INFO] Uploading NAE3-M_3011468_EN15_INF_OE.tmp
+[2022-12-06 00:22:24.040566] [INFO] Uploading NAE3-M_3011511_EN15_INF_OE.tmp
+[2022-12-06 00:22:24.071543] [INFO] Uploading NAE3-M_3011559_EN15_INF_OE.tmp
+[2022-12-06 00:22:24.526524] [INFO] Uploading NAE3-M_3011622_EN15_INF_OE.tmp
+[2022-12-06 00:22:24.673061] [INFO] Uploading NAE3-M_3011699_EN15_INF_OE.tmp
+[2022-12-06 00:22:24.695226] [INFO] Uploading NAE4-M_3010740_EN15_INF_OE.tmp
+[2022-12-06 00:22:24.873681] [INFO] Uploading NAE4-M_3010873_EN15_INF_OE.tmp
+[2022-12-06 00:22:25.814340] [INFO] Uploading NAE6-M_3000852_EN15_INF_OE.tmp
+[2022-12-06 00:22:28.732959] [INFO] Uploading NAE6-M_3000890_EN15_INF_OE.tmp
+[2022-12-06 00:22:33.109521] [ERROR] Uploading data from NAE3-M_3009419_EN15_INF_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x00000212C29F3588>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000212C29F3588>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 222, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000212C29F3588>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-12-06 00:22:33.109521] [INFO] Uploading NAE6-M_3000916_EN15_INF_OE.tmp
+[2022-12-06 00:22:40.145737] [INFO] Uploading NAE6-M_3000930_EN15_INF_OE.tmp
+[2022-12-06 00:22:40.215297] [INFO] Uploading NAE6-M_3000950_EN15_INF_OE.tmp
+[2022-12-06 00:22:40.701398] [INFO] Uploading NAE6-M_3000962_EN15_INF_OE.tmp
+[2022-12-06 00:22:40.786038] [INFO] Uploading NAE6-M_3001000_EN15_INF_OE.tmp
+[2022-12-06 00:22:41.919614] [ERROR] Uploading data from NAE3-M_3004648_EN15_INF_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x00000212C1FCB808>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000212C1FCB808>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 222, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000212C1FCB808>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-12-06 00:22:41.919614] [INFO] Uploading NAE6-M_3001014_EN15_INF_OE.tmp
+[2022-12-06 00:22:45.167810] [INFO] Uploading NAE6-M_3001026_EN15_INF_OE.tmp
+[2022-12-06 00:22:48.024530] [INFO] Uploading NAE6-M_3001038_EN15_INF_OE.tmp
+[2022-12-06 00:22:52.435572] [INFO] Uploading NAE6-M_3001050_EN15_INF_OE.tmp
+[2022-12-06 00:22:59.441991] [INFO] Uploading NAE6-M_3001062_EN15_INF_OE.tmp
+[2022-12-06 00:22:59.557590] [INFO] Uploading NAE6-M_3001074_EN15_INF_OE.tmp
+[2022-12-06 00:23:00.074710] [INFO] Uploading NAE6-M_3001100_EN15_INF_OE.tmp
+[2022-12-06 00:23:01.309297] [INFO] Uploading NAE6-M_3001140_EN15_INF_OE.tmp
+[2022-12-06 00:23:05.321138] [INFO] Uploading NAE6-M_3001152_EN15_INF_OE.tmp
+[2022-12-06 00:23:08.176305] [INFO] Uploading NAE6-M_3001164_EN15_INF_OE.tmp
+[2022-12-06 00:23:12.658679] [INFO] Uploading NAE6-M_3001176_EN15_INF_OE.tmp
+[2022-12-06 00:23:19.563287] [INFO] Uploading NAE6-M_3001188_EN15_INF_OE.tmp
+[2022-12-06 00:23:19.710780] [INFO] Uploading NAE6-M_3001212_EN15_INF_OE.tmp
+[2022-12-06 00:23:20.212921] [INFO] Uploading NAE6-M_3001220_EN15_INF_OE.tmp
+[2022-12-06 00:23:20.212921] [INFO] Uploading NAE6-M_3001228_EN15_INF_OE.tmp
+[2022-12-06 00:23:21.431965] [INFO] Uploading NAE6-M_3001254_EN15_INF_OE.tmp
+[2022-12-06 00:23:25.426732] [INFO] Uploading NAE6-M_3001268_EN15_INF_OE.tmp
+[2022-12-06 00:23:28.319404] [INFO] Uploading NAE6-M_3001280_EN15_INF_OE.tmp
+[2022-12-06 00:23:32.800562] [INFO] Uploading NAE6-M_3001292_EN15_INF_OE.tmp
+[2022-12-06 00:23:39.704670] [INFO] Uploading NAE6-M_3001304_EN15_INF_OE.tmp
+[2022-12-06 00:23:39.937331] [INFO] Uploading NAE6-M_3001316_EN15_INF_OE.tmp
+[2022-12-06 00:23:40.306895] [INFO] Uploading NAE6-M_3001328_EN15_INF_OE.tmp
+[2022-12-06 00:23:40.344435] [INFO] Uploading NAE6-M_3001340_EN15_INF_OE.tmp
+[2022-12-06 00:23:41.610306] [INFO] Uploading NAE6-M_3001366_EN15_INF_OE.tmp
+[2022-12-06 00:23:42.967618] [INFO] Uploading QS-A-11P01-H_3000054_AGL15_VCA_OE.tmp
+[2022-12-06 00:23:43.114654] [INFO] Uploading QS-A-11P01-H_3000055_AGL15_VCA_OE.tmp
+[2022-12-06 00:23:45.575363] [INFO] Uploading QS-A-11P01-H_3000056_AGL15_VCA_OE.tmp
+[2022-12-06 00:23:48.501026] [INFO] Uploading QS-A-11P01-H_3000057_AGL15_VCA_OE.tmp
+[2022-12-06 00:23:52.988266] [INFO] Uploading QS-A-11P01-H_3000058_AGL15_VCA_OE.tmp
+[2022-12-06 00:23:59.866915] [INFO] Uploading QS-A-11P01-H_3000059_AGL15_VCA_OE.tmp
+[2022-12-06 00:24:00.098455] [INFO] Uploading QS-A-11P01-H_3000060_AGL15_VCA_OE.tmp
+[2022-12-06 00:24:00.421554] [INFO] Uploading QS-A-11P01-H_3000061_AGL15_VCA_OE.tmp
+[2022-12-06 00:24:00.421554] [INFO] Uploading QS-A-11P01-H_3000062_AGL15_VCA_OE.tmp
+[2022-12-06 00:24:01.787422] [INFO] Uploading QS-A-11P01-H_3000063_AGL15_VCA_OE.tmp
+[2022-12-06 00:24:23.970852] [INFO] Uploading QS-A-11P01-H_3000064_AGL15_VCA_OE.tmp
+[2022-12-06 00:24:24.186804] [INFO] Uploading QS-A-11P01-H_3000065_AGL15_VCA_OE.tmp
+[2022-12-06 00:24:26.629496] [INFO] Uploading QS-A-11P01-H_3000066_AGL15_VCA_OE.tmp
+[2022-12-06 00:24:29.601715] [INFO] Uploading QS-A-11P01-H_3000067_AGL15_VCA_OE.tmp
+[2022-12-06 00:24:34.046717] [INFO] Uploading QS-A-11P01-M_3001262_EN15_VCA_OE.tmp
+[2022-12-06 00:24:40.975628] [INFO] Uploading QS-A-11P01-M_3001276_EN15_VCA_OE.tmp
+[2022-12-06 00:24:41.144518] [INFO] Uploading QS-A-11P01-M_3001290_EN15_VCA_OE.tmp
+[2022-12-06 00:24:41.746196] [INFO] Uploading QS-A-11P01-M_3001304_EN15_VCA_OE.tmp
+[2022-12-06 00:24:41.761967] [INFO] Uploading QS-A-11P01-M_3001318_EN15_VCA_OE.tmp
+[2022-12-06 00:24:42.895567] [INFO] Uploading QS-A-11P01-M_3001332_EN15_VCA_OE.tmp
+[2022-12-06 00:24:59.829838] [INFO] Uploading QS-A-11P01-M_3001346_EN15_VCA_OE.tmp
+[2022-12-06 00:25:05.030419] [INFO] Uploading QS-A-11P01-M_3001360_EN15_VCA_OE.tmp
+[2022-12-06 00:25:05.299732] [INFO] Uploading QS-A-11P01-M_3001374_EN15_VCA_OE.tmp
+[2022-12-06 00:25:06.117546] [INFO] Uploading QS-A-11P01-M_3001388_EN15_VCA_OE.tmp
+[2022-12-06 00:25:06.690355] [INFO] Uploading QS-A-11P01-M_3001402_EN15_VCA_OE.tmp
+[2022-12-06 00:25:06.698401] [INFO] Uploading QS-A-11P01-M_3001416_EN15_VCA_OE.tmp
+[2022-12-06 00:25:06.710688] [INFO] Uploading QS-A-11P01-M_3001430_EN15_VCA_OE.tmp
+[2022-12-06 00:25:07.652518] [INFO] Uploading QS-A-11P01-M_3001444_EN15_VCA_OE.tmp
+[2022-12-06 00:25:07.868609] [INFO] Uploading QS-A-11P01-M_3001458_EN15_VCA_OE.tmp
+[2022-12-06 00:25:10.654409] [INFO] Uploading QS-A-11P01-M_3001472_EN15_VCA_OE.tmp
+[2022-12-06 00:25:24.807710] [INFO] Uploading QS-A-11P01-M_3001486_EN15_VCA_OE.tmp
+[2022-12-06 00:25:29.994678] [INFO] Uploading QS-A-11P01-M_3001500_EN15_VCA_OE.tmp
+[2022-12-06 00:25:30.241583] [INFO] Uploading QS-A-11P01-M_3001514_EN15_VCA_OE.tmp
+[2022-12-06 00:25:31.028241] [INFO] Uploading QS-A-11P01-M_3001528_EN15_VCA_OE.tmp
+[2022-12-06 00:25:31.598924] [INFO] Uploading QS-A-11P01-M_3001542_EN15_VCA_OE.tmp
+[2022-12-06 00:25:31.614456] [INFO] Uploading QS-A-11P01-M_3001556_EN15_VCA_OE.tmp
+[2022-12-06 00:25:31.661325] [INFO] Uploading QS-A-11P01-M_3001655_EN15_VCA_OE.tmp
+[2022-12-06 00:25:32.633145] [INFO] Uploading QS-A-4P01-H_3000041_AGL15_VCA_OE.tmp
+[2022-12-06 00:25:32.849442] [INFO] Uploading QS-A-4P01-H_3000042_AGL15_VCA_OE.tmp
+[2022-12-06 00:25:35.658198] [INFO] Uploading QS-A-4P01-H_3000043_AGL15_VCA_OE.tmp
+[2022-12-06 00:25:49.761696] [INFO] Uploading QS-A-4P01-H_3000044_AGL15_VCA_OE.tmp
+[2022-12-06 00:25:54.996933] [INFO] Uploading QS-A-4P01-H_3000045_AGL15_VCA_OE.tmp
+[2022-12-06 00:25:55.212942] [INFO] Uploading QS-A-4P01-H_3000046_AGL15_VCA_OE.tmp
+[2022-12-06 00:25:56.015380] [INFO] Uploading QS-A-4P01-H_3000047_AGL15_VCA_OE.tmp
+[2022-12-06 00:25:56.596486] [INFO] Uploading QS-A-4P01-H_3000048_AGL15_VCA_OE.tmp
+[2022-12-06 00:25:56.604605] [INFO] Uploading QS-A-4P01-H_3000049_AGL15_VCA_OE.tmp
+[2022-12-06 00:25:56.624651] [INFO] Uploading QS-A-4P01-H_3000050_AGL15_VCA_OE.tmp
+[2022-12-06 00:26:13.779612] [INFO] Uploading QS-A-4P01-H_3000051_AGL15_VCA_OE.tmp
+[2022-12-06 00:26:13.995845] [INFO] Uploading QS-A-4P01-H_3000052_AGL15_VCA_OE.tmp
+[2022-12-06 00:26:16.789010] [INFO] Uploading QS-A-4P01-H_3000053_AGL15_VCA_OE.tmp
+[2022-12-06 00:26:30.869963] [INFO] Uploading QS-A-4P01-H_3000054_AGL15_VCA_OE.tmp
+[2022-12-06 00:26:36.101681] [INFO] Uploading QS-A-4P01-M_3000377_EN15_VCA_OE.tmp
+[2022-12-06 00:26:36.264543] [INFO] Uploading QS-A-4P01-M_3000391_EN15_VCA_OE.tmp
+[2022-12-06 00:26:37.120066] [INFO] Uploading QS-A-4P01-M_3000405_EN15_VCA_OE.tmp
+[2022-12-06 00:26:37.606715] [INFO] Uploading QS-A-4P01-M_3000419_EN15_VCA_OE.tmp
+[2022-12-06 00:26:37.684754] [INFO] Uploading QS-A-4P01-M_3000433_EN15_VCA_OE.tmp
+[2022-12-06 00:26:37.711241] [INFO] Uploading QS-A-4P01-M_3000447_EN15_VCA_OE.tmp
+[2022-12-06 00:26:54.816970] [INFO] Uploading QS-B-11P01-H_3000047_AGL15_VCA_OE.tmp
+[2022-12-06 00:26:55.055316] [INFO] Uploading QS-B-11P01-H_3000048_AGL15_VCA_OE.tmp
+[2022-12-06 00:26:57.775854] [INFO] Uploading QS-B-11P01-H_3000049_AGL15_VCA_OE.tmp
+[2022-12-06 00:27:11.892290] [INFO] Uploading QS-B-11P01-H_3000050_AGL15_VCA_OE.tmp
+[2022-12-06 00:27:13.929956] [INFO] Uploading QS-B-11P01-H_3000051_AGL15_VCA_OE.tmp
+[2022-12-06 00:27:14.146358] [INFO] Uploading QS-B-11P01-H_3000052_AGL15_VCA_OE.tmp
+[2022-12-06 00:27:14.950633] [INFO] Uploading QS-B-11P01-H_3000053_AGL15_VCA_OE.tmp
+[2022-12-06 00:27:15.505250] [INFO] Uploading QS-B-11P01-H_3000054_AGL15_VCA_OE.tmp
+[2022-12-06 00:27:15.536501] [INFO] Uploading QS-B-11P01-H_3000055_AGL15_VCA_OE.tmp
+[2022-12-06 00:27:15.605552] [INFO] Uploading QS-B-11P01-H_3000056_AGL15_VCA_OE.tmp
+[2022-12-06 00:27:35.839198] [INFO] Uploading QS-B-11P01-H_3000057_AGL15_VCA_OE.tmp
+[2022-12-06 00:27:36.240148] [INFO] Uploading QS-B-11P01-H_3000058_AGL15_VCA_OE.tmp
+[2022-12-06 00:27:38.863100] [INFO] Uploading QS-B-11P01-H_3000059_AGL15_VCA_OE.tmp
+[2022-12-06 00:27:53.018357] [INFO] Uploading QS-B-11P01-H_3000060_AGL15_VCA_OE.tmp
+[2022-12-06 00:27:54.930659] [INFO] Uploading QS-B-11P01-M_3000548_EN15_VCA_OE.tmp
+[2022-12-06 00:27:55.209398] [INFO] Uploading QS-B-11P01-M_3000562_EN15_VCA_OE.tmp
+[2022-12-06 00:27:55.996304] [INFO] Uploading QS-B-11P01-M_3000576_EN15_VCA_OE.tmp
+[2022-12-06 00:27:56.588208] [INFO] Uploading QS-B-11P01-M_3000590_EN15_VCA_OE.tmp
+[2022-12-06 00:27:56.603824] [INFO] Uploading QS-B-11P01-M_3000604_EN15_VCA_OE.tmp
+[2022-12-06 00:27:56.619450] [INFO] Uploading QS-B-11P01-M_3000618_EN15_VCA_OE.tmp
+[2022-12-06 00:28:16.976231] [INFO] Uploading QS-B-11P01-M_3000632_EN15_VCA_OE.tmp
+[2022-12-06 00:28:17.415552] [INFO] Uploading QS-B-11P01-M_3000646_EN15_VCA_OE.tmp
+[2022-12-06 00:28:19.916240] [INFO] Uploading QS-B-11P01-M_3000660_EN15_VCA_OE.tmp
+[2022-12-06 00:28:30.444088] [INFO] Uploading QS-B-11P01-M_3000674_EN15_VCA_OE.tmp
+[2022-12-06 00:28:30.660462] [INFO] Uploading QS-B-11P01-M_3000688_EN15_VCA_OE.tmp
+[2022-12-06 00:28:31.431540] [INFO] Uploading QS-B-11P01-M_3000702_EN15_VCA_OE.tmp
+[2022-12-06 00:28:32.065085] [INFO] Uploading QS-B-11P01-M_3000716_EN15_VCA_OE.tmp
+[2022-12-06 00:28:32.065085] [INFO] Uploading QS-B-11P01-M_3000730_EN15_VCA_OE.tmp
+[2022-12-06 00:28:32.065085] [INFO] Uploading QS-B-11P01-M_3000744_EN15_VCA_OE.tmp
+[2022-12-06 00:28:34.060572] [INFO] Uploading QS-B-11P01-M_3000758_EN15_VCA_OE.tmp
+[2022-12-06 00:28:52.410348] [INFO] Uploading QS-B-11P01-M_3000772_EN15_VCA_OE.tmp
+[2022-12-06 00:28:52.926582] [INFO] Uploading QS-B-11P01-M_3000786_EN15_VCA_OE.tmp
+[2022-12-06 00:28:55.465379] [INFO] Uploading QS-B-11P01-M_3000800_EN15_VCA_OE.tmp
+[2022-12-06 00:29:05.316608] [INFO] Uploading QS-B-11P01-M_3000814_EN15_VCA_OE.tmp
+[2022-12-06 00:29:05.896490] [INFO] Uploading QS-B-11P01-M_3000828_EN15_VCA_OE.tmp
+[2022-12-06 00:29:06.097075] [INFO] Uploading QS-B-11P01-M_3000842_EN15_VCA_OE.tmp
+[2022-12-06 00:29:06.667569] [INFO] Uploading QS-B-11P01-M_3000880_EN15_VCA_OE.tmp
+[2022-12-06 00:29:06.698829] [INFO] Uploading QS-B-4P01-H_3000040_AGL15_VCA_OE.tmp
+[2022-12-06 00:29:06.752486] [INFO] Uploading QS-B-4P01-H_3000041_AGL15_VCA_OE.tmp
+[2022-12-06 00:29:08.720394] [INFO] Uploading QS-B-4P01-H_3000042_AGL15_VCA_OE.tmp
+[2022-12-06 00:29:27.039207] [INFO] Uploading QS-B-4P01-H_3000043_AGL15_VCA_OE.tmp
+[2022-12-06 00:29:27.603361] [INFO] Uploading QS-B-4P01-H_3000044_AGL15_VCA_OE.tmp
+[2022-12-06 00:29:30.031663] [INFO] Uploading QS-B-4P01-H_3000045_AGL15_VCA_OE.tmp
+[2022-12-06 00:29:39.972000] [INFO] Uploading QS-B-4P01-H_3000046_AGL15_VCA_OE.tmp
+[2022-12-06 00:29:40.704762] [INFO] Uploading QS-B-4P01-H_3000047_AGL15_VCA_OE.tmp
+[2022-12-06 00:29:40.785405] [INFO] Uploading QS-B-4P01-H_3000048_AGL15_VCA_OE.tmp
+[2022-12-06 00:29:41.287136] [INFO] Uploading QS-B-4P01-H_3000049_AGL15_VCA_OE.tmp
+[2022-12-06 00:29:45.532671] [INFO] Uploading QS-B-4P01-H_3000050_AGL15_VCA_OE.tmp
+[2022-12-06 00:29:45.563927] [INFO] Uploading QS-B-4P01-H_3000051_AGL15_VCA_OE.tmp
+[2022-12-06 00:29:47.537905] [INFO] Uploading QS-B-4P01-H_3000052_AGL15_VCA_OE.tmp
+[2022-12-06 00:30:05.686628] [INFO] Uploading QS-B-4P01-H_3000053_AGL15_VCA_OE.tmp
+[2022-12-06 00:30:06.303779] [INFO] Uploading QS-B-4P01-M_3000383_EN15_VCA_OE.tmp
+[2022-12-06 00:30:08.645231] [INFO] Uploading QS-B-4P01-M_3000397_EN15_VCA_OE.tmp
+[2022-12-06 00:30:18.560745] [INFO] Uploading QS-B-4P01-M_3000411_EN15_VCA_OE.tmp
+[2022-12-06 00:30:19.343222] [INFO] Uploading QS-B-4P01-M_3000425_EN15_VCA_OE.tmp
+[2022-12-06 00:30:19.427326] [INFO] Uploading QS-B-4P01-M_3000439_EN15_VCA_OE.tmp
+[2022-12-06 00:30:19.944566] [INFO] Uploading QS-B-4P01-M_3000453_EN15_VCA_OE.tmp
+[2022-12-06 00:30:46.485757] [INFO] Upload finished...
+[2022-12-06 00:30:46.485757] [INFO] Waiting 10 minutes
+[2022-12-06 08:07:08.352879] [INFO] Start!
+[2022-12-06 08:07:09.885035] [ERROR] Creating TEMP archive from NAE3-M_3000055_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:10.882949] [ERROR] Creating TEMP archive from NAE2-M_3000995_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:11.869837] [ERROR] Creating TEMP archive from NAE2-M_3001962_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:12.872439] [ERROR] Creating TEMP archive from NAE2-M_3001010_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:13.865816] [ERROR] Creating TEMP archive from NAE3-M_3000040_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:14.867166] [ERROR] Creating TEMP archive from NAE3-M_3000070_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:15.869553] [ERROR] Creating TEMP archive from NAE3-M_3000085_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:16.887665] [ERROR] Creating TEMP archive from NAE3-M_3000100_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:17.889805] [ERROR] Creating TEMP archive from NAE3-M_3000115_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:18.894836] [ERROR] Creating TEMP archive from NAE3-M_3000130_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:19.897036] [ERROR] Creating TEMP archive from NAE3-M_3000145_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:20.914970] [ERROR] Creating TEMP archive from NAE3-M_3000160_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:21.932760] [ERROR] Creating TEMP archive from NAE3-M_3000175_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:23.320026] [ERROR] Creating TEMP archive from NAE3-M_3000190_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:24.342423] [ERROR] Creating TEMP archive from NAE3-M_3000205_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:25.334962] [ERROR] Creating TEMP archive from NAE3-M_3000220_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:26.339942] [ERROR] Creating TEMP archive from NAE3-M_3000235_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:27.360970] [ERROR] Creating TEMP archive from NAE3-M_3000250_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:28.349272] [ERROR] Creating TEMP archive from NAE3-M_3000265_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:29.353009] [ERROR] Creating TEMP archive from NAE3-M_3000280_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:30.367248] [ERROR] Creating TEMP archive from NAE3-M_3000295_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:31.382178] [ERROR] Creating TEMP archive from NAE3-M_3000325_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:32.397311] [ERROR] Creating TEMP archive from NAE3-M_3000340_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:33.395573] [ERROR] Creating TEMP archive from NAE3-M_3000355_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:34.397846] [ERROR] Creating TEMP archive from NAE3-M_3000310_EN15_CAS_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:07:40.931873] [ERROR] Creating TEMP archive from NAE3-M_3002635_EN15_INF_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:09:43.685120] [ERROR] Creating TEMP archive from NAE3-M_3000840_EN_INF_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 292, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-12-06 08:11:54.858416] [INFO] Preparing to upload
+[2022-12-06 08:11:54.858416] [INFO] Uploading NAE1-H_1419_AGL15_INF_OE.tmp
+[2022-12-06 08:11:54.858416] [INFO] Uploading NAE1-H_1422_AGL15_INF_OE.tmp
+[2022-12-06 08:11:54.858416] [INFO] Uploading NAE1-H_1425_AGL15_INF_OE.tmp
+[2022-12-06 08:11:54.858416] [INFO] Uploading NAE1-H_1428_AGL15_INF_OE.tmp
+[2022-12-06 08:11:54.858416] [INFO] Uploading NAE1-H_1431_AGL15_INF_OE.tmp
+[2022-12-06 08:11:54.858416] [INFO] Uploading NAE1-H_1434_AGL15_INF_OE.tmp
+[2022-12-06 08:11:54.858416] [INFO] Uploading NAE1-H_1449_AGL15_INF_OE.tmp
+[2022-12-06 08:11:54.858416] [INFO] Uploading NAE1-H_1458_AGL15_INF_OE.tmp
+[2022-12-06 08:11:54.858416] [INFO] Uploading NAE1-H_1452_AGL15_INF_OE.tmp
+[2022-12-06 08:11:54.858416] [INFO] Uploading NAE1-H_1455_AGL15_INF_OE.tmp
+[2022-12-06 08:12:13.657421] [INFO] Uploading NAE1-H_1461_AGL15_INF_OE.tmp
+[2022-12-06 08:12:13.690113] [INFO] Uploading NAE1-H_1464_AGL15_INF_OE.tmp
+[2022-12-06 08:12:13.724583] [INFO] Uploading NAE1-H_1477_AGL15_INF_OE.tmp
+[2022-12-06 08:12:13.724583] [INFO] Uploading NAE1-H_1480_AGL15_INF_OE.tmp
+[2022-12-06 08:12:13.724583] [INFO] Uploading NAE1-H_1486_AGL15_INF_OE.tmp
+[2022-12-06 08:12:13.771756] [INFO] Uploading NAE1-H_1492_AGL15_INF_OE.tmp
+[2022-12-06 08:12:13.787375] [INFO] Uploading NAE1-H_1504_AGL15_INF_OE.tmp
+[2022-12-06 08:12:13.787375] [INFO] Uploading NAE1-H_1507_AGL15_INF_OE.tmp
+[2022-12-06 08:12:13.787375] [INFO] Uploading NAE1-H_1510_AGL15_INF_OE.tmp
+[2022-12-06 08:12:31.365216] [INFO] Uploading NAE1-H_1513_AGL15_INF_OE.tmp
+[2022-12-06 08:12:31.375509] [INFO] Uploading NAE1-H_1516_AGL15_INF_OE.tmp
+[2022-12-06 08:12:31.448021] [INFO] Uploading NAE1-H_1519_AGL15_INF_OE.tmp
+[2022-12-06 08:12:31.488647] [INFO] Uploading NAE1-H_1526_AGL15_INF_OE.tmp
+[2022-12-06 08:12:31.498911] [INFO] Uploading NAE1-H_1529_AGL15_INF_OE.tmp
+[2022-12-06 08:12:31.541499] [INFO] Uploading NAE1-H_1532_AGL15_INF_OE.tmp
+[2022-12-06 08:12:31.549507] [INFO] Uploading NAE1-H_1535_AGL15_INF_OE.tmp
+[2022-12-06 08:12:32.323158] [INFO] Uploading NAE1-H_1538_AGL15_INF_OE.tmp
+[2022-12-06 08:12:32.343191] [INFO] Uploading NAE1-H_1541_AGL15_INF_OE.tmp
+[2022-12-06 08:12:32.363263] [INFO] Uploading NAE1-H_1737_AGL15_INF_OE.tmp
+[2022-12-06 08:12:49.042498] [INFO] Uploading NAE1-H_1740_AGL15_INF_OE.tmp
+[2022-12-06 08:12:49.142652] [INFO] Uploading NAE1-H_1743_AGL15_INF_OE.tmp
+[2022-12-06 08:12:49.860871] [INFO] Uploading NAE1-H_1746_AGL15_INF_OE.tmp
+[2022-12-06 08:12:49.976902] [INFO] Uploading NAE1-H_1749_AGL15_INF_OE.tmp
+[2022-12-06 08:12:49.976902] [INFO] Uploading NAE1-H_1752_AGL15_INF_OE.tmp
+[2022-12-06 08:12:50.061609] [INFO] Uploading NAE1-H_2239_AGL15_INF_OE.tmp
+[2022-12-06 08:12:50.076951] [INFO] Uploading NAE1-H_2241_AGL15_INF_OE.tmp
+[2022-12-06 08:12:50.076951] [INFO] Uploading NAE1-H_2259_AGL15_INF_OE.tmp
+[2022-12-06 08:12:50.810781] [INFO] Uploading NAE1-H_2741_AGL15_INF_OE.tmp
+[2022-12-06 08:12:50.879585] [INFO] Uploading NAE1-H_3023526_AGL15_INF_OE.tmp
+[2022-12-06 08:13:06.790789] [INFO] Uploading NAE1-H_3031680_AGL15_INF_OE.tmp
+[2022-12-06 08:13:06.844181] [INFO] Uploading NAE1-M_3031750_EN15_INF_OE.tmp
+[2022-12-06 08:13:07.599136] [INFO] Uploading NAE1-M_3031850_EN15_INF_OE.tmp
+[2022-12-06 08:13:07.692894] [INFO] Uploading NAE1-M_3032036_EN15_INF_OE.tmp
+[2022-12-06 08:13:07.699398] [INFO] Uploading NAE1-M_3032052_EN15_INF_OE.tmp
+[2022-12-06 08:13:07.761904] [INFO] Uploading NAE1-M_3032071_EN15_INF_OE.tmp
+[2022-12-06 08:13:07.777530] [INFO] Uploading NAE2-H_2710_AGL15_INF_OE.tmp
+[2022-12-06 08:13:07.793156] [INFO] Uploading NAE3-H_3008107_AGL15_INF_OE.tmp
+[2022-12-06 08:13:08.516963] [INFO] Uploading NAE3-H_3009659_AGL15_INF_OE.tmp
+[2022-12-06 08:13:08.579474] [INFO] Uploading NAE3-H_5444_AGL15_INF_OE.tmp
+[2022-12-06 08:13:25.296153] [INFO] Uploading NAE3-M_3004251_EN15_INF_OE.tmp
+[2022-12-06 08:13:37.400184] [INFO] Uploading NAE3-M_3004255_EN15_INF_OE.tmp
+[2022-12-06 08:13:37.431424] [INFO] Uploading NAE3-M_3004272_EN15_INF_OE.tmp
+[2022-12-06 08:13:37.462770] [INFO] Uploading NAE3-M_3004289_EN15_INF_OE.tmp
+[2022-12-06 08:13:37.531975] [INFO] Uploading NAE3-M_3004306_EN15_INF_OE.tmp
+[2022-12-06 08:13:38.234047] [INFO] Uploading NAE3-M_3004322_EN15_INF_OE.tmp
+[2022-12-06 08:13:41.428553] [INFO] Uploading NAE3-M_3004340_EN15_INF_OE.tmp
+[2022-12-06 08:13:53.475922] [INFO] Uploading NAE3-M_3004356_EN15_INF_OE.tmp
+[2022-12-06 08:13:53.529204] [INFO] Uploading NAE3-M_3004358_EN15_INF_OE.tmp
+[2022-12-06 08:13:53.560813] [INFO] Uploading NAE3-M_3004374_EN15_INF_OE.tmp
+[2022-12-06 08:13:53.629094] [INFO] Uploading NAE3-M_3004388_EN15_INF_OE.tmp
+[2022-12-06 08:13:54.368402] [INFO] Uploading NAE3-M_3004409_EN15_INF_OE.tmp
+[2022-12-06 08:13:57.525565] [INFO] Uploading NAE3-M_3004426_EN15_INF_OE.tmp
+[2022-12-06 08:14:09.559852] [INFO] Uploading NAE3-M_3004443_EN15_INF_OE.tmp
+[2022-12-06 08:14:09.628459] [INFO] Uploading NAE3-M_3004460_EN15_INF_OE.tmp
+[2022-12-06 08:14:09.628459] [INFO] Uploading NAE3-M_3004463_EN15_INF_OE.tmp
+[2022-12-06 08:14:09.713474] [INFO] Uploading NAE3-M_3004478_EN15_INF_OE.tmp
+[2022-12-06 08:14:10.430917] [INFO] Uploading NAE3-M_3004511_EN15_INF_OE.tmp
+[2022-12-06 08:14:13.624628] [INFO] Uploading NAE3-M_3004545_EN15_INF_OE.tmp
+[2022-12-06 08:14:25.621757] [INFO] Uploading NAE3-M_3004579_EN15_INF_OE.tmp
+[2022-12-06 08:14:25.721812] [INFO] Uploading NAE3-M_3004596_EN15_INF_OE.tmp
+[2022-12-06 08:14:25.753065] [INFO] Uploading NAE3-M_3004611_EN15_INF_OE.tmp
+[2022-12-06 08:14:25.815863] [INFO] Uploading NAE3-M_3004614_EN15_INF_OE.tmp
+[2022-12-06 08:14:25.900213] [INFO] Uploading NAE3-M_3004648_EN15_INF_OE.tmp
+[2022-12-06 08:14:25.900213] [INFO] Uploading NAE3-M_3004686_EN15_INF_OE.tmp
+[2022-12-06 08:14:26.571071] [INFO] Uploading NAE3-M_3004699_EN15_INF_OE.tmp
+[2022-12-06 08:14:26.571071] [INFO] Uploading NAE3-M_3009419_EN15_INF_OE.tmp
+[2022-12-06 08:14:26.702394] [INFO] Uploading NAE3-M_3011452_EN15_INF_OE.tmp
+[2022-12-06 08:14:29.709355] [INFO] Uploading NAE3-M_3011468_EN15_INF_OE.tmp
+[2022-12-06 08:14:41.032111] [INFO] Uploading NAE3-M_3011511_EN15_INF_OE.tmp
+[2022-12-06 08:14:41.197031] [INFO] Uploading NAE3-M_3011559_EN15_INF_OE.tmp
+[2022-12-06 08:14:41.216713] [INFO] Uploading NAE3-M_3011622_EN15_INF_OE.tmp
+[2022-12-06 08:14:41.627054] [INFO] Uploading NAE3-M_3011699_EN15_INF_OE.tmp
+[2022-12-06 08:14:41.702154] [INFO] Uploading NAE4-M_3010740_EN15_INF_OE.tmp
+[2022-12-06 08:14:41.845051] [INFO] Uploading NAE4-M_3010873_EN15_INF_OE.tmp
+[2022-12-06 08:14:41.889973] [INFO] Uploading NAE6-M_3000852_EN15_INF_OE.tmp
+[2022-12-06 08:14:42.816347] [INFO] Uploading NAE6-M_3000890_EN15_INF_OE.tmp
+[2022-12-06 08:14:45.754600] [INFO] Uploading NAE6-M_3000916_EN15_INF_OE.tmp
+[2022-12-06 08:14:49.171482] [ERROR] Uploading data from NAE3-M_3004596_EN15_INF_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x00000212C29C6608>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000212C29C6608>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 222, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000212C29C6608>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-12-06 08:14:49.171482] [INFO] Uploading NAE6-M_3000930_EN15_INF_OE.tmp
+[2022-12-06 08:14:57.102703] [INFO] Uploading NAE6-M_3000950_EN15_INF_OE.tmp
+[2022-12-06 08:14:57.276572] [INFO] Uploading NAE6-M_3000962_EN15_INF_OE.tmp
+[2022-12-06 08:14:57.696856] [INFO] Uploading NAE6-M_3001000_EN15_INF_OE.tmp
+[2022-12-06 08:14:57.849515] [INFO] Uploading NAE6-M_3001014_EN15_INF_OE.tmp
+[2022-12-06 08:15:01.177045] [INFO] Uploading NAE6-M_3001026_EN15_INF_OE.tmp
+[2022-12-06 08:15:02.131408] [INFO] Uploading NAE6-M_3001038_EN15_INF_OE.tmp
+[2022-12-06 08:15:05.673675] [INFO] Uploading NAE6-M_3001050_EN15_INF_OE.tmp
+[2022-12-06 08:15:08.441432] [INFO] Uploading NAE6-M_3001062_EN15_INF_OE.tmp
+[2022-12-06 08:15:16.360014] [INFO] Uploading NAE6-M_3001074_EN15_INF_OE.tmp
+[2022-12-06 08:15:16.569923] [INFO] Uploading NAE6-M_3001100_EN15_INF_OE.tmp
+[2022-12-06 08:15:16.956324] [INFO] Uploading NAE6-M_3001126_EN15_INF_OE.tmp
+[2022-12-06 08:15:17.159177] [INFO] Uploading NAE6-M_3001140_EN15_INF_OE.tmp
+[2022-12-06 08:15:21.237094] [INFO] Uploading NAE6-M_3001152_EN15_INF_OE.tmp
+[2022-12-06 08:15:22.218379] [INFO] Uploading NAE6-M_3001164_EN15_INF_OE.tmp
+[2022-12-06 08:15:25.798287] [INFO] Uploading NAE6-M_3001176_EN15_INF_OE.tmp
+[2022-12-06 08:15:28.472521] [INFO] Uploading NAE6-M_3001188_EN15_INF_OE.tmp
+[2022-12-06 08:15:36.484329] [INFO] Uploading NAE6-M_3001212_EN15_INF_OE.tmp
+[2022-12-06 08:15:36.670706] [INFO] Uploading NAE6-M_3001220_EN15_INF_OE.tmp
+[2022-12-06 08:15:37.065673] [INFO] Uploading NAE6-M_3001228_EN15_INF_OE.tmp
+[2022-12-06 08:15:37.286318] [INFO] Uploading NAE6-M_3001254_EN15_INF_OE.tmp
+[2022-12-06 08:15:41.343576] [INFO] Uploading NAE6-M_3001268_EN15_INF_OE.tmp
+[2022-12-06 08:15:42.330536] [INFO] Uploading NAE6-M_3001280_EN15_INF_OE.tmp
+[2022-12-06 08:15:45.919817] [INFO] Uploading NAE6-M_3001292_EN15_INF_OE.tmp
+[2022-12-06 08:15:48.558580] [INFO] Uploading NAE6-M_3001304_EN15_INF_OE.tmp
+[2022-12-06 08:15:56.554355] [INFO] Uploading NAE6-M_3001316_EN15_INF_OE.tmp
+[2022-12-06 08:15:56.752410] [INFO] Uploading NAE6-M_3001328_EN15_INF_OE.tmp
+[2022-12-06 08:15:57.154073] [INFO] Uploading NAE6-M_3001340_EN15_INF_OE.tmp
+[2022-12-06 08:15:57.338821] [INFO] Uploading NAE6-M_3001366_EN15_INF_OE.tmp
+[2022-12-06 08:15:59.783118] [INFO] Uploading QS-A-11P01-H_3000054_AGL15_VCA_OE.tmp
+[2022-12-06 08:16:00.309570] [INFO] Uploading QS-A-11P01-H_3000055_AGL15_VCA_OE.tmp
+[2022-12-06 08:16:01.396848] [INFO] Uploading QS-A-11P01-H_3000056_AGL15_VCA_OE.tmp
+[2022-12-06 08:16:02.390439] [INFO] Uploading QS-A-11P01-H_3000057_AGL15_VCA_OE.tmp
+[2022-12-06 08:16:05.993689] [INFO] Uploading QS-A-11P01-H_3000058_AGL15_VCA_OE.tmp
+[2022-12-06 08:16:08.646416] [INFO] Uploading QS-A-11P01-H_3000059_AGL15_VCA_OE.tmp
+[2022-12-06 08:16:16.655031] [INFO] Uploading QS-A-11P01-H_3000060_AGL15_VCA_OE.tmp
+[2022-12-06 08:16:16.884506] [INFO] Uploading QS-A-11P01-H_3000061_AGL15_VCA_OE.tmp
+[2022-12-06 08:16:17.241266] [INFO] Uploading QS-A-11P01-H_3000062_AGL15_VCA_OE.tmp
+[2022-12-06 08:16:17.453902] [INFO] Uploading QS-A-11P01-H_3000063_AGL15_VCA_OE.tmp
+[2022-12-06 08:16:40.814744] [INFO] Uploading QS-A-11P01-H_3000064_AGL15_VCA_OE.tmp
+[2022-12-06 08:16:41.293771] [INFO] Uploading QS-A-11P01-H_3000065_AGL15_VCA_OE.tmp
+[2022-12-06 08:16:42.464627] [INFO] Uploading QS-A-11P01-H_3000066_AGL15_VCA_OE.tmp
+[2022-12-06 08:16:43.396336] [INFO] Uploading QS-A-11P01-H_3000067_AGL15_VCA_OE.tmp
+[2022-12-06 08:16:46.989583] [INFO] Uploading QS-A-11P01-M_3001262_EN15_VCA_OE.tmp
+[2022-12-06 08:16:49.596378] [INFO] Uploading QS-A-11P01-M_3001276_EN15_VCA_OE.tmp
+[2022-12-06 08:16:57.642218] [INFO] Uploading QS-A-11P01-M_3001290_EN15_VCA_OE.tmp
+[2022-12-06 08:16:57.992239] [INFO] Uploading QS-A-11P01-M_3001304_EN15_VCA_OE.tmp
+[2022-12-06 08:16:58.193073] [INFO] Uploading QS-A-11P01-M_3001318_EN15_VCA_OE.tmp
+[2022-12-06 08:16:58.431214] [INFO] Uploading QS-A-11P01-M_3001332_EN15_VCA_OE.tmp
+[2022-12-06 08:17:12.800603] [INFO] Uploading QS-A-11P01-M_3001346_EN15_VCA_OE.tmp
+[2022-12-06 08:17:15.437730] [INFO] Uploading QS-A-11P01-M_3001360_EN15_VCA_OE.tmp
+[2022-12-06 08:17:22.060368] [INFO] Uploading QS-A-11P01-M_3001374_EN15_VCA_OE.tmp
+[2022-12-06 08:17:22.393237] [INFO] Uploading QS-A-11P01-M_3001388_EN15_VCA_OE.tmp
+[2022-12-06 08:17:22.680096] [INFO] Uploading QS-A-11P01-M_3001402_EN15_VCA_OE.tmp
+[2022-12-06 08:17:22.980310] [INFO] Uploading QS-A-11P01-M_3001416_EN15_VCA_OE.tmp
+[2022-12-06 08:17:23.249679] [INFO] Uploading QS-A-11P01-M_3001430_EN15_VCA_OE.tmp
+[2022-12-06 08:17:23.490923] [INFO] Uploading QS-A-11P01-M_3001444_EN15_VCA_OE.tmp
+[2022-12-06 08:17:23.698036] [INFO] Uploading QS-A-11P01-M_3001458_EN15_VCA_OE.tmp
+[2022-12-06 08:17:24.600141] [INFO] Uploading QS-A-11P01-M_3001472_EN15_VCA_OE.tmp
+[2022-12-06 08:17:37.722808] [INFO] Uploading QS-A-11P01-M_3001486_EN15_VCA_OE.tmp
+[2022-12-06 08:17:40.416006] [INFO] Uploading QS-A-11P01-M_3001500_EN15_VCA_OE.tmp
+[2022-12-06 08:17:46.980934] [INFO] Uploading QS-A-11P01-M_3001514_EN15_VCA_OE.tmp
+[2022-12-06 08:17:47.350207] [INFO] Uploading QS-A-11P01-M_3001528_EN15_VCA_OE.tmp
+[2022-12-06 08:17:47.635597] [INFO] Uploading QS-A-11P01-M_3001542_EN15_VCA_OE.tmp
+[2022-12-06 08:17:47.882600] [INFO] Uploading QS-A-11P01-M_3001556_EN15_VCA_OE.tmp
+[2022-12-06 08:17:48.152289] [INFO] Uploading QS-A-11P01-M_3001655_EN15_VCA_OE.tmp
+[2022-12-06 08:17:48.484309] [INFO] Uploading QS-A-4P01-H_3000041_AGL15_VCA_OE.tmp
+[2022-12-06 08:17:48.669083] [INFO] Uploading QS-A-4P01-H_3000042_AGL15_VCA_OE.tmp
+[2022-12-06 08:17:49.502771] [INFO] Uploading QS-A-4P01-H_3000043_AGL15_VCA_OE.tmp
+[2022-12-06 08:18:02.653335] [INFO] Uploading QS-A-4P01-H_3000044_AGL15_VCA_OE.tmp
+[2022-12-06 08:18:05.376157] [INFO] Uploading QS-A-4P01-H_3000045_AGL15_VCA_OE.tmp
+[2022-12-06 08:18:11.889611] [INFO] Uploading QS-A-4P01-H_3000046_AGL15_VCA_OE.tmp
+[2022-12-06 08:18:12.305995] [INFO] Uploading QS-A-4P01-H_3000047_AGL15_VCA_OE.tmp
+[2022-12-06 08:18:12.581193] [INFO] Uploading QS-A-4P01-H_3000048_AGL15_VCA_OE.tmp
+[2022-12-06 08:18:12.897265] [INFO] Uploading QS-A-4P01-H_3000049_AGL15_VCA_OE.tmp
+[2022-12-06 08:18:13.098000] [INFO] Uploading QS-A-4P01-H_3000050_AGL15_VCA_OE.tmp
+[2022-12-06 08:18:29.542707] [INFO] Uploading QS-A-4P01-H_3000051_AGL15_VCA_OE.tmp
+[2022-12-06 08:18:29.791347] [INFO] Uploading QS-A-4P01-H_3000052_AGL15_VCA_OE.tmp
+[2022-12-06 08:18:30.623236] [INFO] Uploading QS-A-4P01-H_3000053_AGL15_VCA_OE.tmp
+[2022-12-06 08:18:43.676784] [INFO] Uploading QS-A-4P01-H_3000054_AGL15_VCA_OE.tmp
+[2022-12-06 08:18:46.370829] [INFO] Uploading QS-A-4P01-M_3000377_EN15_VCA_OE.tmp
+[2022-12-06 08:18:52.884650] [INFO] Uploading QS-A-4P01-M_3000391_EN15_VCA_OE.tmp
+[2022-12-06 08:18:53.401101] [INFO] Uploading QS-A-4P01-M_3000405_EN15_VCA_OE.tmp
+[2022-12-06 08:18:53.554544] [INFO] Uploading QS-A-4P01-M_3000419_EN15_VCA_OE.tmp
+[2022-12-06 08:18:53.886227] [INFO] Uploading QS-A-4P01-M_3000433_EN15_VCA_OE.tmp
+[2022-12-06 08:18:54.033127] [INFO] Uploading QS-A-4P01-M_3000447_EN15_VCA_OE.tmp
+[2022-12-06 08:19:10.605835] [INFO] Uploading QS-B-11P01-H_3000047_AGL15_VCA_OE.tmp
+[2022-12-06 08:19:10.788255] [INFO] Uploading QS-B-11P01-H_3000048_AGL15_VCA_OE.tmp
+[2022-12-06 08:19:11.621026] [INFO] Uploading QS-B-11P01-H_3000049_AGL15_VCA_OE.tmp
+[2022-12-06 08:19:24.088232] [INFO] Uploading QS-B-11P01-H_3000050_AGL15_VCA_OE.tmp
+[2022-12-06 08:19:24.673921] [INFO] Uploading QS-B-11P01-H_3000051_AGL15_VCA_OE.tmp
+[2022-12-06 08:19:30.698484] [INFO] Uploading QS-B-11P01-H_3000052_AGL15_VCA_OE.tmp
+[2022-12-06 08:19:31.115310] [INFO] Uploading QS-B-11P01-H_3000053_AGL15_VCA_OE.tmp
+[2022-12-06 08:19:31.350695] [INFO] Uploading QS-B-11P01-H_3000054_AGL15_VCA_OE.tmp
+[2022-12-06 08:19:31.699892] [INFO] Uploading QS-B-11P01-H_3000055_AGL15_VCA_OE.tmp
+[2022-12-06 08:19:31.715518] [INFO] Uploading QS-B-11P01-H_3000056_AGL15_VCA_OE.tmp
+[2022-12-06 08:19:51.612789] [INFO] Uploading QS-B-11P01-H_3000057_AGL15_VCA_OE.tmp
+[2022-12-06 08:19:51.844659] [INFO] Uploading QS-B-11P01-H_3000058_AGL15_VCA_OE.tmp
+[2022-12-06 08:19:52.631324] [INFO] Uploading QS-B-11P01-H_3000059_AGL15_VCA_OE.tmp
+[2022-12-06 08:20:05.095862] [INFO] Uploading QS-B-11P01-H_3000060_AGL15_VCA_OE.tmp
+[2022-12-06 08:20:05.682369] [INFO] Uploading QS-B-11P01-M_3000548_EN15_VCA_OE.tmp
+[2022-12-06 08:20:11.759972] [INFO] Uploading QS-B-11P01-M_3000562_EN15_VCA_OE.tmp
+[2022-12-06 08:20:12.097388] [INFO] Uploading QS-B-11P01-M_3000576_EN15_VCA_OE.tmp
+[2022-12-06 08:20:12.342224] [INFO] Uploading QS-B-11P01-M_3000590_EN15_VCA_OE.tmp
+[2022-12-06 08:20:12.782981] [INFO] Uploading QS-B-11P01-M_3000604_EN15_VCA_OE.tmp
+[2022-12-06 08:20:12.814233] [INFO] Uploading QS-B-11P01-M_3000618_EN15_VCA_OE.tmp
+[2022-12-06 08:20:32.689371] [INFO] Uploading QS-B-11P01-M_3000632_EN15_VCA_OE.tmp
+[2022-12-06 08:20:32.898701] [INFO] Uploading QS-B-11P01-M_3000646_EN15_VCA_OE.tmp
+[2022-12-06 08:20:33.715619] [INFO] Uploading QS-B-11P01-M_3000660_EN15_VCA_OE.tmp
+[2022-12-06 08:20:41.133061] [INFO] Uploading QS-B-11P01-M_3000674_EN15_VCA_OE.tmp
+[2022-12-06 08:20:46.131199] [INFO] Uploading QS-B-11P01-M_3000688_EN15_VCA_OE.tmp
+[2022-12-06 08:20:47.179876] [INFO] Uploading QS-B-11P01-M_3000702_EN15_VCA_OE.tmp
+[2022-12-06 08:20:47.526647] [INFO] Uploading QS-B-11P01-M_3000716_EN15_VCA_OE.tmp
+[2022-12-06 08:20:47.755156] [INFO] Uploading QS-B-11P01-M_3000730_EN15_VCA_OE.tmp
+[2022-12-06 08:20:48.178990] [INFO] Uploading QS-B-11P01-M_3000744_EN15_VCA_OE.tmp
+[2022-12-06 08:20:48.231337] [INFO] Uploading QS-B-11P01-M_3000758_EN15_VCA_OE.tmp
+[2022-12-06 08:21:08.070404] [INFO] Uploading QS-B-11P01-M_3000772_EN15_VCA_OE.tmp
+[2022-12-06 08:21:08.398365] [INFO] Uploading QS-B-11P01-M_3000786_EN15_VCA_OE.tmp
+[2022-12-06 08:21:09.215278] [INFO] Uploading QS-B-11P01-M_3000800_EN15_VCA_OE.tmp
+[2022-12-06 08:21:16.523011] [INFO] Uploading QS-B-11P01-M_3000814_EN15_VCA_OE.tmp
+[2022-12-06 08:21:20.776730] [INFO] Uploading QS-B-11P01-M_3000828_EN15_VCA_OE.tmp
+[2022-12-06 08:21:21.780788] [INFO] Uploading QS-B-11P01-M_3000842_EN15_VCA_OE.tmp
+[2022-12-06 08:21:22.141831] [INFO] Uploading QS-B-11P01-M_3000880_EN15_VCA_OE.tmp
+[2022-12-06 08:21:22.395209] [INFO] Uploading QS-B-4P01-H_3000040_AGL15_VCA_OE.tmp
+[2022-12-06 08:21:22.780537] [INFO] Uploading QS-B-4P01-H_3000041_AGL15_VCA_OE.tmp
+[2022-12-06 08:21:22.780537] [INFO] Uploading QS-B-4P01-H_3000042_AGL15_VCA_OE.tmp
+[2022-12-06 08:21:42.711657] [INFO] Uploading QS-B-4P01-H_3000043_AGL15_VCA_OE.tmp
+[2022-12-06 08:21:43.066324] [INFO] Uploading QS-B-4P01-H_3000044_AGL15_VCA_OE.tmp
+[2022-12-06 08:21:43.868530] [INFO] Uploading QS-B-4P01-H_3000045_AGL15_VCA_OE.tmp
+[2022-12-06 08:21:51.130728] [INFO] Uploading QS-B-4P01-H_3000046_AGL15_VCA_OE.tmp
+[2022-12-06 08:21:55.361985] [INFO] Uploading QS-B-4P01-H_3000047_AGL15_VCA_OE.tmp
+[2022-12-06 08:21:56.511793] [INFO] Uploading QS-B-4P01-H_3000048_AGL15_VCA_OE.tmp
+[2022-12-06 08:21:56.784050] [INFO] Uploading QS-B-4P01-H_3000049_AGL15_VCA_OE.tmp
+[2022-12-06 08:22:01.153282] [INFO] Uploading QS-B-4P01-H_3000050_AGL15_VCA_OE.tmp
+[2022-12-06 08:22:01.391675] [INFO] Uploading QS-B-4P01-H_3000051_AGL15_VCA_OE.tmp
+[2022-12-06 08:22:01.407301] [INFO] Uploading QS-B-4P01-H_3000052_AGL15_VCA_OE.tmp
+[2022-12-06 08:22:21.500426] [INFO] Uploading QS-B-4P01-H_3000053_AGL15_VCA_OE.tmp
+[2022-12-06 08:22:21.720691] [INFO] Uploading QS-B-4P01-M_3000383_EN15_VCA_OE.tmp
+[2022-12-06 08:22:22.518713] [INFO] Uploading QS-B-4P01-M_3000397_EN15_VCA_OE.tmp
+[2022-12-06 08:22:29.776711] [INFO] Uploading QS-B-4P01-M_3000411_EN15_VCA_OE.tmp
+[2022-12-06 08:22:34.125740] [INFO] Uploading QS-B-4P01-M_3000425_EN15_VCA_OE.tmp
+[2022-12-06 08:22:35.127554] [INFO] Uploading QS-B-4P01-M_3000439_EN15_VCA_OE.tmp
+[2022-12-06 08:22:35.421405] [INFO] Uploading QS-B-4P01-M_3000453_EN15_VCA_OE.tmp
+[2022-12-06 08:23:01.937946] [INFO] Upload finished...
+[2022-12-06 08:23:01.938953] [INFO] Waiting 10 minutes
+[2022-12-06 09:27:38.352918] [INFO] Start!
+[2022-12-06 09:28:05.256252] [INFO] Preparing to upload
+[2022-12-06 09:28:05.259553] [INFO] Uploading 1189 lines of data... [condominio-infinity-master_EN15_INF_CK.tmp]
+[2022-12-06 09:28:05.259553] [INFO] Uploading 1189 lines of data... [condominio-vista-faria-lima_EN15_VFL_CK.tmp]
+[2022-12-06 09:28:05.260553] [INFO] Uploading 1132 lines of data... [ED-CASTELO-MEDICAO-CONCESSIONARIA_EN15_CAS_CK.tmp]
+[2022-12-06 09:43:59.176725] [INFO] Upload finished...
+[2022-12-06 09:43:59.176725] [INFO] Waiting 10 minutes
+[2022-12-06 09:53:59.178289] [INFO] Start!
+[2022-12-06 09:54:27.851665] [INFO] Preparing to upload
+[2022-12-06 09:54:27.853666] [INFO] Uploading 1191 lines of data... [condominio-infinity-master_EN15_INF_CK.tmp]
+[2022-12-06 09:54:27.853666] [INFO] Uploading 1191 lines of data... [condominio-vista-faria-lima_EN15_VFL_CK.tmp]
+[2022-12-06 09:54:27.854666] [INFO] Uploading 1134 lines of data... [ED-CASTELO-MEDICAO-CONCESSIONARIA_EN15_CAS_CK.tmp]
+[2022-12-06 10:10:23.104235] [INFO] Upload finished...
+[2022-12-06 10:10:23.105236] [INFO] Waiting 10 minutes
+[2022-12-06 10:36:03.734186] [INFO] Start!
+[2022-12-06 10:36:35.094584] [INFO] Preparing to upload
+[2022-12-06 10:36:35.095584] [INFO] Upload finished...
+[2022-12-06 10:36:35.095584] [INFO] Waiting 10 minutes
+[2022-12-06 10:46:35.100677] [INFO] Start!
+[2022-12-06 10:46:55.362566] [INFO] Preparing to upload
+[2022-12-06 10:46:55.363566] [INFO] Upload finished...
+[2022-12-06 10:46:55.363566] [INFO] Waiting 10 minutes
+[2022-12-06 10:56:55.378837] [INFO] Start!
+[2022-12-06 10:57:08.640168] [INFO] Preparing to upload
+[2022-12-06 10:57:08.640168] [INFO] Upload finished...
+[2022-12-06 10:57:08.640168] [INFO] Waiting 10 minutes
+[2022-12-06 11:07:08.647706] [INFO] Start!
+[2022-12-06 11:07:25.108593] [INFO] Preparing to upload
+[2022-12-06 11:07:25.109593] [INFO] Upload finished...
+[2022-12-06 11:07:25.109593] [INFO] Waiting 10 minutes
+[2022-12-06 11:17:25.112867] [INFO] Start!
+[2022-12-06 11:17:40.358526] [INFO] Preparing to upload
+[2022-12-06 11:17:40.359526] [INFO] Upload finished...
+[2022-12-06 11:17:40.359526] [INFO] Waiting 10 minutes
+[2022-12-06 11:27:40.368657] [INFO] Start!
+[2022-12-06 11:28:11.626307] [INFO] Preparing to upload
+[2022-12-06 11:28:11.626307] [INFO] Upload finished...
+[2022-12-06 11:28:11.626307] [INFO] Waiting 10 minutes
+[2022-12-06 11:30:53.371587] [INFO] Start!
+[2022-12-06 12:07:35.056483] [INFO] Start!
+[2022-12-06 12:08:10.303320] [ERROR] Preparing to upload: Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 234, in prepareToUpload
+    ml.messageLogkkkk("[INFO] Preparing to upload")
+AttributeError: module 'src.messagelog' has no attribute 'messageLogkkkk'
+
+[2022-12-06 12:08:10.303320] [INFO] Upload finished...
+[2022-12-06 12:08:10.303320] [INFO] Waiting 10 minutes
+[2022-12-06 12:38:13.011363] [INFO] Start!
+[2022-12-06 12:38:26.280417] [INFO] Preparing to upload
+[2022-12-06 12:38:26.280417] [INFO] Upload finished...
+[2022-12-06 12:38:26.280417] [INFO] Waiting 10 minutes
+[2022-12-06 12:48:26.288063] [INFO] Start!
+[2022-12-06 12:48:59.542368] [INFO] Preparing to upload
+[2022-12-06 12:48:59.543369] [INFO] Upload finished...
+[2022-12-06 12:48:59.543369] [INFO] Waiting 10 minutes
+[2022-12-06 12:58:59.548155] [INFO] Start!
+[2022-12-06 12:59:25.808235] [INFO] Preparing to upload
+[2022-12-06 12:59:25.809236] [INFO] Upload finished...
+[2022-12-06 12:59:25.809236] [INFO] Waiting 10 minutes
+[2022-12-06 13:09:25.820318] [INFO] Start!
+[2022-12-06 13:09:39.075018] [INFO] Preparing to upload
+[2022-12-06 13:09:39.076018] [INFO] Upload finished...
+[2022-12-06 13:09:39.076018] [INFO] Waiting 10 minutes
+[2022-12-06 13:19:39.078211] [INFO] Start!
+[2022-12-06 13:20:07.417651] [INFO] Preparing to upload
+[2022-12-06 13:20:07.417651] [INFO] Upload finished...
+[2022-12-06 13:20:07.418652] [INFO] Waiting 10 minutes
+[2022-12-06 13:30:07.433149] [INFO] Start!
+[2022-12-06 13:30:26.948455] [INFO] Preparing to upload
+[2022-12-06 13:30:26.949455] [INFO] Upload finished...
+[2022-12-06 13:30:26.949455] [INFO] Waiting 10 minutes
+[2022-12-06 13:40:26.953361] [INFO] Start!
+[2022-12-06 13:40:43.199811] [INFO] Preparing to upload
+[2022-12-06 13:40:43.199811] [INFO] Upload finished...
+[2022-12-06 13:40:43.199811] [INFO] Waiting 10 minutes
+[2022-12-06 13:50:43.205865] [INFO] Start!
+[2022-12-06 13:51:11.461566] [INFO] Preparing to upload
+[2022-12-06 13:51:11.461566] [INFO] Upload finished...
+[2022-12-06 13:51:11.461566] [INFO] Waiting 10 minutes
+[2022-12-06 14:01:11.465381] [INFO] Start!
+[2022-12-06 14:01:46.728561] [INFO] Preparing to upload
+[2022-12-06 14:01:46.728561] [INFO] Upload finished...
+[2022-12-06 14:01:46.729561] [INFO] Waiting 10 minutes
+[2022-12-06 14:11:46.738702] [INFO] Start!
+[2022-12-06 14:12:05.261374] [INFO] Preparing to upload
+[2022-12-06 14:12:05.261374] [INFO] Upload finished...
+[2022-12-06 14:12:05.261374] [INFO] Waiting 10 minutes
+[2022-12-06 14:22:05.277258] [INFO] Start!
+[2022-12-06 14:22:19.599756] [INFO] Preparing to upload
+[2022-12-06 14:22:19.599756] [INFO] Upload finished...
+[2022-12-06 14:22:19.599756] [INFO] Waiting 10 minutes
+[2022-12-06 14:32:19.605166] [INFO] Start!
+[2022-12-06 14:32:46.893843] [INFO] Preparing to upload
+[2022-12-06 14:32:46.894844] [INFO] Upload finished...
+[2022-12-06 14:32:46.894844] [INFO] Waiting 10 minutes
+[2022-12-06 14:42:46.908286] [INFO] Start!
+[2022-12-06 14:43:15.177228] [INFO] Preparing to upload
+[2022-12-06 14:43:15.177228] [INFO] Upload finished...
+[2022-12-06 14:43:15.178228] [INFO] Waiting 10 minutes
+[2022-12-06 14:53:15.179629] [INFO] Start!
+[2022-12-06 14:53:21.454107] [INFO] Preparing to upload
+[2022-12-06 14:53:21.454107] [INFO] Upload finished...
+[2022-12-06 14:53:21.454107] [INFO] Waiting 10 minutes
+[2022-12-06 15:03:21.460534] [INFO] Start!
+[2022-12-06 15:03:50.282532] [INFO] Preparing to upload
+[2022-12-06 15:03:50.283533] [INFO] Upload finished...
+[2022-12-06 15:03:50.283533] [INFO] Waiting 10 minutes
+[2022-12-06 15:13:50.292846] [INFO] Start!
+[2022-12-06 15:14:17.563132] [INFO] Preparing to upload
+[2022-12-06 15:14:17.563132] [INFO] Upload finished...
+[2022-12-06 15:14:17.564132] [INFO] Waiting 10 minutes
+[2022-12-06 15:24:17.571848] [INFO] Start!
+[2022-12-06 15:24:50.827346] [INFO] Preparing to upload
+[2022-12-06 15:24:50.827346] [INFO] Upload finished...
+[2022-12-06 15:24:50.827346] [INFO] Waiting 10 minutes
+[2022-12-06 20:11:06.340012] [INFO] Start!
+[2022-12-06 20:11:36.133984] [INFO] Preparing to upload
+[2022-12-06 20:11:36.133984] [INFO] Uploading 1328 lines of data... [condominio-vista-faria-lima_EN15_VFL_CK.tmp]
+[2022-12-06 20:11:36.133984] [INFO] Uploading 1328 lines of data... [condominio-infinity-master_EN15_INF_CK.tmp]
+[2022-12-06 20:11:36.133984] [INFO] Uploading 1271 lines of data... [ED-CASTELO-MEDICAO-CONCESSIONARIA_EN15_CAS_CK.tmp]
+[2022-12-06 20:19:10.958134] [ERROR] Uploading data from ED-CASTELO-MEDICAO-CONCESSIONARIA_EN15_CAS_CK.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000020DA5B60588>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020DA5B60588>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 210, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020DA5B60588>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-12-06 20:29:25.854702] [INFO] Upload finished...
+[2022-12-06 20:29:25.854702] [INFO] Waiting 10 minutes
+[2022-12-06 20:39:25.864013] [INFO] Start!
+[2022-12-06 20:39:47.521033] [INFO] Preparing to upload
+[2022-12-06 20:39:47.521033] [INFO] Uploading 1330 lines of data... [condominio-vista-faria-lima_EN15_VFL_CK.tmp]
+[2022-12-06 20:39:47.521033] [INFO] Uploading 1330 lines of data... [condominio-infinity-master_EN15_INF_CK.tmp]
+[2022-12-06 20:39:47.521033] [INFO] Uploading 1273 lines of data... [ED-CASTELO-MEDICAO-CONCESSIONARIA_EN15_CAS_CK.tmp]
+[2022-12-06 20:57:38.493883] [INFO] Upload finished...
+[2022-12-06 20:57:38.493883] [INFO] Waiting 10 minutes
+[2022-12-06 21:07:38.503415] [INFO] Start!
+[2022-12-06 21:08:13.782529] [INFO] Preparing to upload
+[2022-12-06 21:08:13.782529] [INFO] Uploading 1332 lines of data... [condominio-vista-faria-lima_EN15_VFL_CK.tmp]
+[2022-12-06 21:08:13.782529] [INFO] Uploading 1332 lines of data... [condominio-infinity-master_EN15_INF_CK.tmp]
+[2022-12-06 21:08:13.782529] [INFO] Uploading 1275 lines of data... [ED-CASTELO-MEDICAO-CONCESSIONARIA_EN15_CAS_CK.tmp]
+[2022-12-06 21:17:31.557751] [ERROR] Uploading data from condominio-vista-faria-lima_EN15_VFL_CK.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000020DA59AB988>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020DA59AB988>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 210, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020DA59AB988>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-12-06 21:18:10.986938] [ERROR] Uploading data from condominio-infinity-master_EN15_INF_CK.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000020DA5BE3E48>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020DA5BE3E48>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 210, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020DA5BE3E48>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-12-06 21:25:20.172851] [INFO] Upload finished...
+[2022-12-06 21:25:20.172851] [INFO] Waiting 10 minutes
+[2022-12-06 21:35:20.185840] [INFO] Start!
+[2022-12-06 21:35:54.431868] [INFO] Preparing to upload
+[2022-12-06 21:35:54.431868] [INFO] Uploading 1334 lines of data... [condominio-vista-faria-lima_EN15_VFL_CK.tmp]
+[2022-12-06 21:35:54.431868] [INFO] Uploading 1334 lines of data... [condominio-infinity-master_EN15_INF_CK.tmp]
+[2022-12-06 21:35:54.431868] [INFO] Uploading 1277 lines of data... [ED-CASTELO-MEDICAO-CONCESSIONARIA_EN15_CAS_CK.tmp]
+[2022-12-06 21:53:48.486467] [INFO] Upload finished...
+[2022-12-06 21:53:48.486467] [INFO] Waiting 10 minutes
+[2022-12-06 22:03:48.495815] [INFO] Start!
+[2022-12-06 22:04:18.040362] [INFO] Preparing to upload
+[2022-12-06 22:04:18.040362] [INFO] Uploading 1336 lines of data... [condominio-infinity-master_EN15_INF_CK.tmp]
+[2022-12-06 22:04:18.040362] [INFO] Uploading 1336 lines of data... [condominio-vista-faria-lima_EN15_VFL_CK.tmp]
+[2022-12-06 22:04:18.040362] [INFO] Uploading 1279 lines of data... [ED-CASTELO-MEDICAO-CONCESSIONARIA_EN15_CAS_CK.tmp]
+[2022-12-06 22:22:14.312896] [INFO] Upload finished...
+[2022-12-06 22:22:14.312896] [INFO] Waiting 10 minutes
+[2022-12-06 22:38:53.776739] [INFO] Start!
+[2022-12-06 22:39:19.909355] [INFO] Preparing to upload
+[2022-12-06 22:39:19.909355] [INFO] Uploading 1338 lines of data... [condominio-vista-faria-lima_EN15_VFL_CK.tmp]
+[2022-12-06 22:39:19.909355] [INFO] Uploading 1338 lines of data... [condominio-infinity-master_EN15_INF_CK.tmp]
+[2022-12-06 22:39:19.909355] [INFO] Uploading 1281 lines of data... [ED-CASTELO-MEDICAO-CONCESSIONARIA_EN15_CAS_CK.tmp]
+[2022-12-06 22:39:42.844564] [ERROR] Uploading data from condominio-vista-faria-lima_EN15_VFL_CK.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000020DA65B70C8>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020DA65B70C8>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 210, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020DA65B70C8>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-12-06 22:57:17.576127] [INFO] Upload finished...
+[2022-12-06 22:57:17.576127] [INFO] Waiting 10 minutes
+[2022-12-06 23:07:17.578263] [INFO] Start!
+[2022-12-06 23:07:51.176367] [INFO] Preparing to upload
+[2022-12-06 23:07:51.176367] [INFO] Uploading 1340 lines of data... [condominio-vista-faria-lima_EN15_VFL_CK.tmp]
+[2022-12-06 23:07:51.176367] [INFO] Uploading 1340 lines of data... [condominio-infinity-master_EN15_INF_CK.tmp]
+[2022-12-06 23:07:51.176367] [INFO] Uploading 1283 lines of data... [ED-CASTELO-MEDICAO-CONCESSIONARIA_EN15_CAS_CK.tmp]
+[2022-12-06 23:25:50.892229] [INFO] Upload finished...
+[2022-12-06 23:25:50.892229] [INFO] Waiting 10 minutes
+[2022-12-06 23:35:50.901409] [INFO] Start!
+[2022-12-06 23:36:26.068141] [INFO] Preparing to upload
+[2022-12-06 23:36:26.068141] [INFO] Uploading 1342 lines of data... [condominio-vista-faria-lima_EN15_VFL_CK.tmp]
+[2022-12-06 23:36:26.068141] [INFO] Uploading 1342 lines of data... [condominio-infinity-master_EN15_INF_CK.tmp]
+[2022-12-06 23:36:26.068141] [INFO] Uploading 1285 lines of data... [ED-CASTELO-MEDICAO-CONCESSIONARIA_EN15_CAS_CK.tmp]
+[2022-12-06 23:40:06.973385] [ERROR] Uploading data from condominio-vista-faria-lima_EN15_VFL_CK.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000020DA5B35408>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020DA5B35408>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 210, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020DA5B35408>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-12-06 23:40:46.310558] [ERROR] Uploading data from condominio-infinity-master_EN15_INF_CK.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000020DA5B60DC8>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020DA5B60DC8>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 210, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020DA5B60DC8>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-12-06 23:53:39.774137] [INFO] Upload finished...
+[2022-12-06 23:53:39.774137] [INFO] Waiting 10 minutes

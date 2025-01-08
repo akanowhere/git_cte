@@ -1,0 +1,2305 @@
+[2022-11-08 18:58:31.978390] [INFO] Start!
+[2022-11-08 19:01:07.806108] [ERROR] Invalid meter NAE3-M_3004426_EN15_INF_OE: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADDEEF7C8>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.ami-hub.com', port=443): Max retries exceeded with url: /api/XIaJ6kMaLbAOaV66RfaeILBcngDlAvuqHR28yVQD0do/data2/NAE3-M/3004426/?count=1000&start=2022-09-30T00:00:00-03:00&end=2022-10-24T00:00:00-03:00 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADDEEF7C8>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 284, in omnieletronica_query
+    tmp = req.get(url).json()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 723, in send
+    history = [resp for resp in gen]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 723, in <listcomp>
+    history = [resp for resp in gen]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 274, in resolve_redirects
+    **adapter_kwargs,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.ami-hub.com', port=443): Max retries exceeded with url: /api/XIaJ6kMaLbAOaV66RfaeILBcngDlAvuqHR28yVQD0do/data2/NAE3-M/3004426/?count=1000&start=2022-09-30T00:00:00-03:00&end=2022-10-24T00:00:00-03:00 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADDEEF7C8>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 19:09:23.152208] [INFO] Preparing to upload
+[2022-11-08 19:09:23.152208] [INFO] Uploading NAE1-H_1419_AGL15_INF_OE.tmp
+[2022-11-08 19:09:23.152208] [INFO] Uploading NAE1-H_1422_AGL15_INF_OE.tmp
+[2022-11-08 19:09:23.152208] [INFO] Uploading NAE1-H_1425_AGL15_INF_OE.tmp
+[2022-11-08 19:09:23.152208] [INFO] Uploading NAE1-H_1431_AGL15_INF_OE.tmp
+[2022-11-08 19:09:23.152208] [INFO] Uploading NAE1-H_1428_AGL15_INF_OE.tmp
+[2022-11-08 19:09:23.152208] [INFO] Uploading NAE1-H_1434_AGL15_INF_OE.tmp
+[2022-11-08 19:09:23.152208] [INFO] Uploading NAE1-H_1452_AGL15_INF_OE.tmp
+[2022-11-08 19:09:23.152208] [INFO] Uploading NAE1-H_1449_AGL15_INF_OE.tmp
+[2022-11-08 19:09:23.152208] [INFO] Uploading NAE1-H_1455_AGL15_INF_OE.tmp
+[2022-11-08 19:09:23.152208] [INFO] Uploading NAE1-H_1458_AGL15_INF_OE.tmp
+[2022-11-08 19:18:30.830002] [ERROR] Uploading data from NAE1-H_1428_AGL15_INF_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE9A9108>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE9A9108>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE9A9108>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 19:18:30.832015] [INFO] Uploading NAE1-H_1461_AGL15_INF_OE.tmp
+[2022-11-08 19:18:39.094635] [ERROR] Uploading data from NAE1-H_1419_AGL15_INF_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE9B7148>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE9B7148>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE9B7148>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 19:18:39.095646] [INFO] Uploading NAE1-H_1464_AGL15_INF_OE.tmp
+[2022-11-08 19:22:23.723167] [INFO] Uploading NAE1-H_1477_AGL15_INF_OE.tmp
+[2022-11-08 19:22:23.726168] [INFO] Uploading NAE1-H_1480_AGL15_INF_OE.tmp
+[2022-11-08 19:22:23.817230] [INFO] Uploading NAE1-H_1483_AGL15_INF_OE.tmp
+[2022-11-08 19:22:24.585210] [INFO] Uploading NAE1-H_1486_AGL15_INF_OE.tmp
+[2022-11-08 19:22:24.696270] [INFO] Uploading NAE1-H_1492_AGL15_INF_OE.tmp
+[2022-11-08 19:22:24.697270] [INFO] Uploading NAE1-H_1504_AGL15_INF_OE.tmp
+[2022-11-08 19:22:24.770130] [INFO] Uploading NAE1-H_1507_AGL15_INF_OE.tmp
+[2022-11-08 19:22:26.261239] [INFO] Uploading NAE1-H_1510_AGL15_INF_OE.tmp
+[2022-11-08 19:29:48.753504] [ERROR] Uploading data from NAE1-H_1477_AGL15_INF_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADF9D0548>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADF9D0548>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADF9D0548>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 19:29:48.755506] [INFO] Uploading NAE1-H_1513_AGL15_INF_OE.tmp
+[2022-11-08 19:31:31.314706] [INFO] Uploading NAE1-H_1516_AGL15_INF_OE.tmp
+[2022-11-08 19:31:38.366047] [INFO] Uploading NAE1-H_1519_AGL15_INF_OE.tmp
+[2022-11-08 19:35:23.564453] [INFO] Uploading NAE1-H_1526_AGL15_INF_OE.tmp
+[2022-11-08 19:35:23.588093] [INFO] Uploading NAE1-H_1529_AGL15_INF_OE.tmp
+[2022-11-08 19:35:24.173339] [INFO] Uploading NAE1-H_1532_AGL15_INF_OE.tmp
+[2022-11-08 19:35:24.365544] [INFO] Uploading NAE1-H_1535_AGL15_INF_OE.tmp
+[2022-11-08 19:35:25.174274] [INFO] Uploading NAE1-H_1538_AGL15_INF_OE.tmp
+[2022-11-08 19:35:25.189901] [INFO] Uploading NAE1-H_1541_AGL15_INF_OE.tmp
+[2022-11-08 19:35:25.970035] [INFO] Uploading NAE1-H_1737_AGL15_INF_OE.tmp
+[2022-11-08 19:39:35.289899] [ERROR] Uploading data from NAE1-H_1541_AGL15_INF_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE96F248>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE96F248>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE96F248>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 19:39:35.291902] [INFO] Uploading NAE1-H_1740_AGL15_INF_OE.tmp
+[2022-11-08 19:39:41.758940] [ERROR] Uploading data from NAE1-H_1535_AGL15_INF_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE9B9508>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE9B9508>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE9B9508>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 19:39:41.759941] [INFO] Uploading NAE1-H_1743_AGL15_INF_OE.tmp
+[2022-11-08 19:42:48.452722] [INFO] Uploading NAE1-H_1746_AGL15_INF_OE.tmp
+[2022-11-08 19:44:33.271039] [INFO] Uploading NAE1-H_1749_AGL15_INF_OE.tmp
+[2022-11-08 19:44:38.096265] [INFO] Uploading NAE1-H_1752_AGL15_INF_OE.tmp
+[2022-11-08 19:48:22.931194] [INFO] Uploading NAE1-H_2239_AGL15_INF_OE.tmp
+[2022-11-08 19:48:23.646630] [INFO] Uploading NAE1-H_2241_AGL15_INF_OE.tmp
+[2022-11-08 19:48:24.456881] [INFO] Uploading NAE1-H_2259_AGL15_INF_OE.tmp
+[2022-11-08 19:48:26.108438] [INFO] Uploading NAE1-H_2741_AGL15_INF_OE.tmp
+[2022-11-08 19:48:26.262538] [INFO] Uploading NAE1-H_3023526_AGL15_INF_OE.tmp
+[2022-11-08 19:50:50.970256] [ERROR] Uploading data from NAE1-H_1749_AGL15_INF_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE9B9288>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE9B9288>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE9B9288>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 19:50:50.972266] [INFO] Uploading NAE1-H_3031680_AGL15_INF_OE.tmp
+[2022-11-08 19:52:35.153736] [INFO] Uploading NAE1-M_3031750_EN15_INF_OE.tmp
+[2022-11-08 19:52:43.169192] [INFO] Uploading NAE1-M_3031850_EN15_INF_OE.tmp
+[2022-11-08 19:55:47.428337] [INFO] Uploading NAE1-M_3032036_EN15_INF_OE.tmp
+[2022-11-08 19:57:37.177808] [INFO] Uploading NAE1-M_3032052_EN15_INF_OE.tmp
+[2022-11-08 20:00:43.710057] [ERROR] Uploading data from NAE1-H_3031680_AGL15_INF_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE9A5AC8>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE9A5AC8>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE9A5AC8>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 20:00:43.710057] [INFO] Uploading NAE1-M_3032071_EN15_INF_OE.tmp
+[2022-11-08 20:00:51.707508] [ERROR] Uploading data from NAE1-H_2741_AGL15_INF_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADF990408>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADF990408>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADF990408>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 20:00:51.708518] [INFO] Uploading NAE2-H_2710_AGL15_INF_OE.tmp
+[2022-11-08 20:01:21.987376] [INFO] Uploading NAE2-M_3000995_EN15_CAS_OE.tmp
+[2022-11-08 20:01:22.798267] [INFO] Uploading NAE2-M_3001010_EN15_CAS_OE.tmp
+[2022-11-08 20:01:23.644152] [INFO] Uploading NAE2-M_3001962_EN15_CAS_OE.tmp
+[2022-11-08 20:01:26.845471] [INFO] Uploading NAE3-H_3008107_AGL15_INF_OE.tmp
+[2022-11-08 20:05:34.290535] [INFO] Uploading NAE3-H_3009659_AGL15_INF_OE.tmp
+[2022-11-08 20:05:43.073724] [INFO] Uploading NAE3-H_5444_AGL15_INF_OE.tmp
+[2022-11-08 20:08:46.873776] [INFO] Uploading NAE3-M_3000040_EN15_CAS_OE.tmp
+[2022-11-08 20:10:37.331664] [INFO] Uploading NAE3-M_3000055_EN15_CAS_OE.tmp
+[2022-11-08 20:13:45.283370] [INFO] Uploading NAE3-M_3000070_EN15_CAS_OE.tmp
+[2022-11-08 20:13:49.107433] [INFO] Uploading NAE3-M_3000085_EN15_CAS_OE.tmp
+[2022-11-08 20:14:20.029926] [INFO] Uploading NAE3-M_3000100_EN15_CAS_OE.tmp
+[2022-11-08 20:14:21.454687] [INFO] Uploading NAE3-M_3000115_EN15_CAS_OE.tmp
+[2022-11-08 20:14:21.505965] [INFO] Uploading NAE3-M_3000130_EN15_CAS_OE.tmp
+[2022-11-08 20:14:27.029515] [INFO] Uploading NAE3-M_3000145_EN15_CAS_OE.tmp
+[2022-11-08 20:18:34.663878] [INFO] Uploading NAE3-M_3000160_EN15_CAS_OE.tmp
+[2022-11-08 20:18:43.263629] [INFO] Uploading NAE3-M_3000175_EN15_CAS_OE.tmp
+[2022-11-08 20:21:06.077295] [ERROR] Uploading data from NAE3-M_3000130_EN15_CAS_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE95EC88>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE95EC88>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE95EC88>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 20:21:06.077295] [INFO] Uploading NAE3-M_3000190_EN15_CAS_OE.tmp
+[2022-11-08 20:21:45.446313] [INFO] Uploading NAE3-M_3000205_EN15_CAS_OE.tmp
+[2022-11-08 20:23:35.348459] [INFO] Uploading NAE3-M_3000220_EN15_CAS_OE.tmp
+[2022-11-08 20:26:48.180663] [INFO] Uploading NAE3-M_3000235_EN15_CAS_OE.tmp
+[2022-11-08 20:26:48.813760] [INFO] Uploading NAE3-M_3000250_EN15_CAS_OE.tmp
+[2022-11-08 20:27:20.516486] [INFO] Uploading NAE3-M_3000265_EN15_CAS_OE.tmp
+[2022-11-08 20:27:23.318337] [INFO] Uploading NAE3-M_3000280_EN15_CAS_OE.tmp
+[2022-11-08 20:27:27.163758] [INFO] Uploading NAE3-M_3000295_EN15_CAS_OE.tmp
+[2022-11-08 20:31:04.264823] [ERROR] Uploading data from NAE3-M_3000160_EN15_CAS_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE9A7208>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE9A7208>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE9A7208>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 20:31:04.264823] [INFO] Uploading NAE3-M_3000310_EN15_CAS_OE.tmp
+[2022-11-08 20:31:13.092288] [ERROR] Uploading data from NAE3-M_3000235_EN15_CAS_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE977388>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE977388>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE977388>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 20:31:13.092288] [INFO] Uploading NAE3-M_3000325_EN15_CAS_OE.tmp
+[2022-11-08 20:31:42.856696] [INFO] Uploading NAE3-M_3000340_EN15_CAS_OE.tmp
+[2022-11-08 20:34:07.199652] [INFO] Uploading NAE3-M_3000355_EN15_CAS_OE.tmp
+[2022-11-08 20:34:43.206867] [INFO] Uploading NAE3-M_3000840_EN_INF_OE.tmp
+[2022-11-08 20:36:34.330965] [INFO] Uploading NAE3-M_3002635_EN15_INF_OE.tmp
+[2022-11-08 20:39:45.988787] [INFO] Uploading NAE3-M_3004251_EN15_INF_OE.tmp
+[2022-11-08 20:40:18.341132] [INFO] Uploading NAE3-M_3004255_EN15_INF_OE.tmp
+[2022-11-08 20:40:22.473088] [INFO] Uploading NAE3-M_3004272_EN15_INF_OE.tmp
+[2022-11-08 20:40:24.693034] [INFO] Uploading NAE3-M_3004289_EN15_INF_OE.tmp
+[2022-11-08 20:42:25.898202] [ERROR] Uploading data from NAE3-M_3000840_EN_INF_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE980C88>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE980C88>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE980C88>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 20:42:25.900204] [INFO] Uploading NAE3-M_3004306_EN15_INF_OE.tmp
+[2022-11-08 20:44:01.301382] [INFO] Uploading NAE3-M_3004322_EN15_INF_OE.tmp
+[2022-11-08 20:44:10.879076] [INFO] Uploading NAE3-M_3004340_EN15_INF_OE.tmp
+[2022-11-08 20:44:40.160643] [INFO] Uploading NAE3-M_3004356_EN15_INF_OE.tmp
+[2022-11-08 20:47:04.693782] [INFO] Uploading NAE3-M_3004358_EN15_INF_OE.tmp
+[2022-11-08 20:49:33.591384] [INFO] Uploading NAE3-M_3004374_EN15_INF_OE.tmp
+[2022-11-08 20:52:28.119291] [ERROR] Uploading data from NAE3-M_3004306_EN15_INF_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE996348>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE996348>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE996348>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 20:52:28.121292] [INFO] Uploading NAE3-M_3004388_EN15_INF_OE.tmp
+[2022-11-08 20:52:36.522141] [ERROR] Uploading data from NAE3-M_3004356_EN15_INF_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE996A88>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE996A88>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE996A88>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 20:52:36.523143] [INFO] Uploading NAE3-M_3004409_EN15_INF_OE.tmp
+[2022-11-08 20:52:45.974865] [INFO] Uploading NAE3-M_3004443_EN15_INF_OE.tmp
+[2022-11-08 20:53:17.973872] [INFO] Uploading NAE3-M_3004460_EN15_INF_OE.tmp
+[2022-11-08 20:53:21.742864] [INFO] Uploading NAE3-M_3004463_EN15_INF_OE.tmp
+[2022-11-08 20:53:24.216610] [INFO] Uploading NAE3-M_3004478_EN15_INF_OE.tmp
+[2022-11-08 20:57:01.548454] [INFO] Uploading NAE3-M_3004511_EN15_INF_OE.tmp
+[2022-11-08 20:57:11.118895] [INFO] Uploading NAE3-M_3004545_EN15_INF_OE.tmp
+[2022-11-08 21:00:04.131481] [INFO] Uploading NAE3-M_3004579_EN15_INF_OE.tmp
+[2022-11-08 21:02:32.647814] [INFO] Uploading NAE3-M_3004596_EN15_INF_OE.tmp
+[2022-11-08 21:03:53.448181] [ERROR] Uploading data from NAE3-M_3004545_EN15_INF_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE82AF88>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE82AF88>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE82AF88>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 21:03:53.449183] [INFO] Uploading NAE3-M_3004611_EN15_INF_OE.tmp
+[2022-11-08 21:05:28.150506] [INFO] Uploading NAE3-M_3004614_EN15_INF_OE.tmp
+[2022-11-08 21:05:36.115636] [INFO] Uploading NAE3-M_3004648_EN15_INF_OE.tmp
+[2022-11-08 21:05:47.501771] [INFO] Uploading NAE3-M_3004686_EN15_INF_OE.tmp
+[2022-11-08 21:06:18.644771] [INFO] Uploading NAE3-M_3004699_EN15_INF_OE.tmp
+[2022-11-08 21:06:22.739912] [INFO] Uploading NAE3-M_3009419_EN15_INF_OE.tmp
+[2022-11-08 21:06:24.476052] [INFO] Uploading NAE3-M_3011452_EN15_INF_OE.tmp
+[2022-11-08 21:10:02.617486] [INFO] Uploading NAE3-M_3011468_EN15_INF_OE.tmp
+[2022-11-08 21:13:05.593585] [INFO] Uploading NAE3-M_3011511_EN15_INF_OE.tmp
+[2022-11-08 21:13:44.228138] [ERROR] Uploading data from NAE3-M_3004611_EN15_INF_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE968348>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE968348>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE968348>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 21:13:44.229149] [INFO] Uploading NAE3-M_3011559_EN15_INF_OE.tmp
+[2022-11-08 21:13:52.408478] [ERROR] Uploading data from NAE3-M_3011452_EN15_INF_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADD3DCA88>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADD3DCA88>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADD3DCA88>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 21:13:52.409478] [INFO] Uploading NAE3-M_3011622_EN15_INF_OE.tmp
+[2022-11-08 21:15:32.397820] [INFO] Uploading NAE3-M_3011699_EN15_INF_OE.tmp
+[2022-11-08 21:18:28.802051] [INFO] Uploading NAE4-M_3010740_EN15_INF_OE.tmp
+[2022-11-08 21:18:36.161157] [INFO] Uploading NAE4-M_3010873_EN15_INF_OE.tmp
+[2022-11-08 21:18:48.013999] [INFO] Uploading NAE6-M_3000852_EN15_INF_OE.tmp
+[2022-11-08 21:19:18.621244] [INFO] Uploading NAE6-M_3000890_EN15_INF_OE.tmp
+[2022-11-08 21:19:22.782723] [INFO] Uploading NAE6-M_3000916_EN15_INF_OE.tmp
+[2022-11-08 21:23:02.936785] [INFO] Uploading NAE6-M_3000930_EN15_INF_OE.tmp
+[2022-11-08 21:25:11.475177] [ERROR] Uploading data from NAE4-M_3010873_EN15_INF_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE82A048>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE82A048>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE82A048>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 21:25:11.476187] [INFO] Uploading NAE6-M_3000950_EN15_INF_OE.tmp
+[2022-11-08 21:26:05.870521] [INFO] Uploading NAE6-M_3000962_EN15_INF_OE.tmp
+[2022-11-08 21:26:44.453649] [INFO] Uploading NAE6-M_3001000_EN15_INF_OE.tmp
+[2022-11-08 21:26:52.261053] [INFO] Uploading NAE6-M_3001014_EN15_INF_OE.tmp
+[2022-11-08 21:28:31.956088] [INFO] Uploading NAE6-M_3001026_EN15_INF_OE.tmp
+[2022-11-08 21:31:28.320060] [INFO] Uploading NAE6-M_3001038_EN15_INF_OE.tmp
+[2022-11-08 21:31:47.728405] [INFO] Uploading NAE6-M_3001050_EN15_INF_OE.tmp
+[2022-11-08 21:32:18.124336] [INFO] Uploading NAE6-M_3001062_EN15_INF_OE.tmp
+[2022-11-08 21:32:22.215482] [INFO] Uploading NAE6-M_3001074_EN15_INF_OE.tmp
+[2022-11-08 21:35:07.749226] [ERROR] Uploading data from NAE6-M_3001026_EN15_INF_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE9B0448>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE9B0448>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE9B0448>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 21:35:07.750238] [INFO] Uploading NAE6-M_3001100_EN15_INF_OE.tmp
+[2022-11-08 21:35:16.442165] [ERROR] Uploading data from NAE6-M_3000950_EN15_INF_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADDEF68C8>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADDEF68C8>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADDEF68C8>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 21:35:16.443156] [INFO] Uploading NAE6-M_3001126_EN15_INF_OE.tmp
+[2022-11-08 21:36:02.825857] [INFO] Uploading NAE6-M_3001140_EN15_INF_OE.tmp
+[2022-11-08 21:39:05.098926] [INFO] Uploading NAE6-M_3001152_EN15_INF_OE.tmp
+[2022-11-08 21:39:44.278039] [INFO] Uploading NAE6-M_3001164_EN15_INF_OE.tmp
+[2022-11-08 21:39:51.577406] [INFO] Uploading NAE6-M_3001176_EN15_INF_OE.tmp
+[2022-11-08 21:44:28.875584] [INFO] Uploading NAE6-M_3001188_EN15_INF_OE.tmp
+[2022-11-08 21:44:46.790641] [INFO] Uploading NAE6-M_3001212_EN15_INF_OE.tmp
+[2022-11-08 21:45:18.211472] [INFO] Uploading NAE6-M_3001220_EN15_INF_OE.tmp
+[2022-11-08 21:45:22.218715] [INFO] Uploading NAE6-M_3001228_EN15_INF_OE.tmp
+[2022-11-08 21:46:36.969988] [ERROR] Uploading data from NAE6-M_3001164_EN15_INF_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE9AD288>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE9AD288>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE9AD288>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 21:46:36.971988] [INFO] Uploading NAE6-M_3001254_EN15_INF_OE.tmp
+[2022-11-08 21:48:11.096373] [INFO] Uploading NAE6-M_3001268_EN15_INF_OE.tmp
+[2022-11-08 21:48:18.349747] [INFO] Uploading NAE6-M_3001280_EN15_INF_OE.tmp
+[2022-11-08 21:49:02.022146] [INFO] Uploading NAE6-M_3001292_EN15_INF_OE.tmp
+[2022-11-08 21:52:04.006247] [INFO] Uploading NAE6-M_3001304_EN15_INF_OE.tmp
+[2022-11-08 21:52:53.032825] [INFO] Uploading NAE6-M_3001316_EN15_INF_OE.tmp
+[2022-11-08 21:56:44.581892] [ERROR] Uploading data from NAE6-M_3001212_EN15_INF_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADDEA2F88>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADDEA2F88>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADDEA2F88>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 21:56:44.583902] [INFO] Uploading NAE6-M_3001328_EN15_INF_OE.tmp
+[2022-11-08 21:56:52.924956] [ERROR] Uploading data from NAE6-M_3001316_EN15_INF_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE9A7248>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE9A7248>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE9A7248>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 21:56:52.926969] [INFO] Uploading NAE6-M_3001340_EN15_INF_OE.tmp
+[2022-11-08 21:57:28.617755] [INFO] Uploading NAE6-M_3001366_EN15_INF_OE.tmp
+[2022-11-08 21:58:18.273970] [INFO] Uploading QS-A-11P01-H_3000054_AGL15_VCA_OE.tmp
+[2022-11-08 21:58:24.193178] [INFO] Uploading QS-A-11P01-H_3000055_AGL15_VCA_OE.tmp
+[2022-11-08 21:59:37.164028] [INFO] Uploading QS-A-11P01-H_3000056_AGL15_VCA_OE.tmp
+[2022-11-08 22:01:10.333815] [INFO] Uploading QS-A-11P01-H_3000057_AGL15_VCA_OE.tmp
+[2022-11-08 22:01:20.061022] [INFO] Uploading QS-A-11P01-H_3000058_AGL15_VCA_OE.tmp
+[2022-11-08 22:02:02.610725] [INFO] Uploading QS-A-11P01-H_3000059_AGL15_VCA_OE.tmp
+[2022-11-08 22:05:04.153858] [INFO] Uploading QS-A-11P01-H_3000060_AGL15_VCA_OE.tmp
+[2022-11-08 22:09:44.826218] [INFO] Uploading QS-A-11P01-H_3000061_AGL15_VCA_OE.tmp
+[2022-11-08 22:09:53.223610] [INFO] Uploading QS-A-11P01-H_3000062_AGL15_VCA_OE.tmp
+[2022-11-08 22:10:29.226131] [INFO] Uploading QS-A-11P01-H_3000063_AGL15_VCA_OE.tmp
+[2022-11-08 22:11:14.927797] [INFO] Uploading QS-A-11P01-H_3000064_AGL15_VCA_OE.tmp
+[2022-11-08 22:11:20.733725] [INFO] Uploading QS-A-11P01-H_3000065_AGL15_VCA_OE.tmp
+[2022-11-08 22:12:33.851188] [INFO] Uploading QS-A-11P01-H_3000066_AGL15_VCA_OE.tmp
+[2022-11-08 22:14:06.292857] [INFO] Uploading QS-A-11P01-H_3000067_AGL15_VCA_OE.tmp
+[2022-11-08 22:14:16.876364] [INFO] Uploading QS-A-11P01-M_3001262_EN15_VCA_OE.tmp
+[2022-11-08 22:14:59.638018] [INFO] Uploading QS-A-11P01-M_3001276_EN15_VCA_OE.tmp
+[2022-11-08 22:16:09.281357] [ERROR] Uploading data from QS-A-11P01-H_3000062_AGL15_VCA_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE9AB248>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE9AB248>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE9AB248>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 22:16:09.283368] [INFO] Uploading QS-A-11P01-M_3001290_EN15_VCA_OE.tmp
+[2022-11-08 22:18:00.417590] [INFO] Uploading QS-A-11P01-M_3001304_EN15_VCA_OE.tmp
+[2022-11-08 22:22:40.186932] [INFO] Uploading QS-A-11P01-M_3001318_EN15_VCA_OE.tmp
+[2022-11-08 22:23:24.973102] [INFO] Uploading QS-A-11P01-M_3001332_EN15_VCA_OE.tmp
+[2022-11-08 22:24:11.422926] [INFO] Uploading QS-A-11P01-M_3001346_EN15_VCA_OE.tmp
+[2022-11-08 22:24:16.210573] [INFO] Uploading QS-A-11P01-M_3001360_EN15_VCA_OE.tmp
+[2022-11-08 22:25:30.871884] [INFO] Uploading QS-A-11P01-M_3001374_EN15_VCA_OE.tmp
+[2022-11-08 22:26:09.670546] [ERROR] Uploading data from QS-A-11P01-M_3001360_EN15_VCA_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE99BA08>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE99BA08>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE99BA08>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 22:26:09.672546] [INFO] Uploading QS-A-11P01-M_3001388_EN15_VCA_OE.tmp
+[2022-11-08 22:27:01.552606] [INFO] Uploading QS-A-11P01-M_3001402_EN15_VCA_OE.tmp
+[2022-11-08 22:27:13.725197] [INFO] Uploading QS-A-11P01-M_3001416_EN15_VCA_OE.tmp
+[2022-11-08 22:27:56.253286] [INFO] Uploading QS-A-11P01-M_3001430_EN15_VCA_OE.tmp
+[2022-11-08 22:29:05.089989] [INFO] Uploading QS-A-11P01-M_3001444_EN15_VCA_OE.tmp
+[2022-11-08 22:30:56.331017] [INFO] Uploading QS-A-11P01-M_3001458_EN15_VCA_OE.tmp
+[2022-11-08 22:35:36.367573] [INFO] Uploading QS-A-11P01-M_3001472_EN15_VCA_OE.tmp
+[2022-11-08 22:36:21.610706] [INFO] Uploading QS-A-11P01-M_3001486_EN15_VCA_OE.tmp
+[2022-11-08 22:37:07.407822] [INFO] Uploading QS-A-11P01-M_3001500_EN15_VCA_OE.tmp
+[2022-11-08 22:37:36.458836] [ERROR] Uploading data from QS-A-11P01-M_3001500_EN15_VCA_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE854E88>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE854E88>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE854E88>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 22:37:36.460837] [INFO] Uploading QS-A-11P01-M_3001514_EN15_VCA_OE.tmp
+[2022-11-08 22:38:27.334741] [INFO] Uploading QS-A-11P01-M_3001528_EN15_VCA_OE.tmp
+[2022-11-08 22:39:06.177987] [INFO] Uploading QS-A-11P01-M_3001542_EN15_VCA_OE.tmp
+[2022-11-08 22:39:57.653080] [INFO] Uploading QS-A-11P01-M_3001556_EN15_VCA_OE.tmp
+[2022-11-08 22:40:10.524609] [INFO] Uploading QS-A-11P01-M_3001655_EN15_VCA_OE.tmp
+[2022-11-08 22:40:53.039590] [INFO] Uploading QS-A-4P01-H_3000041_AGL15_VCA_OE.tmp
+[2022-11-08 22:42:01.337725] [INFO] Uploading QS-A-4P01-H_3000042_AGL15_VCA_OE.tmp
+[2022-11-08 22:43:52.979378] [INFO] Uploading QS-A-4P01-H_3000043_AGL15_VCA_OE.tmp
+[2022-11-08 22:47:25.016993] [ERROR] Uploading data from QS-A-4P01-H_3000041_AGL15_VCA_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE980988>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE980988>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE980988>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 22:47:25.016993] [INFO] Uploading QS-A-4P01-H_3000044_AGL15_VCA_OE.tmp
+[2022-11-08 22:47:33.888894] [ERROR] Uploading data from QS-A-4P01-H_3000043_AGL15_VCA_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE996AC8>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE996AC8>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE996AC8>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 22:47:33.888894] [INFO] Uploading QS-A-4P01-H_3000045_AGL15_VCA_OE.tmp
+[2022-11-08 22:48:33.466170] [INFO] Uploading QS-A-4P01-H_3000046_AGL15_VCA_OE.tmp
+[2022-11-08 22:49:18.253880] [INFO] Uploading QS-A-4P01-H_3000047_AGL15_VCA_OE.tmp
+[2022-11-08 22:50:33.414812] [INFO] Uploading QS-A-4P01-H_3000048_AGL15_VCA_OE.tmp
+[2022-11-08 22:51:24.931478] [INFO] Uploading QS-A-4P01-H_3000049_AGL15_VCA_OE.tmp
+[2022-11-08 22:52:03.576990] [INFO] Uploading QS-A-4P01-H_3000050_AGL15_VCA_OE.tmp
+[2022-11-08 22:52:54.530908] [INFO] Uploading QS-A-4P01-H_3000051_AGL15_VCA_OE.tmp
+[2022-11-08 22:53:07.835392] [INFO] Uploading QS-A-4P01-H_3000052_AGL15_VCA_OE.tmp
+[2022-11-08 22:55:00.800649] [INFO] Uploading QS-A-4P01-H_3000053_AGL15_VCA_OE.tmp
+[2022-11-08 22:59:02.394503] [ERROR] Uploading data from QS-A-4P01-H_3000049_AGL15_VCA_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE977248>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE977248>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE977248>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 22:59:02.394503] [INFO] Uploading QS-A-4P01-H_3000054_AGL15_VCA_OE.tmp
+[2022-11-08 23:00:24.684139] [INFO] Uploading QS-A-4P01-M_3000377_EN15_VCA_OE.tmp
+[2022-11-08 23:00:34.287224] [INFO] Uploading QS-A-4P01-M_3000391_EN15_VCA_OE.tmp
+[2022-11-08 23:01:33.050669] [INFO] Uploading QS-A-4P01-M_3000405_EN15_VCA_OE.tmp
+[2022-11-08 23:02:18.601737] [INFO] Uploading QS-A-4P01-M_3000419_EN15_VCA_OE.tmp
+[2022-11-08 23:03:33.147780] [INFO] Uploading QS-A-4P01-M_3000433_EN15_VCA_OE.tmp
+[2022-11-08 23:05:03.419597] [INFO] Uploading QS-A-4P01-M_3000447_EN15_VCA_OE.tmp
+[2022-11-08 23:05:55.737148] [INFO] Uploading QS-B-11P01-H_3000047_AGL15_VCA_OE.tmp
+[2022-11-08 23:06:11.197021] [INFO] Uploading QS-B-11P01-H_3000048_AGL15_VCA_OE.tmp
+[2022-11-08 23:08:01.232056] [INFO] Uploading QS-B-11P01-H_3000049_AGL15_VCA_OE.tmp
+[2022-11-08 23:09:10.369673] [ERROR] Uploading data from QS-B-11P01-H_3000047_AGL15_VCA_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE95E0C8>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE95E0C8>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE95E0C8>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 23:09:10.369673] [INFO] Uploading QS-B-11P01-H_3000050_AGL15_VCA_OE.tmp
+[2022-11-08 23:09:19.153498] [ERROR] Uploading data from QS-A-4P01-M_3000377_EN15_VCA_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADF9D0E48>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADF9D0E48>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADF9D0E48>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 23:09:19.153498] [INFO] Uploading QS-B-11P01-H_3000051_AGL15_VCA_OE.tmp
+[2022-11-08 23:12:02.667186] [INFO] Uploading QS-B-11P01-H_3000052_AGL15_VCA_OE.tmp
+[2022-11-08 23:13:37.395831] [INFO] Uploading QS-B-11P01-H_3000053_AGL15_VCA_OE.tmp
+[2022-11-08 23:14:34.579309] [INFO] Uploading QS-B-11P01-H_3000054_AGL15_VCA_OE.tmp
+[2022-11-08 23:15:20.257908] [INFO] Uploading QS-B-11P01-H_3000055_AGL15_VCA_OE.tmp
+[2022-11-08 23:16:35.779720] [INFO] Uploading QS-B-11P01-H_3000056_AGL15_VCA_OE.tmp
+[2022-11-08 23:18:04.458485] [INFO] Uploading QS-B-11P01-H_3000057_AGL15_VCA_OE.tmp
+[2022-11-08 23:19:11.220360] [INFO] Uploading QS-B-11P01-H_3000058_AGL15_VCA_OE.tmp
+[2022-11-08 23:20:49.323492] [ERROR] Uploading data from QS-B-11P01-H_3000055_AGL15_VCA_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE9BDE08>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE9BDE08>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE9BDE08>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 23:20:49.323492] [INFO] Uploading QS-B-11P01-H_3000059_AGL15_VCA_OE.tmp
+[2022-11-08 23:21:02.874246] [INFO] Uploading QS-B-11P01-H_3000060_AGL15_VCA_OE.tmp
+[2022-11-08 23:22:17.036622] [INFO] Uploading QS-B-11P01-M_3000548_EN15_VCA_OE.tmp
+[2022-11-08 23:22:32.592446] [INFO] Uploading QS-B-11P01-M_3000562_EN15_VCA_OE.tmp
+[2022-11-08 23:25:19.594186] [INFO] Uploading QS-B-11P01-M_3000576_EN15_VCA_OE.tmp
+[2022-11-08 23:26:56.919345] [INFO] Uploading QS-B-11P01-M_3000590_EN15_VCA_OE.tmp
+[2022-11-08 23:27:53.439444] [INFO] Uploading QS-B-11P01-M_3000604_EN15_VCA_OE.tmp
+[2022-11-08 23:29:53.802008] [INFO] Uploading QS-B-11P01-M_3000618_EN15_VCA_OE.tmp
+[2022-11-08 23:31:13.632602] [ERROR] Uploading data from QS-B-11P01-M_3000548_EN15_VCA_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE994548>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE994548>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE994548>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 23:31:13.632602] [INFO] Uploading QS-B-11P01-M_3000632_EN15_VCA_OE.tmp
+[2022-11-08 23:31:22.368446] [ERROR] Uploading data from QS-B-11P01-H_3000057_AGL15_VCA_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE858308>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE858308>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE858308>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 23:31:22.368446] [INFO] Uploading QS-B-11P01-M_3000646_EN15_VCA_OE.tmp
+[2022-11-08 23:32:27.494253] [INFO] Uploading QS-B-11P01-M_3000660_EN15_VCA_OE.tmp
+[2022-11-08 23:34:04.627858] [INFO] Uploading QS-B-11P01-M_3000674_EN15_VCA_OE.tmp
+[2022-11-08 23:34:18.827885] [INFO] Uploading QS-B-11P01-M_3000688_EN15_VCA_OE.tmp
+[2022-11-08 23:35:37.515689] [INFO] Uploading QS-B-11P01-M_3000702_EN15_VCA_OE.tmp
+[2022-11-08 23:38:19.240615] [INFO] Uploading QS-B-11P01-M_3000716_EN15_VCA_OE.tmp
+[2022-11-08 23:39:56.457950] [INFO] Uploading QS-B-11P01-M_3000730_EN15_VCA_OE.tmp
+[2022-11-08 23:40:52.621349] [INFO] Uploading QS-B-11P01-M_3000744_EN15_VCA_OE.tmp
+[2022-11-08 23:42:50.341018] [ERROR] Uploading data from QS-B-11P01-M_3000660_EN15_VCA_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADF991B08>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADF991B08>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADF991B08>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 23:42:50.341018] [INFO] Uploading QS-B-11P01-M_3000758_EN15_VCA_OE.tmp
+[2022-11-08 23:42:52.979123] [INFO] Uploading QS-B-11P01-M_3000772_EN15_VCA_OE.tmp
+[2022-11-08 23:44:12.688179] [INFO] Uploading QS-B-11P01-M_3000786_EN15_VCA_OE.tmp
+[2022-11-08 23:44:21.872042] [INFO] Uploading QS-B-11P01-M_3000800_EN15_VCA_OE.tmp
+[2022-11-08 23:47:03.960180] [INFO] Uploading QS-B-11P01-M_3000814_EN15_VCA_OE.tmp
+[2022-11-08 23:47:18.017936] [INFO] Uploading QS-B-11P01-M_3000828_EN15_VCA_OE.tmp
+[2022-11-08 23:48:36.907460] [INFO] Uploading QS-B-11P01-M_3000842_EN15_VCA_OE.tmp
+[2022-11-08 23:51:18.915505] [INFO] Uploading QS-B-11P01-M_3000880_EN15_VCA_OE.tmp
+[2022-11-08 23:52:48.238591] [ERROR] Uploading data from QS-B-11P01-M_3000800_EN15_VCA_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE920248>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE920248>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE920248>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 23:52:48.240592] [INFO] Uploading QS-B-4P01-H_3000040_AGL15_VCA_OE.tmp
+[2022-11-08 23:52:55.255535] [INFO] Uploading QS-B-4P01-H_3000041_AGL15_VCA_OE.tmp
+[2022-11-08 23:52:57.037989] [ERROR] Uploading data from QS-B-11P01-M_3000744_EN15_VCA_OE.tmp: Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028ADE86E388>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE86E388>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/pythonDSA/CTE/dexma/dexma_uploader.py", line 221, in uploadData
+    data=line.strip("\n"))
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='is3.dexcell.com', port=443): Max retries exceeded with url: /readings?source_key=Testing_123&x-dexcell-source-token=e06ca4e1fb863c26e7a4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028ADE86E388>: Failed to establish a new connection: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu'))
+
+[2022-11-08 23:52:57.038991] [INFO] Uploading QS-B-4P01-H_3000042_AGL15_VCA_OE.tmp
+[2022-11-08 23:55:49.728996] [INFO] Uploading QS-B-4P01-H_3000043_AGL15_VCA_OE.tmp
+[2022-11-08 23:55:52.840680] [INFO] Uploading QS-B-4P01-H_3000044_AGL15_VCA_OE.tmp
+[2022-11-08 23:57:10.943529] [INFO] Uploading QS-B-4P01-H_3000045_AGL15_VCA_OE.tmp

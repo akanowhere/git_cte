@@ -1,0 +1,5 @@
+[{"did": "condominio-infinity-master_EN15_INF_CK", "sqn": 1, "ts": "2022-10-31T23:15:00-03:00", "values":[{"p": 40202, "v": 265.65 }]}]
+[{"did": "condominio-infinity-master_EN15_INF_CK", "sqn": 1, "ts": "2022-10-31T23:30:00-03:00", "values":[{"p": 40202, "v": 262.5 }]}]
+[{"did": "condominio-infinity-master_EN15_INF_CK", "sqn": 1, "ts": "2022-10-31T23:45:00-03:00", "values":[{"p": 40202, "v": 260.4 }]}]
+[{"did": "condominio-infinity-master_EN15_INF_CK", "sqn": 1, "ts": "2022-11-01T00:00:00-03:00", "values":[{"p": 40202, "v": 256.2 }]}]
+[{"did": "condominio-infinity-master_EN15_INF_CK", "sqn": 1, "ts": "2022-11-01T00:15:00-03:00", "values":[{"p": 40202, "v": 252.0 }]}]

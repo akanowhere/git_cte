@@ -1,0 +1,5 @@
+[{"did": "ED-CASTELO-MEDICAO-CONCESSIONARIA_EN15_CAS_CK", "sqn": 1, "ts": "2022-10-31T23:15:00-03:00", "values":[{"p": 40202, "v": 32.64 }]}]
+[{"did": "ED-CASTELO-MEDICAO-CONCESSIONARIA_EN15_CAS_CK", "sqn": 1, "ts": "2022-10-31T23:30:00-03:00", "values":[{"p": 40202, "v": 32.16 }]}]
+[{"did": "ED-CASTELO-MEDICAO-CONCESSIONARIA_EN15_CAS_CK", "sqn": 1, "ts": "2022-10-31T23:45:00-03:00", "values":[{"p": 40202, "v": 32.16 }]}]
+[{"did": "ED-CASTELO-MEDICAO-CONCESSIONARIA_EN15_CAS_CK", "sqn": 1, "ts": "2022-11-01T00:00:00-03:00", "values":[{"p": 40202, "v": 32.64 }]}]
+[{"did": "ED-CASTELO-MEDICAO-CONCESSIONARIA_EN15_CAS_CK", "sqn": 1, "ts": "2022-11-01T00:15:00-03:00", "values":[{"p": 40202, "v": 32.16 }]}]

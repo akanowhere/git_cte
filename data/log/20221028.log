@@ -1,0 +1,166 @@
+[2022-10-28 07:48:51.817341] [INFO] Start!
+[2022-10-28 07:49:48.529309] [ERROR] Creating TEMP archive from NAE3-M_3002635_EN15_INF_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 285, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-10-28 07:50:49.595438] [ERROR] Invalid meter NAE6-M_3001316_EN15_INF_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 280, in omnieletronica_query
+    tmp = req.get(url).json()
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 723, in send
+    history = [resp for resp in gen]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 723, in <listcomp>
+    history = [resp for resp in gen]
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 274, in resolve_redirects
+    **adapter_kwargs,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "D:\Programas\Anaconda\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\Programas\Anaconda\Anaconda3\lib\http\client.py", line 1373, in getresponse
+    response.begin()
+  File "D:\Programas\Anaconda\Anaconda3\lib\http\client.py", line 319, in begin
+    version, status, reason = self._read_status()
+  File "D:\Programas\Anaconda\Anaconda3\lib\http\client.py", line 280, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\Programas\Anaconda\Anaconda3\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "D:\Programas\Anaconda\Anaconda3\lib\ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "D:\Programas\Anaconda\Anaconda3\lib\ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
+
+[2022-10-28 07:50:57.424254] [INFO] Start!
+[2022-10-28 07:51:47.771357] [ERROR] Creating TEMP archive from NAE3-M_3002635_EN15_INF_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 285, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-10-28 07:54:08.874215] [ERROR] Creating TEMP archive from NAE3-M_3000840_EN_INF_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 285, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-10-28 08:06:30.120989] [INFO] Start!
+[2022-10-28 08:07:25.343308] [ERROR] Creating TEMP archive from NAE3-M_3002635_EN15_INF_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 285, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-10-28 08:09:46.289608] [ERROR] Creating TEMP archive from NAE3-M_3000840_EN_INF_OE: Traceback (most recent call last):
+  File "D:\pythonDSA\CTE\dexma\src\methods.py", line 285, in omnieletronica_query
+    for data in tmp['payload'][params[0]][params[1]]:
+TypeError: list indices must be integers or slices, not str
+
+[2022-10-28 08:19:41.109233] [INFO] Start!
+[2022-10-28 08:19:41.218615] [INFO] Preparing to upload
+[2022-10-28 08:19:41.218615] [INFO] Upload finished...
+[2022-10-28 08:19:41.218615] [INFO] Waiting 10 minutes
+[2022-10-28 08:20:21.221517] [INFO] Start!
+[2022-10-28 08:20:21.237143] [INFO] Preparing to upload
+[2022-10-28 08:20:21.237143] [INFO] Upload finished...
+[2022-10-28 08:20:21.237143] [INFO] Waiting 10 minutes
+[2022-10-28 08:22:25.104533] [INFO] Start!
+[2022-10-28 08:22:25.229541] [INFO] Preparing to upload
+[2022-10-28 08:22:25.229541] [INFO] Upload finished...
+[2022-10-28 08:22:25.229541] [INFO] Waiting 10 minutes
+[2022-10-28 08:22:42.433780] [INFO] Start!
+[2022-10-28 08:26:09.402169] [INFO] Start!
+[2022-10-28 08:26:13.167810] [INFO] Start!
+[2022-10-28 08:29:24.461387] [INFO] Preparing to upload
+[2022-10-28 08:29:24.461387] [INFO] Upload finished...
+[2022-10-28 08:29:24.461387] [INFO] Waiting 10 minutes
+[2022-10-28 08:30:09.461820] [INFO] Start!
+[2022-10-28 08:38:56.930077] [INFO] Start!
+[2022-10-28 08:42:44.143358] [INFO] Preparing to upload
+[2022-10-28 08:42:44.143358] [INFO] Upload finished...
+[2022-10-28 08:42:44.143358] [INFO] Waiting 10 minutes
+[2022-10-28 08:43:06.051267] [INFO] Start!
+[2022-10-28 08:46:25.649752] [INFO] Start!
+[2022-10-28 08:54:20.306107] [INFO] Preparing to upload
+[2022-10-28 08:54:20.306107] [INFO] Upload finished...
+[2022-10-28 08:54:20.306107] [INFO] Waiting 10 minutes
+[2022-10-28 08:54:41.135583] [INFO] Start!
+[2022-10-28 08:59:43.248467] [INFO] Preparing to upload
+[2022-10-28 08:59:43.248467] [INFO] Upload finished...
+[2022-10-28 08:59:43.248467] [INFO] Waiting 10 minutes
+[2022-10-28 08:59:47.311043] [INFO] Start!
+[2022-10-28 09:01:18.441963] [INFO] Preparing to upload
+[2022-10-28 09:01:18.441963] [INFO] Upload finished...
+[2022-10-28 09:01:18.441963] [INFO] Waiting 10 minutes
+[2022-10-28 09:01:25.833068] [INFO] Start!
+[2022-10-28 09:12:10.071672] [INFO] Preparing to upload
+[2022-10-28 09:12:10.071672] [INFO] Upload finished...
+[2022-10-28 09:12:10.071672] [INFO] Waiting 10 minutes
+[2022-10-28 09:12:15.180247] [INFO] Start!
+[2022-10-28 09:13:59.560550] [INFO] Preparing to upload
+[2022-10-28 09:13:59.560550] [INFO] Upload finished...
+[2022-10-28 09:13:59.560550] [INFO] Waiting 10 minutes
+[2022-10-28 09:14:07.294445] [INFO] Start!
+[2022-10-28 09:23:28.720651] [INFO] Preparing to upload
+[2022-10-28 09:23:28.720651] [INFO] Upload finished...
+[2022-10-28 09:23:28.720651] [INFO] Waiting 10 minutes
+[2022-10-28 09:33:28.724385] [INFO] Start!
+[2022-10-28 09:33:28.755352] [INFO] Preparing to upload
+[2022-10-28 09:33:28.755352] [INFO] Upload finished...
+[2022-10-28 09:33:28.755352] [INFO] Waiting 10 minutes
+[2022-10-28 09:43:28.757026] [INFO] Start!
+[2022-10-28 09:43:28.788279] [INFO] Preparing to upload
+[2022-10-28 09:43:28.788279] [INFO] Upload finished...
+[2022-10-28 09:43:28.788279] [INFO] Waiting 10 minutes
+[2022-10-28 09:53:28.795554] [INFO] Start!
+[2022-10-28 09:53:28.826996] [INFO] Preparing to upload
+[2022-10-28 09:53:28.826996] [INFO] Upload finished...
+[2022-10-28 09:53:28.826996] [INFO] Waiting 10 minutes
+[2022-10-28 10:00:23.743929] [INFO] Start!
+[2022-10-28 10:03:10.560572] [INFO] Preparing to upload
+[2022-10-28 10:03:10.560572] [INFO] Upload finished...
+[2022-10-28 10:03:10.560572] [INFO] Waiting 10 minutes
+[2022-10-28 10:03:48.086746] [INFO] Start!
+[2022-10-28 10:04:02.166630] [INFO] Start!
+[2022-10-28 10:14:59.359694] [INFO] Preparing to upload
+[2022-10-28 10:14:59.359694] [INFO] Upload finished...
+[2022-10-28 10:14:59.359694] [INFO] Waiting 10 minutes
+[2022-10-28 10:15:04.295846] [INFO] Start!
+[2022-10-28 10:17:21.423664] [INFO] Preparing to upload
+[2022-10-28 10:17:21.423664] [INFO] Upload finished...
+[2022-10-28 10:17:21.423664] [INFO] Waiting 10 minutes
+[2022-10-28 10:22:50.399468] [INFO] Start!
+[2022-10-28 12:25:14.566884] [INFO] Start!
+[2022-10-28 12:26:53.254800] [INFO] Start!
+[2022-10-28 12:29:23.903667] [INFO] Preparing to upload
+[2022-10-28 12:29:23.903667] [INFO] Upload finished...
+[2022-10-28 12:29:23.903667] [INFO] Waiting 10 minutes
+[2022-10-28 12:30:22.358307] [INFO] Start!
+[2022-10-28 12:32:01.936297] [INFO] Preparing to upload
+[2022-10-28 12:32:01.936297] [INFO] Upload finished...
+[2022-10-28 12:32:01.936297] [INFO] Waiting 10 minutes
+[2022-10-28 12:32:32.278966] [INFO] Start!
+[2022-10-28 12:37:06.999336] [INFO] Start!
+[2022-10-28 12:38:28.327990] [INFO] Preparing to upload
+[2022-10-28 12:38:28.327990] [INFO] Upload finished...
+[2022-10-28 12:38:28.327990] [INFO] Waiting 10 minutes
+[2022-10-28 12:39:04.901694] [INFO] Start!
+[2022-10-28 12:41:54.551038] [INFO] Start!
+[2022-10-28 12:42:47.639685] [INFO] Preparing to upload
+[2022-10-28 12:42:47.639685] [INFO] Upload finished...
+[2022-10-28 12:42:47.639685] [INFO] Waiting 10 minutes
+[2022-10-28 12:42:51.679019] [INFO] Start!
+[2022-10-28 12:44:12.403518] [INFO] Start!
+[2022-10-28 12:44:44.046202] [INFO] Preparing to upload
+[2022-10-28 12:44:44.046202] [INFO] Upload finished...
+[2022-10-28 12:44:44.046202] [INFO] Waiting 10 minutes
